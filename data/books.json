@@ -1471,15 +1471,15 @@
             "chapters": [
                 {
                     "name": "1 Introduction to deep learning",
-                    "completed": false
+                    "completed": true
                 },
                 {
                     "name": "2  Network Architectures",
-                    "completed": false
+                    "completed": true
                 },
                 {
                     "name": "3  Principles of curve fitting",
-                    "completed": false
+                    "completed": true
                 },
                 {
                     "name": "4  Building loss functions with the likelihood approach",
@@ -1521,11 +1521,11 @@
             "chapters": [
                 {
                     "name": "1 What is deep learning?",
-                    "completed": false
+                    "completed": true
                 },
                 {
                     "name": "2 The mathematical building blocks of neural networks",
-                    "completed": false
+                    "completed": true
                 },
                 {
                     "name": "3 Introduction to Keras and TensorFlow",
@@ -1667,47 +1667,47 @@
             "chapters": [
                 {
                     "name": "1 Introducing Deep Learning and the PyTorch Library",
-                    "completed": false
+                    "completed": true
                 },
                 {
                     "name": "2 Pre-Trained Networks",
-                    "completed": false
+                    "completed": true
                 },
                 {
                     "name": "3 It Starts with a Tensor",
-                    "completed": false
+                    "completed": true
                 },
                 {
                     "name": "4 Real-World Data Representation Using Tensors",
-                    "completed": false
+                    "completed": true
                 },
                 {
                     "name": "5 The Mechanics of Learning",
-                    "completed": false
+                    "completed": true
                 },
                 {
                     "name": "6 Using A Neural Network To Fit the Data",
-                    "completed": false
+                    "completed": true
                 },
                 {
                     "name": "7 Telling Birds from Airplanes: Learning from Images",
-                    "completed": false
+                    "completed": true
                 },
                 {
                     "name": "8 Using Convolutions To Generalize",
-                    "completed": false
+                    "completed": true
                 },
                 {
                     "name": "9 Using PyTorch To Fight Cancer",
-                    "completed": false
+                    "completed": true
                 },
                 {
                     "name": "10 Ready, Dataset, Go!",
-                    "completed": false
+                    "completed": true
                 },
                 {
                     "name": "11 Training A Classification Model To Detect Suspected Tumors",
-                    "completed": false
+                    "completed": true
                 },
                 {
                     "name": "12  Monitoring Metrics: Precision, Recall, and Pretty Pictures",
@@ -1876,35 +1876,35 @@
             "chapters": [
                 {
                     "name": "Preface",
-                    "completed": false
+                    "completed": true
                 },
                 {
                     "name": "Installation",
-                    "completed": false
+                    "completed": true
                 },
                 {
                     "name": "Notation",
-                    "completed": false
+                    "completed": true
                 },
                 {
                     "name": "1. Introduction",
-                    "completed": false
+                    "completed": true
                 },
                 {
                     "name": "2. Preliminaries",
-                    "completed": false
+                    "completed": true
                 },
                 {
                     "name": "3. Linear Neural Networks",
-                    "completed": false
+                    "completed": true
                 },
                 {
                     "name": "4. Multilayer Perceptrons",
-                    "completed": false
+                    "completed": true
                 },
                 {
                     "name": "5. Deep Learning Computation",
-                    "completed": false
+                    "completed": true
                 },
                 {
                     "name": "6. Convolutional Neural Networks",
