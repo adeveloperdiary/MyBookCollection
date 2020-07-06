@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="static/images/favicon-32x32.png">
+    <link rel="stylesheet" href="static/css/bootstrap.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"
+          media="screen"/>
+    <meta charset="UTF-8">
+    <title>Books Collection</title>
+</head>
+<body>
+<nav class="navbar  navbar-dark bg-dark">
+    <a class="navbar-brand mr-0 mr-md-2" href="/" aria-label="Bootstrap">
+        <img src="static/images/books.png" height="40px" style="margin-left: 15px"/>
+        <span class="navbar-brand mb-0 font-weight-bold">Books Collection</span>
+    </a>
+</nav>
+</br>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-3">
+            <div class="row" style="margin-bottom: 5px">
+                <div class="col">
+                    <button type="button" class="btn btn-danger" style="width: 100%" data-toggle="modal"
+                            data-target="#addBookModal">Add Book
+                    </button>
+                </div>
+            </div>
+            <ul class="list-group">
+                {% for cat in cats %}
+                    <a class="list-group-item list-group-item-action categories" data-id="{{ cat[0] }}"
+                       data-count="{{ cat[1] }}">{{ cat[0] }}
+                        <span class="badge bg-danger rounded-pill" style="float: right">{{ cat[1] }}</span>
+                    </a>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="col-md-9" id="container">
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="addBookModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <select class="form-select" aria-label="Default select example" id="idCat">
+                            <option selected>Open this category menu</option>
+                            {% for cat in cats %}
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <option value="{{ cat[0] }}">{{ cat[0] }}</option>
+                                </li>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">URL</label>
+                        <input type="url" class="form-control" id="idURL" required>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger" onclick="load_book_from_url()">Load Book</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="showChaptersModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Chapters</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="display_chapters">
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-danger" onclick="save_progress()">Save</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="alert alert-dismissible fade" role="alert" style="position: fixed;top:40px;left:30%;width:680px">
+    <span id="alert-msg"></span>
+</div>
+
+<script src="static/js/jquery-3.3.1.min.js"></script>
+<script src="static/js/bootstrap.js"></script>
+<script src="static/js/handlebars.min-v4.7.6.js"></script>
+<script src="static/js/custom.js"></script>
+
+{% raw %}
+<script id="book-card-template" type="text/x-handlebars-template">
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-xl-2 g-4">
+        {{#each this}}
+        <div class="col">
+            <div class="card h-100">
+                <div class="row g-0">
+                    <div class="col-md-4" style="max-width: 224px">
+                        <img src="static/book_covers/{{image_name}}" height="280px">
+                    </div>
+                    <div class="col-md-8">
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="{{url}}" style="text-decoration: none;color:#000000"
+                                                      target="_blank">{{title}}</a>
+
+                                {{#if rating}}
+                                <i class="fa fa-star" aria-hidden="true" style="margin-left: 5px;color: #dc3545"
+                                   onclick="star_rating('{{id}}',false)"></i>
+                                {{else}}
+                                <i class="fa fa-star-o" aria-hidden="true" style="margin-left: 5px"
+                                   onclick="star_rating('{{id}}',true)"></i>
+                                {{/if}}
+                            </h5>
+                            <textarea class="form-control" id="{{id}}" style="border: none"
+                                      rows="3">{{notes}}</textarea>
+
+                            <div style="padding:0 5px 5px 0">
+                                {{#each tags}}
+                                <span class="badge bg-primary">{{this}}</span>
+                                {{/each}}
+                            </div>
+
+                            <div class="progress">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: {{progress}}%"
+                                     aria-valuenow="{{progress}}" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+
+                            <button type="button" class="btn-sm btn-danger pull-right" data-id="{{id}}"
+                                    style="margin-top: 10px;margin-left: 5px" onclick="save_notes('{{id}}')">Save
+                            </button>
+                            <button type="button" class="btn-sm btn-primary pull-right" data-id="{{id}}"
+                                    style="margin-top: 10px;margin-left: 5px" onclick="save_tag('{{id}}')">Add Tag
+                            </button>
+                            <button type="button" class="btn-sm btn-dark pull-right" data-id="{{id}}"
+                                    onclick="show_chapters('{{id}}')"
+                                    style="margin-top: 10px;margin-left: 5px">Chapters
+                            </button>
+                            <button type="button" class="btn-sm btn-secondary pull-right" data-id="{{id}}"
+                                    onclick="send_to_queue('{{id}}')"
+                                    style="margin-top: 10px;margin-left: 5px">Queue
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</script>
+<script id="chapters-template" type="text/x-handlebars-template">
+    <div class="list-group">
+        {{#each this}}
+        <label class="list-group-item">
+            <input class="form-check-input mr-1" type="checkbox" value="{{ name }}" {{#if completed}} checked="checked"
+                   {{/if}}>
+            {{ name }}
+        </label>
+        {{/each}}
+    </div>
+</script>
+
+<script id="queue-card-template" type="text/x-handlebars-template">
+    <div class="row row-cols-1 row-cols-sm-3 row-cols-xl-6 g-4">
+        {{#each this}}
+        <div class="col">
+            <div class="card h-100">
+                <img src="static/book_covers/{{image_name}}" height="250px">
+                <div class="card-body">
+                    <h5 class="card-title"><a href="{{url}}" style="text-decoration: none;color:#000000"
+                                              target="_blank">{{title}}</a>
+
+                        {{#if rating}}
+                        <i class="fa fa-star" aria-hidden="true" style="margin-left: 5px;color: #dc3545"
+                           onclick="star_rating('{{id}}',false)"></i>
+                        {{else}}
+                        <i class="fa fa-star-o" aria-hidden="true" style="margin-left: 5px"
+                           onclick="star_rating('{{id}}',true)"></i>
+                        {{/if}}
+                    </h5>
+                    <p class="card-text" style="font-size: 14px">{{notes}}</p>
+                    <div style="padding:0 5px 5px 0">
+                        {{#each tags}}
+                        <span class="badge bg-primary">{{this}}</span>
+                        {{/each}}
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar bg-danger" role="progressbar" style="width: {{progress}}%"
+                             aria-valuenow="{{progress}}" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <button type="button" class="btn-sm btn-dark pull-right" data-id="{{id}}"
+                            onclick="remove_from_queue('{{id}}')"
+                            style="margin-top: 10px;margin-left: 5px">Remove
+                    </button>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</script>
+
+{% endraw %}
+</body>
+</html>

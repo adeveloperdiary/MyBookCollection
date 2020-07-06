@@ -1,0 +1,3293 @@
+{
+    "Traditional AI": [
+        {
+            "id": "151a1f85-2f8f-4339-b298-0fff414d2f39",
+            "title": "Grokking Artificial Intelligence Algorithms",
+            "category": "Traditional AI",
+            "image_name": "151a1f85-2f8f-4339-b298-0fff414d2f39.jpg",
+            "url": "https://www.manning.com/books/grokking-artificial-intelligence-algorithms",
+            "rating": false,
+            "tags": [
+                "Core AI",
+                " Deep Learning",
+                "Pseudocode"
+            ],
+            "notes": "This book is mostly focused on traditional ai, the last 3 chapters are based on ML/DL. Need to read this book before Stanford's course",
+            "chapters": [
+                {
+                    "name": "0 Preface",
+                    "completed": false
+                },
+                {
+                    "name": "1  Intuition of Artificial Intelligence",
+                    "completed": false
+                },
+                {
+                    "name": "2  Search Fundamentals",
+                    "completed": false
+                },
+                {
+                    "name": "3  Intelligent Search",
+                    "completed": false
+                },
+                {
+                    "name": "4  Evolutionary Algorithms",
+                    "completed": false
+                },
+                {
+                    "name": "5  Advanced Evolutionary Approaches",
+                    "completed": false
+                },
+                {
+                    "name": "6 Swarm Intelligence: Ants",
+                    "completed": false
+                },
+                {
+                    "name": "7  Swarm Intelligence: Particles",
+                    "completed": false
+                },
+                {
+                    "name": "8  Machine Learning",
+                    "completed": false
+                },
+                {
+                    "name": "9  Artificial Neural Networks",
+                    "completed": false
+                },
+                {
+                    "name": "10 Reinforcement Learning with Q-Learning",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "1634b595-b920-4919-a110-a6e732d6dd9c",
+            "title": "\nArtificial Intelligence in the 21st Century\n",
+            "category": "Traditional AI",
+            "image_name": "1634b595-b920-4919-a110-a6e732d6dd9c.jpg",
+            "url": "https://www.amazon.com/Artificial-Intelligence-Century-Stephen-Lucci/dp/1683922239/",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": []
+        },
+        {
+            "id": "29252a50-f130-48e1-a3ad-a579be43dd3f",
+            "title": "\nArtificial Intelligence: A Modern Approach (4th Edition) (Pearson Series in Artifical Intelligence)\n",
+            "category": "Traditional AI",
+            "image_name": "29252a50-f130-48e1-a3ad-a579be43dd3f.jpg",
+            "url": "https://www.amazon.com/Artificial-Intelligence-A-Modern-Approach/dp/0134610997/ref=sr_1_3?crid=1QG4CD8PT0VY7&dchild=1&keywords=artificial+intelligence&qid=1594021491&s=books&sprefix=artificial+in%2Cstripbooks%2C356&sr=1-3#customerReviews",
+            "rating": true,
+            "tags": [],
+            "notes": "A Must Read",
+            "chapters": [
+                {
+                    "name": "I. Artificial Intelligence",
+                    "completed": false
+                },
+                {
+                    "name": "1. Introduction",
+                    "completed": false
+                },
+                {
+                    "name": "1.1 What is AI?",
+                    "completed": false
+                },
+                {
+                    "name": "1.2 The Foundations of Artificial Intelligence",
+                    "completed": false
+                },
+                {
+                    "name": "1.3 The History of Artificial Intelligence",
+                    "completed": false
+                },
+                {
+                    "name": "1.4 The State of the Art",
+                    "completed": false
+                },
+                {
+                    "name": "1.5 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "2. Intelligent Agents",
+                    "completed": false
+                },
+                {
+                    "name": "2.1 Agents and Environments",
+                    "completed": false
+                },
+                {
+                    "name": "2.2 Good Behavior: The Concept of Rationality",
+                    "completed": false
+                },
+                {
+                    "name": "2.3 The Nature of Environments",
+                    "completed": false
+                },
+                {
+                    "name": "2.4 The Structure of Agents",
+                    "completed": false
+                },
+                {
+                    "name": "2.5 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "II. Problem-solving",
+                    "completed": false
+                },
+                {
+                    "name": "3. Solving Problems by Searching ",
+                    "completed": false
+                },
+                {
+                    "name": "3.1 Problem-Solving Agents",
+                    "completed": false
+                },
+                {
+                    "name": "3.2 Example Problems",
+                    "completed": false
+                },
+                {
+                    "name": "3.3 Searching for Solutions",
+                    "completed": false
+                },
+                {
+                    "name": "3.4 Uninformed Search Strategies",
+                    "completed": false
+                },
+                {
+                    "name": "3.5 Informed (Heuristic) Search Strategies",
+                    "completed": false
+                },
+                {
+                    "name": "3.6 Heuristic Functions",
+                    "completed": false
+                },
+                {
+                    "name": "3.7 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "4. Beyond Classical Search ",
+                    "completed": false
+                },
+                {
+                    "name": "4.1 Local Search Algorithms and Optimization Problems",
+                    "completed": false
+                },
+                {
+                    "name": "4.2 Local Search in Continuous Spaces",
+                    "completed": false
+                },
+                {
+                    "name": "4.3 Searching with Nondeterministic Actions",
+                    "completed": false
+                },
+                {
+                    "name": "4.4 Searching with Partial Observations",
+                    "completed": false
+                },
+                {
+                    "name": "4.5 Online Search Agents and Unknown Environments",
+                    "completed": false
+                },
+                {
+                    "name": "4.6 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "5. Adversarial Search",
+                    "completed": false
+                },
+                {
+                    "name": "5.1 Games",
+                    "completed": false
+                },
+                {
+                    "name": "5.2 Optimal Decisions in Games",
+                    "completed": false
+                },
+                {
+                    "name": "5.3 Alpha\u2014Beta Pruning",
+                    "completed": false
+                },
+                {
+                    "name": "5.4 Imperfect Real-Time Decisions",
+                    "completed": false
+                },
+                {
+                    "name": "5.5 Stochastic Games",
+                    "completed": false
+                },
+                {
+                    "name": "5.6 Partially Observable Games",
+                    "completed": false
+                },
+                {
+                    "name": "5.7 State-of-the-Art Game Programs",
+                    "completed": false
+                },
+                {
+                    "name": "5.8 Alternative Approaches",
+                    "completed": false
+                },
+                {
+                    "name": "5.9 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "6. Constraint Satisfaction Problems",
+                    "completed": false
+                },
+                {
+                    "name": "6.1 Defining Constraint Satisfaction Problems",
+                    "completed": false
+                },
+                {
+                    "name": "6.2 Constraint Propagation: Inference in CSPs",
+                    "completed": false
+                },
+                {
+                    "name": "6.3 Backtracking Search for CSPs",
+                    "completed": false
+                },
+                {
+                    "name": "6.4 Local Search for CSPs",
+                    "completed": false
+                },
+                {
+                    "name": "6.5 The Structure of Problems",
+                    "completed": false
+                },
+                {
+                    "name": "6.6 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "III. Knowledge, Reasoning, and Planning",
+                    "completed": false
+                },
+                {
+                    "name": "7. Logical Agents ",
+                    "completed": false
+                },
+                {
+                    "name": "7.1 Knowledge-Based Agents",
+                    "completed": false
+                },
+                {
+                    "name": "7.2 The Wumpus World",
+                    "completed": false
+                },
+                {
+                    "name": "7.3 Logic",
+                    "completed": false
+                },
+                {
+                    "name": "7.4 Propositional Logic: A Very Simple Logic",
+                    "completed": false
+                },
+                {
+                    "name": "7.5 Propositional Theorem Proving",
+                    "completed": false
+                },
+                {
+                    "name": "7.6 Effective Propositional Model Checking",
+                    "completed": false
+                },
+                {
+                    "name": "7.7 Agents Based on Propositional Logic",
+                    "completed": false
+                },
+                {
+                    "name": "7.8 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "8. First-Order Logic ",
+                    "completed": false
+                },
+                {
+                    "name": "8.1 Representation Revisited",
+                    "completed": false
+                },
+                {
+                    "name": "8.2 Syntax and Semantics of First-Order Logic",
+                    "completed": false
+                },
+                {
+                    "name": "8.3 Using First-Order Logic",
+                    "completed": false
+                },
+                {
+                    "name": "8.4 Knowledge Engineering in First-Order Logic",
+                    "completed": false
+                },
+                {
+                    "name": "8.5 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "9. Inference in First-Order Logic",
+                    "completed": false
+                },
+                {
+                    "name": "9.1 Propositional vs. First-Order Inference",
+                    "completed": false
+                },
+                {
+                    "name": "9.2 Unification and Lifting",
+                    "completed": false
+                },
+                {
+                    "name": "9.3 Forward Chaining",
+                    "completed": false
+                },
+                {
+                    "name": "9.4 Backward Chaining",
+                    "completed": false
+                },
+                {
+                    "name": "9.5 Resolution",
+                    "completed": false
+                },
+                {
+                    "name": "9.6 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "10. Classical Planning",
+                    "completed": false
+                },
+                {
+                    "name": "10.1 Definition of Classical Planning",
+                    "completed": false
+                },
+                {
+                    "name": "10.2 Algorithms for Planning as State-Space Search",
+                    "completed": false
+                },
+                {
+                    "name": "10.3 Planning Graphs",
+                    "completed": false
+                },
+                {
+                    "name": "10.4 Other Classical Planning Approaches",
+                    "completed": false
+                },
+                {
+                    "name": "10.5 Analysis of Planning Approaches",
+                    "completed": false
+                },
+                {
+                    "name": "10.6 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "11. Planning and Acting in the Real World",
+                    "completed": false
+                },
+                {
+                    "name": "11.1 Time, Schedules, and Resources",
+                    "completed": false
+                },
+                {
+                    "name": "11.2 Hierarchical Planning",
+                    "completed": false
+                },
+                {
+                    "name": "11.3 Planning and Acting in Nondeterministic Domains",
+                    "completed": false
+                },
+                {
+                    "name": "11.4 Multiagent Planning",
+                    "completed": false
+                },
+                {
+                    "name": "11.5 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "12 Knowledge Representation ",
+                    "completed": false
+                },
+                {
+                    "name": "12.1 Ontological Engineering",
+                    "completed": false
+                },
+                {
+                    "name": "12.2 Categories and Objects",
+                    "completed": false
+                },
+                {
+                    "name": "12.3 Events",
+                    "completed": false
+                },
+                {
+                    "name": "12.4 Mental Events and Mental Objects",
+                    "completed": false
+                },
+                {
+                    "name": "12.5 Reasoning Systems for Categories",
+                    "completed": false
+                },
+                {
+                    "name": "12.6 Reasoning with Default Information",
+                    "completed": false
+                },
+                {
+                    "name": "12.7 The Internet Shopping World",
+                    "completed": false
+                },
+                {
+                    "name": "12.8 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "IV. Uncertain Knowledge and Reasoning",
+                    "completed": false
+                },
+                {
+                    "name": "13. Quantifying Uncertainty ",
+                    "completed": false
+                },
+                {
+                    "name": "13.1 Acting under Uncertainty",
+                    "completed": false
+                },
+                {
+                    "name": "13.2 Basic Probability Notation",
+                    "completed": false
+                },
+                {
+                    "name": "13.3 Inference Using Full Joint Distributions",
+                    "completed": false
+                },
+                {
+                    "name": "13.4 Independence",
+                    "completed": false
+                },
+                {
+                    "name": "13.5 Bayes\u2019 Rule and Its Use",
+                    "completed": false
+                },
+                {
+                    "name": "13.6 The Wumpus World Revisited",
+                    "completed": false
+                },
+                {
+                    "name": "13.7 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "14. Probabilistic Reasoning",
+                    "completed": false
+                },
+                {
+                    "name": "14.1 Representing Knowledge in an Uncertain Domain",
+                    "completed": false
+                },
+                {
+                    "name": "14.2 The Semantics of Bayesian Networks",
+                    "completed": false
+                },
+                {
+                    "name": "14.3 Efficient Representation of Conditional Distributions",
+                    "completed": false
+                },
+                {
+                    "name": "14.4 Exact Inference in Bayesian Networks",
+                    "completed": false
+                },
+                {
+                    "name": "14.5 Approximate Inference in Bayesian Networks",
+                    "completed": false
+                },
+                {
+                    "name": "14.6 Relational and First-Order Probability Models",
+                    "completed": false
+                },
+                {
+                    "name": "14.7 Other Approaches to Uncertain Reasoning",
+                    "completed": false
+                },
+                {
+                    "name": "14.8 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "15. Probabilistic Reasoning over Time ",
+                    "completed": false
+                },
+                {
+                    "name": "15.1 Time and Uncertainty",
+                    "completed": false
+                },
+                {
+                    "name": "15.2 Inference in Temporal Models",
+                    "completed": false
+                },
+                {
+                    "name": "15.3 Hidden Markov Models",
+                    "completed": false
+                },
+                {
+                    "name": "15.4 Kalman Filters",
+                    "completed": false
+                },
+                {
+                    "name": "15.5 Dynamic Bayesian Networks",
+                    "completed": false
+                },
+                {
+                    "name": "15.6 Keeping Track of Many Objects",
+                    "completed": false
+                },
+                {
+                    "name": "15.7 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "16. Making Simple Decisions ",
+                    "completed": false
+                },
+                {
+                    "name": "16.1 Combining Beliefs and Desires under Uncertainty",
+                    "completed": false
+                },
+                {
+                    "name": "16.2 The Basis of Utility Theory",
+                    "completed": false
+                },
+                {
+                    "name": "16.3 Utility Functions",
+                    "completed": false
+                },
+                {
+                    "name": "16.4 Multiattribute Utility Functions",
+                    "completed": false
+                },
+                {
+                    "name": "16.5 Decision Networks",
+                    "completed": false
+                },
+                {
+                    "name": "16.6 The Value of Information",
+                    "completed": false
+                },
+                {
+                    "name": "16.7 Decision-Theoretic Expert Systems",
+                    "completed": false
+                },
+                {
+                    "name": "16.8 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "17. Making Complex Decisions ",
+                    "completed": false
+                },
+                {
+                    "name": "17.1 Sequential Decision Problems",
+                    "completed": false
+                },
+                {
+                    "name": "17.2 Value Iteration",
+                    "completed": false
+                },
+                {
+                    "name": "17.3 Policy Iteration",
+                    "completed": false
+                },
+                {
+                    "name": "17.4 Partially Observable MDPs",
+                    "completed": false
+                },
+                {
+                    "name": "17.5 Decisions with Multiple Agents: Game Theory",
+                    "completed": false
+                },
+                {
+                    "name": "17.6 Mechanism Design",
+                    "completed": false
+                },
+                {
+                    "name": "17.7 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "V. Learning",
+                    "completed": false
+                },
+                {
+                    "name": "18. Learning from Examples ",
+                    "completed": false
+                },
+                {
+                    "name": "18.1 Forms of Learning",
+                    "completed": false
+                },
+                {
+                    "name": "18.2 Supervised Learning",
+                    "completed": false
+                },
+                {
+                    "name": "18.3 Learning Decision Trees",
+                    "completed": false
+                },
+                {
+                    "name": "18.4 Evaluating and Choosing the Best Hypothesis",
+                    "completed": false
+                },
+                {
+                    "name": "18.5 The Theory of Learning",
+                    "completed": false
+                },
+                {
+                    "name": "18.6 Regression and Classification with Linear Models",
+                    "completed": false
+                },
+                {
+                    "name": "18.7 Artificial Neural Networks",
+                    "completed": false
+                },
+                {
+                    "name": "18.8 Nonparametric Models",
+                    "completed": false
+                },
+                {
+                    "name": "18.9 Support Vector Machines",
+                    "completed": false
+                },
+                {
+                    "name": "18.10 Ensemble Learning",
+                    "completed": false
+                },
+                {
+                    "name": "18.11 Practical Machine Learning",
+                    "completed": false
+                },
+                {
+                    "name": "18.12 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "19. Knowledge in Learning ",
+                    "completed": false
+                },
+                {
+                    "name": "19.1 A Logical Formulation of Learning",
+                    "completed": false
+                },
+                {
+                    "name": "19.2 Knowledge in Learning",
+                    "completed": false
+                },
+                {
+                    "name": "19.3 Explanation-Based Learning",
+                    "completed": false
+                },
+                {
+                    "name": "19.4 Learning Using Relevance Information",
+                    "completed": false
+                },
+                {
+                    "name": "19.5 Inductive Logic Programming",
+                    "completed": false
+                },
+                {
+                    "name": "19.6 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "20. Learning Probabilistic Models",
+                    "completed": false
+                },
+                {
+                    "name": "20.1 Statistical Learning",
+                    "completed": false
+                },
+                {
+                    "name": "20.2 Learning with Complete Data",
+                    "completed": false
+                },
+                {
+                    "name": "20.3 Learning with Hidden Variables: The EM Algorithm",
+                    "completed": false
+                },
+                {
+                    "name": "20.4 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "21. Reinforcement Learning ",
+                    "completed": false
+                },
+                {
+                    "name": "21.1 Introduction",
+                    "completed": false
+                },
+                {
+                    "name": "21.2 Passive Reinforcement Learning",
+                    "completed": false
+                },
+                {
+                    "name": "21.3 Active Reinforcement Learning",
+                    "completed": false
+                },
+                {
+                    "name": "21.4 Generalization in Reinforcement Learning",
+                    "completed": false
+                },
+                {
+                    "name": "21.5 Policy Search",
+                    "completed": false
+                },
+                {
+                    "name": "21.6 Applications of Reinforcement Learning",
+                    "completed": false
+                },
+                {
+                    "name": "21.7 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "VI. Communicating, Perceiving, and Acting",
+                    "completed": false
+                },
+                {
+                    "name": "22. Natural Language Processing ",
+                    "completed": false
+                },
+                {
+                    "name": "22.1 Language Models",
+                    "completed": false
+                },
+                {
+                    "name": "22.2 Text Classification",
+                    "completed": false
+                },
+                {
+                    "name": "22.3 Information Retrieval",
+                    "completed": false
+                },
+                {
+                    "name": "22.4 Information Extraction",
+                    "completed": false
+                },
+                {
+                    "name": "22.5 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "23. Natural Language for Communication ",
+                    "completed": false
+                },
+                {
+                    "name": "23.1 Phrase Structure Grammars",
+                    "completed": false
+                },
+                {
+                    "name": "23.2 Syntactic Analysis (Parsing)",
+                    "completed": false
+                },
+                {
+                    "name": "23.3 Augmented Grammars and Semantic Interpretation",
+                    "completed": false
+                },
+                {
+                    "name": "23.4 Machine Translation",
+                    "completed": false
+                },
+                {
+                    "name": "23.5 Speech Recognition",
+                    "completed": false
+                },
+                {
+                    "name": "23.6 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "24. Perception ",
+                    "completed": false
+                },
+                {
+                    "name": "24.1 Image Formation",
+                    "completed": false
+                },
+                {
+                    "name": "24.2 Early Image-Processing Operations",
+                    "completed": false
+                },
+                {
+                    "name": "24.3 Object Recognition by Appearance",
+                    "completed": false
+                },
+                {
+                    "name": "24.4 Reconstructing the 3D World",
+                    "completed": false
+                },
+                {
+                    "name": "24.5 Object Recognition from Structural Information",
+                    "completed": false
+                },
+                {
+                    "name": "24.6 Using Vision",
+                    "completed": false
+                },
+                {
+                    "name": "24.7 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "25. Robotics",
+                    "completed": false
+                },
+                {
+                    "name": "25.1 Introduction",
+                    "completed": false
+                },
+                {
+                    "name": "25.2 Robot Hardware",
+                    "completed": false
+                },
+                {
+                    "name": "25.3 Robotic Perception",
+                    "completed": false
+                },
+                {
+                    "name": "25.4 Planning to Move",
+                    "completed": false
+                },
+                {
+                    "name": "25.5 Planning Uncertain Movements",
+                    "completed": false
+                },
+                {
+                    "name": "25.6 Moving",
+                    "completed": false
+                },
+                {
+                    "name": "25.7 Robotic Software Architectures",
+                    "completed": false
+                },
+                {
+                    "name": "25.8 Application Domains",
+                    "completed": false
+                },
+                {
+                    "name": "25.9 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "VII. Conclusions",
+                    "completed": false
+                },
+                {
+                    "name": "26 Philosophical Foundations ",
+                    "completed": false
+                },
+                {
+                    "name": "26.1 Weak AI: Can Machines Act Intelligently?",
+                    "completed": false
+                },
+                {
+                    "name": "26.2 Strong AI: Can Machines Really Think?",
+                    "completed": false
+                },
+                {
+                    "name": "26.3 The Ethics and Risks of Developing Artificial Intelligence",
+                    "completed": false
+                },
+                {
+                    "name": "26.4 Summary, Bibliographical and Historical Notes, Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "27. AI: The Present and Future",
+                    "completed": false
+                },
+                {
+                    "name": "27.1 Agent Components",
+                    "completed": false
+                },
+                {
+                    "name": "27.2 Agent Architectures",
+                    "completed": false
+                },
+                {
+                    "name": "27.3 Are We Going in the Right Direction?",
+                    "completed": false
+                },
+                {
+                    "name": "27.4 What If AI Does Succeed?",
+                    "completed": false
+                },
+                {
+                    "name": "Appendices",
+                    "completed": false
+                },
+                {
+                    "name": "A. Mathematical Background ",
+                    "completed": false
+                },
+                {
+                    "name": "A.1 Complexity Analysis and O() Notation",
+                    "completed": false
+                },
+                {
+                    "name": "A.2 Vectors, Matrices, and Linear Algebra",
+                    "completed": false
+                },
+                {
+                    "name": "A.3 Probability Distributions",
+                    "completed": false
+                },
+                {
+                    "name": "B. Notes on Languages and Algorithms ",
+                    "completed": false
+                },
+                {
+                    "name": "B.1 Defining Languages with Backus\u2014Naur Form (BNF)",
+                    "completed": false
+                },
+                {
+                    "name": "B.2 Describing Algorithms with Pseudocode",
+                    "completed": false
+                },
+                {
+                    "name": "B.3 Online Help",
+                    "completed": false
+                },
+                {
+                    "name": "Bibliography",
+                    "completed": false
+                },
+                {
+                    "name": "Index",
+                    "completed": false
+                }
+            ]
+        }
+    ],
+    "Machine Learning": [
+        {
+            "id": "1b924e27-cf02-480a-b8fa-8ad45e4b3e1c",
+            "title": "Machine Learning with TensorFlow, Second Edition",
+            "category": "Machine Learning",
+            "image_name": "1b924e27-cf02-480a-b8fa-8ad45e4b3e1c.jpg",
+            "url": "https://www.manning.com/books/machine-learning-with-tensorflow-second-edition",
+            "rating": false,
+            "tags": [
+                "Tensorflow"
+            ],
+            "notes": "This is a unique book which does not cover Keras and contains example of using core tensorflow library.",
+            "chapters": [
+                {
+                    "name": "1 A machine-learning odyssey",
+                    "completed": false
+                },
+                {
+                    "name": "2 TensorFlow essentials",
+                    "completed": false
+                },
+                {
+                    "name": "3 Linear regression and beyond",
+                    "completed": false
+                },
+                {
+                    "name": "4 Using regression for call center volume prediction",
+                    "completed": false
+                },
+                {
+                    "name": "5 A gentle introduction to classification",
+                    "completed": false
+                },
+                {
+                    "name": "6 Sentiment classification: large movie review dataset",
+                    "completed": false
+                },
+                {
+                    "name": "7 Automatically clustering data",
+                    "completed": false
+                },
+                {
+                    "name": "8 Inferring user activity from Android accelerometer data",
+                    "completed": false
+                },
+                {
+                    "name": "9 Hidden Markov models",
+                    "completed": false
+                },
+                {
+                    "name": "10 Part of speech tagging and word sense disambiguation",
+                    "completed": false
+                },
+                {
+                    "name": "11 A peek into autoencoders",
+                    "completed": false
+                },
+                {
+                    "name": "12 Applying autoencoders: the CIFAR-10 image dataset",
+                    "completed": false
+                },
+                {
+                    "name": "13 Reinforcement learning",
+                    "completed": false
+                },
+                {
+                    "name": "14 Convolutional neural networks",
+                    "completed": false
+                },
+                {
+                    "name": "15 Building a real-world CNN: VGG-Face and VGG-Face Lite",
+                    "completed": false
+                },
+                {
+                    "name": "16 Recurrent neural networks",
+                    "completed": false
+                },
+                {
+                    "name": "17 LSTMs and automatic speech recognition",
+                    "completed": false
+                },
+                {
+                    "name": "18 Sequence-to-sequence models for chatbots",
+                    "completed": false
+                },
+                {
+                    "name": "19 Utility landscape",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix A: A Installing Python",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "4b8a2e3b-7c85-4e39-8af4-48cce97b3008",
+            "title": "Machine Learning Bookcamp",
+            "category": "Machine Learning",
+            "image_name": "4b8a2e3b-7c85-4e39-8af4-48cce97b3008.jpg",
+            "url": "https://www.manning.com/books/machine-learning-bookcamp",
+            "rating": false,
+            "tags": [
+                "sklearn"
+            ],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "1 Introduction to machine learning",
+                    "completed": false
+                },
+                {
+                    "name": "2 Machine learning for regression",
+                    "completed": false
+                },
+                {
+                    "name": "3 Machine learning for classification",
+                    "completed": false
+                },
+                {
+                    "name": "4 Evaluation metrics for classification",
+                    "completed": false
+                },
+                {
+                    "name": "5 Deploying machine learning models",
+                    "completed": false
+                },
+                {
+                    "name": "6 Decision trees and ensemble learning",
+                    "completed": false
+                },
+                {
+                    "name": "7 Neural networks and deep learning",
+                    "completed": false
+                },
+                {
+                    "name": "8 Serving deep learning models",
+                    "completed": false
+                },
+                {
+                    "name": "9 Working with Texts",
+                    "completed": false
+                },
+                {
+                    "name": "10 Getting Training Data",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix A: Installing the libraries",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix B: Python basics",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix C: NumPy and Linear Algebra",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix D: Introduction to Pandas",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "e045495b-1adb-4c13-9e2e-004191c41bb8",
+            "title": "Graph-Powered Machine Learning",
+            "category": "Machine Learning",
+            "image_name": "e045495b-1adb-4c13-9e2e-004191c41bb8.jpg",
+            "url": "https://www.manning.com/books/graph-powered-machine-learning",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "1 Machine Learning and Graph: An introduction",
+                    "completed": false
+                },
+                {
+                    "name": "2 Graph Data Engineering",
+                    "completed": false
+                },
+                {
+                    "name": "3 Graphs in Machine Learning Application",
+                    "completed": false
+                },
+                {
+                    "name": "4 Content-Based Recommendation",
+                    "completed": false
+                },
+                {
+                    "name": "5 Collaborative Filtering",
+                    "completed": false
+                },
+                {
+                    "name": "6 Session-Based Recommendation",
+                    "completed": false
+                },
+                {
+                    "name": "7 Context-Aware and Hybrid Recommendation",
+                    "completed": false
+                },
+                {
+                    "name": "8 Fighting frauds: Introduction and basic tool",
+                    "completed": false
+                },
+                {
+                    "name": "9 Fighting frauds: Proximity-Based algorithms",
+                    "completed": false
+                },
+                {
+                    "name": "10 Fighting frauds: Social Network Analysis",
+                    "completed": false
+                },
+                {
+                    "name": "11 Taming Text with Graphs",
+                    "completed": false
+                },
+                {
+                    "name": "12 Knowledge Graphs",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "acfe54be-550f-4342-82b5-70e1497d4e73",
+            "title": "Mining of Massive Datasets / Edition 3",
+            "category": "Machine Learning",
+            "image_name": "acfe54be-550f-4342-82b5-70e1497d4e73.jpg",
+            "url": "https://www.barnesandnoble.com/w/mining-of-massive-datasets-jure-leskovec/1135303013?ean=9781108476348",
+            "rating": true,
+            "tags": [],
+            "notes": "One of the best book, a must read.",
+            "chapters": [
+                {
+                    "name": "1. Data mining",
+                    "completed": false
+                },
+                {
+                    "name": " 2. MapReduce and the new software stack",
+                    "completed": false
+                },
+                {
+                    "name": " 3. Finding similar items",
+                    "completed": false
+                },
+                {
+                    "name": " 4. Mining data streams",
+                    "completed": false
+                },
+                {
+                    "name": " 5. Link analysis",
+                    "completed": false
+                },
+                {
+                    "name": " 6. Frequent itemsets",
+                    "completed": false
+                },
+                {
+                    "name": " 7. Clustering",
+                    "completed": false
+                },
+                {
+                    "name": " 8. Advertising on the web",
+                    "completed": false
+                },
+                {
+                    "name": " 9. Recommendation systems",
+                    "completed": false
+                },
+                {
+                    "name": " 10. Mining social-network graphs",
+                    "completed": false
+                },
+                {
+                    "name": " 11. Dimensionality reduction",
+                    "completed": true
+                },
+                {
+                    "name": " 12. Large-scale machine learning",
+                    "completed": false
+                },
+                {
+                    "name": " 13. Neural nets and deep learning",
+                    "completed": false
+                },
+                {
+                    "name": " Index.",
+                    "completed": false
+                }
+            ]
+        }
+    ],
+    "CV - Deep Learning": [
+        {
+            "id": "e38e4040-be91-4ea3-bb4b-d8f57746dabe",
+            "title": "Deep Learning for Vision Systems",
+            "category": "CV - Deep Learning",
+            "image_name": "e38e4040-be91-4ea3-bb4b-d8f57746dabe.jpg",
+            "url": "https://www.manning.com/books/deep-learning-for-vision-systems",
+            "rating": true,
+            "tags": [
+                "Object Detection",
+                " Theory"
+            ],
+            "notes": "This is one of the best book. It has code fragments, hence its heavy of theory.",
+            "chapters": [
+                {
+                    "name": "1  Welcome to Computer Vision",
+                    "completed": true
+                },
+                {
+                    "name": "2  Deep learning and neural networks",
+                    "completed": true
+                },
+                {
+                    "name": "3  Convolutional Neural Networks (CNNs)",
+                    "completed": true
+                },
+                {
+                    "name": "4  Structuring Deep Learning Projects and Hyperparameters tuning",
+                    "completed": true
+                },
+                {
+                    "name": "5  Advanced CNN Architectures",
+                    "completed": true
+                },
+                {
+                    "name": "6  Transfer Learning",
+                    "completed": false
+                },
+                {
+                    "name": "7  Object Detection with R-CNN, SSD, and YOLO",
+                    "completed": false
+                },
+                {
+                    "name": "8  Generative Adversarial Networks (GANs)",
+                    "completed": false
+                },
+                {
+                    "name": "9  DeepDream and Neural Style Transfer",
+                    "completed": false
+                },
+                {
+                    "name": "10  Visual embeddings",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix A: A Getting Set Up",
+                    "completed": true
+                }
+            ]
+        }
+    ],
+    "Reinforcement Learning": [
+        {
+            "id": "5fb8fc54-5c6d-428b-9576-916b31646ecf",
+            "title": "Grokking Deep Reinforcement Learning",
+            "category": "Reinforcement Learning",
+            "image_name": "5fb8fc54-5c6d-428b-9576-916b31646ecf.jpg",
+            "url": "https://www.manning.com/books/grokking-deep-reinforcement-learning",
+            "rating": false,
+            "tags": [
+                "PyTorch"
+            ],
+            "notes": "All the chapters are completed with very good review.",
+            "chapters": [
+                {
+                    "name": "1  Introduction to deep reinforcement learning",
+                    "completed": false
+                },
+                {
+                    "name": "2  Mathematical foundations of reinforcement earning",
+                    "completed": false
+                },
+                {
+                    "name": "3  Balancing immediate and long-term goals",
+                    "completed": false
+                },
+                {
+                    "name": "4  Balancing the gathering and utilization of information",
+                    "completed": false
+                },
+                {
+                    "name": "5  Evaluating agents' behaviors",
+                    "completed": false
+                },
+                {
+                    "name": "6  Improving agents' behaviors",
+                    "completed": false
+                },
+                {
+                    "name": "7  Achieving goals more effectively and efficiently",
+                    "completed": false
+                },
+                {
+                    "name": "8 Introduction to value-based deep reinforcement learning",
+                    "completed": false
+                },
+                {
+                    "name": "9  More stable value-based methods",
+                    "completed": false
+                },
+                {
+                    "name": "10  Sample-efficient value-based methods",
+                    "completed": false
+                },
+                {
+                    "name": "11  Policy-gradient and actor-critic methods",
+                    "completed": false
+                },
+                {
+                    "name": "12  Advanced actor-critic methods",
+                    "completed": false
+                },
+                {
+                    "name": "13  Towards artificial general intelligence",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "a0cf07de-d241-47d6-92df-1bf840d9ee9a",
+            "title": "Deep Reinforcement Learning in Action",
+            "category": "Reinforcement Learning",
+            "image_name": "a0cf07de-d241-47d6-92df-1bf840d9ee9a.jpg",
+            "url": "https://www.manning.com/books/deep-reinforcement-learning-in-action",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "1 What is Reinforcement Learning?",
+                    "completed": false
+                },
+                {
+                    "name": "2 Modeling reinforcement learning problems: Markov decision processes",
+                    "completed": false
+                },
+                {
+                    "name": "3 Predicting the best states and actions: Deep Q-networks",
+                    "completed": false
+                },
+                {
+                    "name": "4 Learning to pick the best policy: Policy gradient methods",
+                    "completed": false
+                },
+                {
+                    "name": "5 Tackling more complex problems with actor-critic methods",
+                    "completed": false
+                },
+                {
+                    "name": "6 Alternative optimization methods: Evolutionary algorithms",
+                    "completed": false
+                },
+                {
+                    "name": "7 Distributional DQN: Getting the full story",
+                    "completed": false
+                },
+                {
+                    "name": "8 Curiosity-driven exploration",
+                    "completed": false
+                },
+                {
+                    "name": "9 Multi-agent reinforcement learning",
+                    "completed": false
+                },
+                {
+                    "name": "10 Interpretable reinforcement learning: Attention and relational models",
+                    "completed": false
+                },
+                {
+                    "name": "11 In conclusion: A review and roadmap",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix A: Mathematics, deep learning, PyTorch",
+                    "completed": false
+                }
+            ]
+        }
+    ],
+    "Deep Learning (Generic)": [
+        {
+            "id": "8c9d3549-420e-4f8c-af01-ebfd0978d522",
+            "title": "Probabilistic Deep Learning",
+            "category": "Deep Learning (Generic)",
+            "image_name": "8c9d3549-420e-4f8c-af01-ebfd0978d522.jpg",
+            "url": "https://www.manning.com/books/probabilistic-deep-learning",
+            "rating": false,
+            "tags": [
+                "tensorflow",
+                " theory"
+            ],
+            "notes": "Very different book. Before reading, look at amazon reviews.",
+            "chapters": [
+                {
+                    "name": "1 Introduction to deep learning",
+                    "completed": false
+                },
+                {
+                    "name": "2  Network Architectures",
+                    "completed": false
+                },
+                {
+                    "name": "3  Principles of curve fitting",
+                    "completed": false
+                },
+                {
+                    "name": "4  Building loss functions with the likelihood approach",
+                    "completed": false
+                },
+                {
+                    "name": "5  Probabilistic deep learning models with TensorFlow Probability",
+                    "completed": false
+                },
+                {
+                    "name": "6  Probabilistic deep learning models in the wild",
+                    "completed": false
+                },
+                {
+                    "name": "7  Bayesian learning",
+                    "completed": false
+                },
+                {
+                    "name": "8 Bayesian neural networks",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix A: Glossary of terms and abbreviations",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "e4d8c608-a9f9-40eb-ba35-a4e887b3fa47",
+            "title": "Deep Learning with Python, Second Edition",
+            "category": "Deep Learning (Generic)",
+            "image_name": "e4d8c608-a9f9-40eb-ba35-a4e887b3fa47.jpg",
+            "url": "https://www.manning.com/books/deep-learning-with-python-second-edition",
+            "rating": false,
+            "tags": [
+                "keras"
+            ],
+            "notes": "Not released yet.",
+            "chapters": [
+                {
+                    "name": "1 What is deep learning?",
+                    "completed": false
+                },
+                {
+                    "name": "2 The mathematical building blocks of neural networks",
+                    "completed": false
+                },
+                {
+                    "name": "3 Introduction to Keras and TensorFlow",
+                    "completed": false
+                },
+                {
+                    "name": "4 Getting started with neural networks: classification and regression",
+                    "completed": false
+                },
+                {
+                    "name": "5 Fundamentals of machine learning",
+                    "completed": false
+                },
+                {
+                    "name": "6 The universal workflow of machine learning",
+                    "completed": false
+                },
+                {
+                    "name": "7 Working with Keras",
+                    "completed": false
+                },
+                {
+                    "name": "8 Introduction to deep learning for computer vision",
+                    "completed": false
+                },
+                {
+                    "name": "9 Advanced computer vision",
+                    "completed": false
+                },
+                {
+                    "name": "10 Deep learning for timeseries",
+                    "completed": false
+                },
+                {
+                    "name": "11 Deep learning for text",
+                    "completed": false
+                },
+                {
+                    "name": "12 Generative deep learning",
+                    "completed": false
+                },
+                {
+                    "name": "13 Best practices for the real world",
+                    "completed": false
+                },
+                {
+                    "name": "14 Deep learning in production",
+                    "completed": false
+                },
+                {
+                    "name": "15 Conclusions",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "780b2584-ae37-4f63-b02d-91f485578073",
+            "title": "Math and Architectures of Deep Learning",
+            "category": "Deep Learning (Generic)",
+            "image_name": "780b2584-ae37-4f63-b02d-91f485578073.jpg",
+            "url": "https://www.manning.com/books/math-and-architectures-of-deep-learning",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "Introduction: Importance of mathematical principles underlying deep learning",
+                    "completed": false
+                },
+                {
+                    "name": "1 An overview of machine learning and deep learning",
+                    "completed": false
+                },
+                {
+                    "name": "2 Introduction to Vectors, Matrices and Tensors from Machine Learning and Data Science point of view",
+                    "completed": false
+                },
+                {
+                    "name": "3 Introduction to Vector Calculus from Machine Learning point of view",
+                    "completed": false
+                },
+                {
+                    "name": "4 Linear Algbraic Tools in Machine Learning and Data Science",
+                    "completed": false
+                },
+                {
+                    "name": "5 Statistics and Multivariate Statistics from Machine Learning point of View",
+                    "completed": false
+                },
+                {
+                    "name": "6 Neural Networks Basics",
+                    "completed": false
+                },
+                {
+                    "name": "7 Neural Network Optimizers",
+                    "completed": false
+                },
+                {
+                    "name": "8 Non Fully Connected Layers in Neural Networks",
+                    "completed": false
+                },
+                {
+                    "name": "9 Deep Learning based Object Recognition and Detection",
+                    "completed": false
+                },
+                {
+                    "name": "10 Deep Learning based Image Digests and Image Similarity Estimation",
+                    "completed": false
+                },
+                {
+                    "name": "11 Towards self training",
+                    "completed": false
+                },
+                {
+                    "name": "12 Spatio Temporal Deep Neural Networks",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix A: Appendix: Automatic Differentiation - forward and reverse mode",
+                    "completed": false
+                },
+                {
+                    "name": "Conclusion: Future Directions",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "e14dae05-6d52-414c-b199-2fb4218ef29e",
+            "title": "Deep Learning with PyTorch",
+            "category": "Deep Learning (Generic)",
+            "image_name": "e14dae05-6d52-414c-b199-2fb4218ef29e.jpg",
+            "url": "https://www.manning.com/books/deep-learning-with-pytorch",
+            "rating": false,
+            "tags": [
+                "PyTorch"
+            ],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "1 Introducing Deep Learning and the PyTorch Library",
+                    "completed": false
+                },
+                {
+                    "name": "2 Pre-Trained Networks",
+                    "completed": false
+                },
+                {
+                    "name": "3 It Starts with a Tensor",
+                    "completed": false
+                },
+                {
+                    "name": "4 Real-World Data Representation Using Tensors",
+                    "completed": false
+                },
+                {
+                    "name": "5 The Mechanics of Learning",
+                    "completed": false
+                },
+                {
+                    "name": "6 Using A Neural Network To Fit the Data",
+                    "completed": false
+                },
+                {
+                    "name": "7 Telling Birds from Airplanes: Learning from Images",
+                    "completed": false
+                },
+                {
+                    "name": "8 Using Convolutions To Generalize",
+                    "completed": false
+                },
+                {
+                    "name": "9 Using PyTorch To Fight Cancer",
+                    "completed": false
+                },
+                {
+                    "name": "10 Ready, Dataset, Go!",
+                    "completed": false
+                },
+                {
+                    "name": "11 Training A Classification Model To Detect Suspected Tumors",
+                    "completed": false
+                },
+                {
+                    "name": "12  Monitoring Metrics: Precision, Recall, and Pretty Pictures",
+                    "completed": false
+                },
+                {
+                    "name": "13  Using Segmentation To Find Suspected Nodules",
+                    "completed": false
+                },
+                {
+                    "name": "14  End-to-end nodule analysis, and where to go next",
+                    "completed": false
+                },
+                {
+                    "name": "15  Deploying to production",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "0c247b0f-5f1d-4450-82d7-c5600266011d",
+            "title": "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition",
+            "category": "Deep Learning (Generic)",
+            "image_name": "0c247b0f-5f1d-4450-82d7-c5600266011d.jpg",
+            "url": "https://www.oreilly.com/library/view/hands-on-machine-learning/9781492032632/",
+            "rating": true,
+            "tags": [
+                "TF-2.0"
+            ],
+            "notes": "Best book for getting started with TF 2.0",
+            "chapters": [
+                {
+                    "name": "Preface",
+                    "completed": true
+                },
+                {
+                    "name": "I. The Fundamentals of Machine Learning",
+                    "completed": true
+                },
+                {
+                    "name": "1. The Machine Learning Landscape",
+                    "completed": true
+                },
+                {
+                    "name": "2. End-to-End Machine Learning Project",
+                    "completed": true
+                },
+                {
+                    "name": "3. Classification",
+                    "completed": true
+                },
+                {
+                    "name": "4. Training Models",
+                    "completed": true
+                },
+                {
+                    "name": "5. Support Vector Machines",
+                    "completed": false
+                },
+                {
+                    "name": "6. Decision Trees",
+                    "completed": false
+                },
+                {
+                    "name": "7. Ensemble Learning and Random Forests",
+                    "completed": false
+                },
+                {
+                    "name": "8. Dimensionality Reduction",
+                    "completed": false
+                },
+                {
+                    "name": "9. Unsupervised Learning Techniques",
+                    "completed": false
+                },
+                {
+                    "name": "II. Neural Networks and Deep Learning",
+                    "completed": true
+                },
+                {
+                    "name": "10. Introduction to Artificial Neural Networks with Keras",
+                    "completed": true
+                },
+                {
+                    "name": "11. Training Deep Neural Networks",
+                    "completed": true
+                },
+                {
+                    "name": "12. Custom Models and Training with TensorFlow",
+                    "completed": true
+                },
+                {
+                    "name": "13. Loading and Preprocessing Data with TensorFlow",
+                    "completed": true
+                },
+                {
+                    "name": "14. Deep Computer Vision Using Convolutional Neural Networks",
+                    "completed": true
+                },
+                {
+                    "name": "15. Processing Sequences Using RNNs and CNNs",
+                    "completed": false
+                },
+                {
+                    "name": "16. Natural Language Processing with RNNs and Attention",
+                    "completed": false
+                },
+                {
+                    "name": "17. Representation Learning and Generative Learning Using Autoencoders and GANs",
+                    "completed": false
+                },
+                {
+                    "name": "18. Reinforcement Learning",
+                    "completed": false
+                },
+                {
+                    "name": "19. Training and Deploying TensorFlow Models at Scale",
+                    "completed": false
+                },
+                {
+                    "name": "A. Exercise Solutions",
+                    "completed": false
+                },
+                {
+                    "name": "B. Machine Learning Project Checklist",
+                    "completed": false
+                },
+                {
+                    "name": "C. SVM Dual Problem",
+                    "completed": false
+                },
+                {
+                    "name": "D. Autodiff",
+                    "completed": false
+                },
+                {
+                    "name": "E. Other Popular ANN Architectures",
+                    "completed": false
+                },
+                {
+                    "name": "F. Special Data Structures",
+                    "completed": false
+                },
+                {
+                    "name": "G. TensorFlow Graphs",
+                    "completed": false
+                },
+                {
+                    "name": "Index",
+                    "completed": true
+                }
+            ]
+        },
+        {
+            "id": "780b2584-ae37-4f63-b02d-91f485578058",
+            "title": "Dive into Deep Learning",
+            "category": "Deep Learning (Generic)",
+            "image_name": "780b2584-ae37-4f63-b02d-91f485578058.png",
+            "url": "https://d2l.ai/",
+            "rating": true,
+            "tags": [
+                "MXNet",
+                "PyTorch"
+            ],
+            "notes": "A must read.",
+            "chapters": [
+                {
+                    "name": "Preface",
+                    "completed": false
+                },
+                {
+                    "name": "Installation",
+                    "completed": false
+                },
+                {
+                    "name": "Notation",
+                    "completed": false
+                },
+                {
+                    "name": "1. Introduction",
+                    "completed": false
+                },
+                {
+                    "name": "2. Preliminaries",
+                    "completed": false
+                },
+                {
+                    "name": "3. Linear Neural Networks",
+                    "completed": false
+                },
+                {
+                    "name": "4. Multilayer Perceptrons",
+                    "completed": false
+                },
+                {
+                    "name": "5. Deep Learning Computation",
+                    "completed": false
+                },
+                {
+                    "name": "6. Convolutional Neural Networks",
+                    "completed": false
+                },
+                {
+                    "name": "7. Modern Convolutional Neural Networks",
+                    "completed": false
+                },
+                {
+                    "name": "8. Recurrent Neural Networks",
+                    "completed": false
+                },
+                {
+                    "name": "9. Modern Recurrent Neural Networks",
+                    "completed": false
+                },
+                {
+                    "name": "10. Attention Mechanisms",
+                    "completed": false
+                },
+                {
+                    "name": "11. Optimization Algorithms",
+                    "completed": false
+                },
+                {
+                    "name": "12. Computational Performance",
+                    "completed": false
+                },
+                {
+                    "name": "13. Computer Vision",
+                    "completed": false
+                },
+                {
+                    "name": "14. Natural Language Processing: Pretraining",
+                    "completed": false
+                },
+                {
+                    "name": "15. Natural Language Processing: Applications",
+                    "completed": false
+                },
+                {
+                    "name": "16. Recommender Systems",
+                    "completed": false
+                },
+                {
+                    "name": "17. Generative Adversarial Networks",
+                    "completed": false
+                },
+                {
+                    "name": "18. Appendix: Mathematics for Deep Learning",
+                    "completed": false
+                },
+                {
+                    "name": "19. Appendix: Tools for Deep Learning",
+                    "completed": false
+                }
+            ]
+        }
+    ],
+    "NLP - Deep Learning": [
+        {
+            "id": "965b9898-8e2d-484c-b0fb-f4aac7e1c90c",
+            "title": "Transfer Learning for Natural Language Processing",
+            "category": "NLP - Deep Learning",
+            "image_name": "965b9898-8e2d-484c-b0fb-f4aac7e1c90c.jpg",
+            "url": "https://www.manning.com/books/transfer-learning-for-natural-language-processing",
+            "rating": false,
+            "tags": [
+                "keras"
+            ],
+            "notes": "Keep an eye, very important topic.",
+            "chapters": [
+                {
+                    "name": "1 What is Transfer Learning",
+                    "completed": false
+                },
+                {
+                    "name": "2 Getting Started with Baselines",
+                    "completed": false
+                },
+                {
+                    "name": "3 Shallow Transfer Learning for NLP",
+                    "completed": false
+                },
+                {
+                    "name": "4 Deep Transfer Learning for NLP with Recurrent Neural Networks",
+                    "completed": false
+                },
+                {
+                    "name": "5 Deep Transfer Learning in NLP with Transformers",
+                    "completed": false
+                },
+                {
+                    "name": "6 Deep Transfer Learning Adaptation Strategies",
+                    "completed": false
+                },
+                {
+                    "name": "7 Conclusions",
+                    "completed": false
+                },
+                {
+                    "name": "Free GPUs in the Cloud with Kaggle Kernels and Colab Notebooks",
+                    "completed": false
+                },
+                {
+                    "name": "Using Microservices to Handle Dependencies",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "098505d9-be50-4089-8ad0-7a62dde525a3",
+            "title": "Real-World Natural Language Processing",
+            "category": "NLP - Deep Learning",
+            "image_name": "098505d9-be50-4089-8ad0-7a62dde525a3.jpg",
+            "url": "https://www.manning.com/books/real-world-natural-language-processing",
+            "rating": false,
+            "tags": [
+                "Theory"
+            ],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "Introduction to Natural Language Processing",
+                    "completed": false
+                },
+                {
+                    "name": "Your First NLP Application",
+                    "completed": false
+                },
+                {
+                    "name": "Word and Document Embeddings",
+                    "completed": false
+                },
+                {
+                    "name": "Sentence classification",
+                    "completed": false
+                },
+                {
+                    "name": "Sequential labeling and Language Modeling",
+                    "completed": false
+                },
+                {
+                    "name": "Sequence to sequence models",
+                    "completed": false
+                },
+                {
+                    "name": "Convolutional neural networks",
+                    "completed": false
+                },
+                {
+                    "name": "8 Attention and Transformer",
+                    "completed": false
+                },
+                {
+                    "name": "9  Transfer and multitask learning",
+                    "completed": false
+                },
+                {
+                    "name": "10  Best practices in developing NLP application",
+                    "completed": false
+                },
+                {
+                    "name": "11  Deploying and serving NLP application",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "2100b882-b210-4d0a-891f-8009e51612f9",
+            "title": "Deep Learning for Natural Language Processing",
+            "category": "NLP - Deep Learning",
+            "image_name": "2100b882-b210-4d0a-891f-8009e51612f9.jpg",
+            "url": "https://www.manning.com/books/deep-learning-for-natural-language-processing",
+            "rating": false,
+            "tags": [],
+            "notes": "Need to read",
+            "chapters": [
+                {
+                    "name": "1 Deep learning for NLP",
+                    "completed": false
+                },
+                {
+                    "name": "2 Deep learning and language: the basics",
+                    "completed": false
+                },
+                {
+                    "name": "3 Text embeddings",
+                    "completed": false
+                },
+                {
+                    "name": "4 Textual similarity",
+                    "completed": false
+                },
+                {
+                    "name": "5 Sequential NLP and memory",
+                    "completed": false
+                },
+                {
+                    "name": "6 Episodic memory for NLP",
+                    "completed": false
+                },
+                {
+                    "name": "7 Attention",
+                    "completed": false
+                },
+                {
+                    "name": "8 Multitask learning",
+                    "completed": false
+                },
+                {
+                    "name": "9 Transformers and Embeddings",
+                    "completed": false
+                },
+                {
+                    "name": "10 Applications of Transformers",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix A: A random walk through NLP",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "f0080f2e-450c-4fbb-8cdc-ade8ebfa6c52",
+            "title": "\nDeep Learning for NLP and Speech Recognition\n",
+            "category": "NLP - Deep Learning",
+            "image_name": "f0080f2e-450c-4fbb-8cdc-ade8ebfa6c52.jpg",
+            "url": "https://www.amazon.com/Deep-Learning-NLP-Speech-Recognition/dp/3030145956/ref=sr_1_3?crid=1WDMYB9XRWHHV&dchild=1&keywords=deep+learning+NLP&qid=1594011468&s=books&sprefix=Deep+Lea%2Cstripbooks%2C142&sr=1-3",
+            "rating": false,
+            "tags": [
+                "Theory"
+            ],
+            "notes": "Need to read the book.",
+            "chapters": []
+        },
+        {
+            "id": "70597900-f18a-41d1-b6e8-e249bc988d20",
+            "title": "Natural Language Processing in Action",
+            "category": "NLP - Deep Learning",
+            "image_name": "70597900-f18a-41d1-b6e8-e249bc988d20.jpg",
+            "url": "https://www.manning.com/books/natural-language-processing-in-action",
+            "rating": true,
+            "tags": [
+                "Keras"
+            ],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "Acknowledgments",
+                    "completed": true
+                },
+                {
+                    "name": "1 Packets of thought (NLP overview)",
+                    "completed": true
+                },
+                {
+                    "name": "2 Build your vocabulary (word tokenization)",
+                    "completed": true
+                },
+                {
+                    "name": "3 Math with words (TF-IDF vectors)",
+                    "completed": false
+                },
+                {
+                    "name": "4 Finding meaning in word counts (semantic analysis)",
+                    "completed": false
+                },
+                {
+                    "name": "5 Baby steps with neural networks (perceptrons and backpropagation)",
+                    "completed": true
+                },
+                {
+                    "name": "6 Reasoning with word vectors (Word2vec)",
+                    "completed": true
+                },
+                {
+                    "name": "7 Getting words in order with convolutional neural networks (CNNs)",
+                    "completed": true
+                },
+                {
+                    "name": "8 Loopy (recurrent) neural networks (RNNs)",
+                    "completed": true
+                },
+                {
+                    "name": "9 Improving retention with long short-term memory networks",
+                    "completed": true
+                },
+                {
+                    "name": "10 Sequence-to-sequence models and attention",
+                    "completed": true
+                },
+                {
+                    "name": "11 Information extraction (named entity extraction and question answering)",
+                    "completed": false
+                },
+                {
+                    "name": "12 Getting chatty (dialog engines)",
+                    "completed": false
+                },
+                {
+                    "name": "13 Scaling up (optimization, parallelization, and batch processing)",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix A: Your NLP tools",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix B: Playful Python and regular expressions",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix C: Vectors and matrices (linear algebra fundamentals)",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix D: Machine learning tools and techniques",
+                    "completed": true
+                },
+                {
+                    "name": "Appendix E: Resources",
+                    "completed": true
+                },
+                {
+                    "name": "Appendix F: Glossary",
+                    "completed": true
+                },
+                {
+                    "name": "Appendix G: Setting up your AWS GPU",
+                    "completed": true
+                },
+                {
+                    "name": "Appendix H: Locality sensitive hashing",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "a7c40f9a-9724-45fb-984d-dea96a4f9c31",
+            "title": "Practical Natural Language Processing",
+            "category": "NLP - Deep Learning",
+            "image_name": "a7c40f9a-9724-45fb-984d-dea96a4f9c31.jpg",
+            "url": "https://www.oreilly.com/library/view/practical-natural-language/9781492054047/",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "Foreword",
+                    "completed": false
+                },
+                {
+                    "name": "Preface",
+                    "completed": false
+                },
+                {
+                    "name": "I. Foundations",
+                    "completed": false
+                },
+                {
+                    "name": "1. NLP: A Primer",
+                    "completed": false
+                },
+                {
+                    "name": "2. NLP Pipeline",
+                    "completed": false
+                },
+                {
+                    "name": "3. Text Representation",
+                    "completed": false
+                },
+                {
+                    "name": "II. Essentials",
+                    "completed": false
+                },
+                {
+                    "name": "4. Text Classification",
+                    "completed": false
+                },
+                {
+                    "name": "5. Information Extraction",
+                    "completed": false
+                },
+                {
+                    "name": "6. Chatbots",
+                    "completed": false
+                },
+                {
+                    "name": "7. Topics in Brief",
+                    "completed": false
+                },
+                {
+                    "name": "III. Applied",
+                    "completed": false
+                },
+                {
+                    "name": "8. Social Media",
+                    "completed": false
+                },
+                {
+                    "name": "9. E-Commerce and Retail",
+                    "completed": false
+                },
+                {
+                    "name": "10. Healthcare, Finance, and Law",
+                    "completed": false
+                },
+                {
+                    "name": "IV. Bringing It All Together",
+                    "completed": false
+                },
+                {
+                    "name": "11. The End-to-End NLP Process",
+                    "completed": false
+                },
+                {
+                    "name": "Index",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "9637c0ff-62f2-49ac-bb54-4bf861c56b78",
+            "title": "Natural Language Processing with TensorFlow",
+            "category": "NLP - Deep Learning",
+            "image_name": "9637c0ff-62f2-49ac-bb54-4bf861c56b78.jpg",
+            "url": "https://www.oreilly.com/library/view/natural-language-processing/9781788478311/",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "Natural Language Processing with TensorFlow",
+                    "completed": false
+                }
+            ]
+        }
+    ],
+    "Algorithms": [
+        {
+            "id": "865bd87b-4577-4c45-acd4-af3c6070d5d6",
+            "title": "Algorithms and Data Structures in Action",
+            "category": "Algorithms",
+            "image_name": "865bd87b-4577-4c45-acd4-af3c6070d5d6.jpg",
+            "url": "https://www.manning.com/books/algorithms-and-data-structures-in-action",
+            "rating": false,
+            "tags": [],
+            "notes": "Might be complicated.",
+            "chapters": [
+                {
+                    "name": "1 Introducing Data Structures",
+                    "completed": false
+                },
+                {
+                    "name": "2 Improve priority queues: d-way heaps",
+                    "completed": false
+                },
+                {
+                    "name": "3 Treaps Using Randomization to Balance Binary Search Trees",
+                    "completed": false
+                },
+                {
+                    "name": "4 Bloom Filters: Reduce the memory needed to keep track of content",
+                    "completed": false
+                },
+                {
+                    "name": "5 Disjoint Set: Sub-linear-time processing of disjoint sets",
+                    "completed": false
+                },
+                {
+                    "name": "6 Trie, Radix Trie: Efficient Strings Search",
+                    "completed": false
+                },
+                {
+                    "name": "7 Use case: LRU Cache",
+                    "completed": false
+                },
+                {
+                    "name": "8 Nearest Neighbors search",
+                    "completed": false
+                },
+                {
+                    "name": "9 K-d Trees: Multi-dimensional Data Indexing",
+                    "completed": false
+                },
+                {
+                    "name": "10 Similarity Search Trees: Approximate Nearest Neighbors Search for Image Retrieval",
+                    "completed": false
+                },
+                {
+                    "name": "11 Applications of Nearest Neighbors Search",
+                    "completed": false
+                },
+                {
+                    "name": "12 Clustering",
+                    "completed": false
+                },
+                {
+                    "name": "13 Parallel Clustering: Map-Reduce and Canopy Clustering",
+                    "completed": false
+                },
+                {
+                    "name": "14 An Introduction to Graphs: Finding Paths of Minimum Distance",
+                    "completed": false
+                },
+                {
+                    "name": "15 Graph Embeddings and Planarity: Drawing Graphs with Minimal Edges Intersections",
+                    "completed": false
+                },
+                {
+                    "name": "16 Gradient Descent: Optimization Problems (not just) on Graphs",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix A: Quick Guide to Pseudo-Code",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix B: Big-O Notation",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix C: Core Data Structures",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix D: Containers as priority queues",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix E: Recursion",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix F: Classification problems Randomized algorithms Metrics",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "d936a429-1d71-4563-895b-7c9547d13ae2",
+            "title": "\nLearning Algorithms Through Programming and Puzzle Solving\n",
+            "category": "Algorithms",
+            "image_name": "d936a429-1d71-4563-895b-7c9547d13ae2.jpg",
+            "url": "https://www.amazon.com/Learning-Algorithms-Through-Programming-Solving/dp/0985731214/ref=tmm_other_meta_binding_swatch_0?_encoding=UTF8&qid=&sr=",
+            "rating": false,
+            "tags": [],
+            "notes": "Only 150 pages, but nice color and code.",
+            "chapters": []
+        },
+        {
+            "id": "c869a7f4-50ea-45c0-8d08-90628d1c13a0",
+            "title": "Classic Computer Science Problems in Python",
+            "category": "Algorithms",
+            "image_name": "c869a7f4-50ea-45c0-8d08-90628d1c13a0.jpg",
+            "url": "https://www.manning.com/books/classic-computer-science-problems-in-python?query=classic",
+            "rating": true,
+            "tags": [],
+            "notes": "A must read",
+            "chapters": [
+                {
+                    "name": "Introduction",
+                    "completed": false
+                },
+                {
+                    "name": "1 Small problems",
+                    "completed": false
+                },
+                {
+                    "name": "2 Search problems",
+                    "completed": false
+                },
+                {
+                    "name": "3 Constraint-satisfaction problems",
+                    "completed": false
+                },
+                {
+                    "name": "4 Graph problems",
+                    "completed": false
+                },
+                {
+                    "name": "5 Genetic algorithms",
+                    "completed": false
+                },
+                {
+                    "name": "6 K-means clustering",
+                    "completed": false
+                },
+                {
+                    "name": "7 Fairly simple neural networks",
+                    "completed": false
+                },
+                {
+                    "name": "8 Adversarial Search",
+                    "completed": false
+                },
+                {
+                    "name": "9 Miscellaneous problems",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix A: Glossary",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix B: More resources",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix C: A brief introduction to type hints",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "8fc6951f-b11a-4fcb-bbd1-a347c11917e4",
+            "title": "First Course in Algorithms Through Puzzles",
+            "category": "Algorithms",
+            "image_name": "8fc6951f-b11a-4fcb-bbd1-a347c11917e4.jpg",
+            "url": "https://www.barnesandnoble.com/w/first-course-in-algorithms-through-puzzles-ryuhei-uehara/1133115307",
+            "rating": false,
+            "tags": [
+                "Algo",
+                "Math"
+            ],
+            "notes": "No Code",
+            "chapters": [
+                {
+                    "name": "Chapter 1. Preliminaries.",
+                    "completed": false
+                },
+                {
+                    "name": " Chapter 2. Recursive call.",
+                    "completed": false
+                },
+                {
+                    "name": " Chapter 3. Algorithms for Searching and Sorting.",
+                    "completed": false
+                },
+                {
+                    "name": " Chapter 4. Searching on graphs.",
+                    "completed": false
+                },
+                {
+                    "name": " Chapter 5. Backtracking.",
+                    "completed": false
+                },
+                {
+                    "name": " Chapter 6. Randomized Algorithms.",
+                    "completed": false
+                },
+                {
+                    "name": " Chapter 7. References.",
+                    "completed": false
+                },
+                {
+                    "name": " Chapter 8. Answers to exercises.",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "b0042218-e332-4d7c-84a3-0bf9c4a24665",
+            "title": "\nAlgorithms\n",
+            "category": "Algorithms",
+            "image_name": "b0042218-e332-4d7c-84a3-0bf9c4a24665.jpg",
+            "url": "https://www.amazon.com/Algorithms-Sanjoy-Dasgupta/dp/0073523402/ref=sr_1_1?crid=22MVQ0XZGCUJU&dchild=1&keywords=algorithms+sanjoy+dasgupta&qid=1594019115&s=books&sprefix=Algorithms+sanj%2Cstripbooks%2C144&sr=1-1#customerReviews",
+            "rating": false,
+            "tags": [],
+            "notes": "Seems to be better than other books.",
+            "chapters": []
+        },
+        {
+            "id": "907787de-4481-43ba-aaf0-45141e8505cf",
+            "title": "Grokking Algorithms",
+            "category": "Algorithms",
+            "image_name": "907787de-4481-43ba-aaf0-45141e8505cf.jpg",
+            "url": "https://www.manning.com/books/grokking-algorithms?query=algorithms",
+            "rating": true,
+            "tags": [],
+            "notes": "Sort but Amazing book.",
+            "chapters": [
+                {
+                    "name": "1. Introduction To Algorithms",
+                    "completed": true
+                },
+                {
+                    "name": "2. Selection Sort",
+                    "completed": true
+                },
+                {
+                    "name": "3. Recursion",
+                    "completed": true
+                },
+                {
+                    "name": "4. Quicksort",
+                    "completed": true
+                },
+                {
+                    "name": "5. Hash Tables",
+                    "completed": true
+                },
+                {
+                    "name": "6. Breadth-first Search",
+                    "completed": true
+                },
+                {
+                    "name": "7. Dijkstra\u2019s Algorithm",
+                    "completed": true
+                },
+                {
+                    "name": "8. Greedy Algorithms",
+                    "completed": true
+                },
+                {
+                    "name": "9. Dynamic Programming",
+                    "completed": true
+                },
+                {
+                    "name": "10. K Nearest Neighbors",
+                    "completed": true
+                },
+                {
+                    "name": "11. Where To Go Next",
+                    "completed": true
+                }
+            ]
+        },
+        {
+            "id": "67c1935d-0740-4b0d-8576-2beef8387769",
+            "title": "Data Structures and Algorithms in Python",
+            "category": "Algorithms",
+            "image_name": "67c1935d-0740-4b0d-8576-2beef8387769.jpg",
+            "url": "https://www.oreilly.com/library/view/data-structures-and/9781118290279/",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "Cover Page",
+                    "completed": false
+                },
+                {
+                    "name": "Title Page",
+                    "completed": false
+                },
+                {
+                    "name": "Copyright",
+                    "completed": false
+                },
+                {
+                    "name": "Dedication",
+                    "completed": false
+                },
+                {
+                    "name": "Preface",
+                    "completed": false
+                },
+                {
+                    "name": "Contents",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 1: Python Primer",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 2: Object-Oriented Programming",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 3: Algorithm Analysis",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 4: Recursion",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 5: Array-Based Sequences",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 6: Stacks, Queues, and Deques",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 7: Linked Lists",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 8: Trees",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 9: Priority Queues",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 10: Maps, Hash Tables, and Skip Lists",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 11: Search Trees",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 12: Sorting and Selection",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 13: Text Processing",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 14: Graph Algorithms",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 15: Memory Management and B-Trees",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix A: Character Strings in Python",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix B: Useful Mathematical Facts",
+                    "completed": false
+                },
+                {
+                    "name": "Bibliography",
+                    "completed": false
+                },
+                {
+                    "name": "Index",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "f13b45fb-7514-4fb4-8d7e-23137dbae2a9",
+            "title": "The Algorithm Design Manual / Edition 2",
+            "category": "Algorithms",
+            "image_name": "f13b45fb-7514-4fb4-8d7e-23137dbae2a9.jpg",
+            "url": "https://www.barnesandnoble.com/w/algorithm-design-manual-steven-s-skiena/1100359988?ean=9781849967204",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "Practical Algorithm Design.",
+                    "completed": false
+                },
+                {
+                    "name": " to Algorithm Design.",
+                    "completed": false
+                },
+                {
+                    "name": " Algorithm Analysis.",
+                    "completed": false
+                },
+                {
+                    "name": " Data Structures.",
+                    "completed": false
+                },
+                {
+                    "name": " Sorting and Searching.",
+                    "completed": false
+                },
+                {
+                    "name": " Graph Traversal.",
+                    "completed": false
+                },
+                {
+                    "name": " Weighted Graph Algorithms.",
+                    "completed": false
+                },
+                {
+                    "name": " Combinatorial Search and Heuristic Methods.",
+                    "completed": false
+                },
+                {
+                    "name": " Dynamic Programming.",
+                    "completed": false
+                },
+                {
+                    "name": " Intractable Problems and Approximation Algorithms.",
+                    "completed": false
+                },
+                {
+                    "name": " How to Design Algorithms.",
+                    "completed": false
+                },
+                {
+                    "name": " The Hitchhiker\u2019s Guide to Algorithms.",
+                    "completed": false
+                },
+                {
+                    "name": " A Catalog of Algorithmic Problems.",
+                    "completed": false
+                },
+                {
+                    "name": " Data Structures.",
+                    "completed": false
+                },
+                {
+                    "name": " Numerical Problems.",
+                    "completed": false
+                },
+                {
+                    "name": " Combinatorial Problems.",
+                    "completed": false
+                },
+                {
+                    "name": " Graph Problems: Polynomial",
+                    "completed": false
+                },
+                {
+                    "name": "Time.",
+                    "completed": false
+                },
+                {
+                    "name": " Graph Problems: Hard Problems.",
+                    "completed": false
+                },
+                {
+                    "name": " Computational Geometry.",
+                    "completed": false
+                },
+                {
+                    "name": " Set and String Problems.",
+                    "completed": false
+                },
+                {
+                    "name": " Algorithmic Resources.",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "df2200d7-ae94-4f02-9a97-cdbbabef4fed",
+            "title": "\nIntroduction to Algorithms, 3rd Edition (The MIT Press)\n",
+            "category": "Algorithms",
+            "image_name": "df2200d7-ae94-4f02-9a97-cdbbabef4fed.jpg",
+            "url": "https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/ref=sr_1_2?dchild=1&keywords=Introduction+to+Algorithms%2C+third+edition&qid=1594021341&s=books&sr=1-2",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": []
+        }
+    ],
+    "NLP - Core": [
+        {
+            "id": "b5923cb7-d6c6-4d6a-b704-ce1af3d7b643",
+            "title": "Getting Started with Natural Language Processing",
+            "category": "NLP - Core",
+            "image_name": "b5923cb7-d6c6-4d6a-b704-ce1af3d7b643.jpg",
+            "url": "https://www.manning.com/books/getting-started-with-natural-language-processing",
+            "rating": false,
+            "tags": [
+                "Theory"
+            ],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "1 Introduction",
+                    "completed": false
+                },
+                {
+                    "name": "2 Your first NLP example",
+                    "completed": false
+                },
+                {
+                    "name": "3 Introduction to Information Search",
+                    "completed": false
+                },
+                {
+                    "name": "4 Information Extraction",
+                    "completed": false
+                },
+                {
+                    "name": "5 Author Profiling as a Machine Learning Task",
+                    "completed": false
+                },
+                {
+                    "name": "6 Linguistic Feature Engineering for Author Profiling",
+                    "completed": false
+                },
+                {
+                    "name": "7 Your First Sentiment Analyzer using Sentiment Lexicons",
+                    "completed": false
+                },
+                {
+                    "name": "8 Sentiment Analysis with a Data-Driven Approach",
+                    "completed": false
+                },
+                {
+                    "name": "9 Named Entity Recognition",
+                    "completed": false
+                },
+                {
+                    "name": "10 Topic Labeling",
+                    "completed": false
+                },
+                {
+                    "name": "11 Summarization",
+                    "completed": false
+                },
+                {
+                    "name": "12 Further guidance for an NLP practitioner",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix A: NLP essentials: core terminology",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix B: Machine Learning cheat sheet",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix C: Your essential toolset",
+                    "completed": false
+                }
+            ]
+        }
+    ],
+    "GPU Programming": [
+        {
+            "id": "08a1380c-92b0-4d2b-8bdf-bda839ffe811",
+            "title": "Parallel and High Performance Computing",
+            "category": "GPU Programming",
+            "image_name": "08a1380c-92b0-4d2b-8bdf-bda839ffe811.jpg",
+            "url": "https://www.manning.com/books/parallel-and-high-performance-computing",
+            "rating": false,
+            "tags": [
+                "C++"
+            ],
+            "notes": "Complicated",
+            "chapters": [
+                {
+                    "name": "1 Why parallel computing",
+                    "completed": false
+                },
+                {
+                    "name": "2 Planning for parallel",
+                    "completed": false
+                },
+                {
+                    "name": "3  Performance limits and profiling",
+                    "completed": false
+                },
+                {
+                    "name": "4 Data design and performance models",
+                    "completed": false
+                },
+                {
+                    "name": "5 Parallel algorithms and patterns",
+                    "completed": false
+                },
+                {
+                    "name": "6 Vectorization: FLOPs for free",
+                    "completed": false
+                },
+                {
+                    "name": "7 OpenMP that performs",
+                    "completed": false
+                },
+                {
+                    "name": "8 MPI: the parallel backbone",
+                    "completed": false
+                },
+                {
+                    "name": "9 GPU architectures and concepts",
+                    "completed": false
+                },
+                {
+                    "name": "10 GPU programming model",
+                    "completed": false
+                },
+                {
+                    "name": "11 Directive-based GPU programming",
+                    "completed": false
+                },
+                {
+                    "name": "12 GPU languages: getting down to basics",
+                    "completed": false
+                },
+                {
+                    "name": "13 GPU profiling and tools",
+                    "completed": false
+                },
+                {
+                    "name": "14  Affinity",
+                    "completed": false
+                },
+                {
+                    "name": "15  Schedulers",
+                    "completed": false
+                },
+                {
+                    "name": "16  Parallel input/output",
+                    "completed": false
+                },
+                {
+                    "name": "17  Tools and resources",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix A: Appendix A: References",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix B: Appendix B: Solutions to Exercises",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix C: Appendix C: Glossary",
+                    "completed": false
+                }
+            ]
+        }
+    ],
+    "Queue": [
+        "2100b882-b210-4d0a-891f-8009e51612f9",
+        "0c247b0f-5f1d-4450-82d7-c5600266011d",
+        "a7c40f9a-9724-45fb-984d-dea96a4f9c31",
+        "780b2584-ae37-4f63-b02d-91f485578058"
+    ],
+    "GAN": [
+        {
+            "id": "a7fb9092-8e04-4653-a03b-3d8503d307c2",
+            "title": "GANs in Action",
+            "category": "GAN",
+            "image_name": "a7fb9092-8e04-4653-a03b-3d8503d307c2.jpg",
+            "url": "https://www.manning.com/books/gans-in-action",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "1 Introduction to GANs",
+                    "completed": false
+                },
+                {
+                    "name": "2 Intro to generative modeling with autoencoders",
+                    "completed": false
+                },
+                {
+                    "name": "3 Your first GAN: Generating handwritten digits",
+                    "completed": false
+                },
+                {
+                    "name": "4 Deep Convolutional GAN",
+                    "completed": false
+                },
+                {
+                    "name": "5 Training and common challenges: GANing for success",
+                    "completed": false
+                },
+                {
+                    "name": "6 Progressing with GANs",
+                    "completed": false
+                },
+                {
+                    "name": "7 Semi-Supervised GAN",
+                    "completed": false
+                },
+                {
+                    "name": "8 Conditional GAN",
+                    "completed": false
+                },
+                {
+                    "name": "9 CycleGAN",
+                    "completed": false
+                },
+                {
+                    "name": "10 Adversarial examples",
+                    "completed": false
+                },
+                {
+                    "name": "11 Practical applications of GANs",
+                    "completed": false
+                },
+                {
+                    "name": "12 Looking ahead",
+                    "completed": false
+                }
+            ]
+        }
+    ],
+    "Linear Algebra": [
+        {
+            "id": "ee195b31-e67b-41ca-86a0-5f99ad93565b",
+            "title": "Math for Programmers",
+            "category": "Linear Algebra",
+            "image_name": "ee195b31-e67b-41ca-86a0-5f99ad93565b.jpg",
+            "url": "https://www.manning.com/books/math-for-programmers",
+            "rating": false,
+            "tags": [
+                "NumPy"
+            ],
+            "notes": "Read few chapters.",
+            "chapters": [
+                {
+                    "name": "1 Learning Math in Code",
+                    "completed": false
+                },
+                {
+                    "name": "2 Drawing with 2D Vectors",
+                    "completed": false
+                },
+                {
+                    "name": "3 Ascending to the 3D World",
+                    "completed": false
+                },
+                {
+                    "name": "4 Transforming Vectors and Graphics",
+                    "completed": false
+                },
+                {
+                    "name": "5 Computing Transformations with Matrices",
+                    "completed": false
+                },
+                {
+                    "name": "6 Generalizing to Higher Dimensions",
+                    "completed": false
+                },
+                {
+                    "name": "7 Solving Systems of Linear Equations",
+                    "completed": false
+                },
+                {
+                    "name": "8 Understanding Rates of Change",
+                    "completed": false
+                },
+                {
+                    "name": "9 Simulating Moving Objects",
+                    "completed": false
+                },
+                {
+                    "name": "10  Working with Symbolic Expressions",
+                    "completed": false
+                },
+                {
+                    "name": "11  Simulating Force Fields",
+                    "completed": false
+                },
+                {
+                    "name": "12  Optimizing a Physical System",
+                    "completed": false
+                },
+                {
+                    "name": "13  Analyzing sound waves with Fourier series",
+                    "completed": false
+                },
+                {
+                    "name": "14  Fitting functions to data",
+                    "completed": false
+                },
+                {
+                    "name": "15  Classifying data with logistic regression",
+                    "completed": false
+                },
+                {
+                    "name": "16  Training neural networks",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix A: A Loading and Rendering 3D Models with OpenGL and PyGame",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix B: Getting set up with Python",
+                    "completed": false
+                }
+            ]
+        }
+    ],
+    "Interview": [
+        {
+            "id": "945956ee-995b-4e2d-8bdc-7af18f2387d9",
+            "title": "\nCracking the Coding Interview: 189 Programming Questions and Solutions\n",
+            "category": "Interview",
+            "image_name": "945956ee-995b-4e2d-8bdc-7af18f2387d9.jpg",
+            "url": "https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850/ref=sr_1_3?crid=1815AZV4Y26IN&dchild=1&keywords=cracking+the+coding+interview&qid=1594019387&s=books&sprefix=Cracking+the+%2Cstripbooks%2C154&sr=1-3",
+            "rating": false,
+            "tags": [],
+            "notes": "basics, need to scan through",
+            "chapters": []
+        },
+        {
+            "id": "8d575a79-bb25-42d1-b5a5-dbae8ada62f6",
+            "title": "\nElements of Programming Interviews in Python: The Insiders' Guide\n",
+            "category": "Interview",
+            "image_name": "8d575a79-bb25-42d1-b5a5-dbae8ada62f6.jpg",
+            "url": "https://www.amazon.com/Elements-Programming-Interviews-Python-Insiders/dp/1537713949/ref=sr_1_1?crid=U7LZKBGSIWJU&dchild=1&keywords=elements+of+programming+interviews&qid=1594048898&sprefix=elements+of+pro%2Caps%2C147&sr=8-1",
+            "rating": false,
+            "tags": [],
+            "notes": "Have good review on amazon.",
+            "chapters": []
+        }
+    ],
+    "CV - Core": [
+        {
+            "id": "8cb95e17-28a0-4289-8f39-b9ba438b7e29",
+            "title": "Computer Vision: Algorithms and Applications / Edition 1",
+            "category": "CV - Core",
+            "image_name": "8cb95e17-28a0-4289-8f39-b9ba438b7e29.jpg",
+            "url": "https://www.barnesandnoble.com/w/computer-vision-richard-szeliski/1101672927?ean=9781848829343",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "Introduction.",
+                    "completed": false
+                },
+                {
+                    "name": " Image Formation.",
+                    "completed": false
+                },
+                {
+                    "name": " Image Processing.",
+                    "completed": false
+                },
+                {
+                    "name": " Feature Detection and Matching.",
+                    "completed": false
+                },
+                {
+                    "name": " Segmentation.",
+                    "completed": false
+                },
+                {
+                    "name": " Feature",
+                    "completed": false
+                },
+                {
+                    "name": "based Alignment.",
+                    "completed": false
+                },
+                {
+                    "name": " Structure from Motion.",
+                    "completed": false
+                },
+                {
+                    "name": " Dense Motion Estimation.",
+                    "completed": false
+                },
+                {
+                    "name": " Image Stitching.",
+                    "completed": false
+                },
+                {
+                    "name": " Computational Photography.",
+                    "completed": false
+                },
+                {
+                    "name": " Stereo Correspondence.",
+                    "completed": false
+                },
+                {
+                    "name": " 3D Reconstruction.",
+                    "completed": false
+                },
+                {
+                    "name": " Image",
+                    "completed": false
+                },
+                {
+                    "name": "based Rendering.",
+                    "completed": false
+                },
+                {
+                    "name": " Recognition.",
+                    "completed": false
+                }
+            ]
+        }
+    ]
+}
