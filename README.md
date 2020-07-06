@@ -1,4 +1,4 @@
-# My Book Collection - A personalized Library
+# My Book Collection - A Personalized Library
 This is a small to keep track of my book collection so that I can,
 1. Look at all the important books I need to read.
 2. Categorize them accordingly.
