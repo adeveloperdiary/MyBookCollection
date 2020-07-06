@@ -13,16 +13,20 @@ This is a small to keep track of my book collection so that I can,
 - Captures the Table of Contents if available.
 
 ## Screen-prints
-- Default Page
+### Default Page
+    
 ![Default Page](images/default.png)
 
-- Chapters Page
+### Chapters Page
+
 ![Chapters Page](images/chapters.png)
 
-- Queue Page
+### Queue Page
+
 ![Queue Page](images/queue.png)
 
-- Add New Book
+### Add New Book
+
 ![Add New Book](images/add_book.png)   
 
 ## Copyright
