@@ -14,31 +14,39 @@ This is a small to keep track of my book collection so that I can,
 
 ## Screen-prints
 ### Default Page
-    - Click on 'star' to rate a book. Click again to undo rating.
-    - Click on 'Add Tag' to add tags for the book. Multiple Tags can be added using comma.
-    - Add the notes and click on save to save them to json.
-    - Click on 'Chapters' to see all the chapters.
-    - Progress will be displayed base on how many chapters have been completed.
-    - Click on 'Queue' to push to book to current queue.
+
+- Click on 'star' to rate a book. Click again to undo rating.
+- Click on 'Add Tag' to add tags for the book. Multiple Tags can be added using comma.
+- Add the notes and click on save to save them to json.
+- Click on 'Chapters' to see all the chapters.
+- Progress will be displayed base on how many chapters have been completed.
+- Click on 'Queue' to push to book to current queue.
+
 ![Default Page](images/default.png)
 
 ### Chapters Page
-    - Check the chapters already read.
-    - The progress will be displayed based on this selection.
+
+- Check the chapters already read.
+- The progress will be displayed based on this selection.
+
 ![Chapters Page](images/chapters.png)
      
 ### Queue Page
-    - Shows the current queue.
-    - Click on remove to delete from Queue. 
+
+- Shows the current queue.
+- Click on remove to delete from Queue.
+ 
 ![Queue Page](images/queue.png)
 
 ### Add New Book
-    - Click on 'Add Book' to add any book from any of the below website:
-        - Amazon
-        - Manning
-        - Oreilly
-        - Barnesandnoble
-    - The chapters will be extracted (Except Amazon) including the image and title automatically. 
+
+- Click on 'Add Book' to add any book from any of the below website:
+    - Amazon
+    - Manning
+    - Oreilly
+    - Barnesandnoble
+- The chapters will be extracted (Except Amazon) including the image and title automatically.
+ 
 ![Add New Book](images/add_book.png)   
 
 ## Copyright
