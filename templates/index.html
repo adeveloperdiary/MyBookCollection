@@ -3,6 +3,7 @@
 <head>
     <link rel="icon" href="static/images/favicon-32x32.png">
     <link rel="stylesheet" href="static/css/bootstrap.css">
+    <link rel="stylesheet" href="static/css/custom.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"
           media="screen"/>
     <meta charset="UTF-8">
@@ -33,6 +34,11 @@
                         <span class="badge bg-danger rounded-pill" style="float: right">{{ cat[1] }}</span>
                     </a>
                 {% endfor %}
+            </ul>
+            <ul class="list-group" style="margin-top: 20px">
+                <a class="list-group-item list-group-item-action tasks">Personal Projects
+                    <span class="badge bg-danger rounded-pill" style="float: right">{{ project_count }}</span>
+                </a>
             </ul>
         </div>
         <div class="col-md-9" id="container">
@@ -208,6 +214,62 @@
                             onclick="remove_from_queue('{{id}}')"
                             style="margin-top: 10px;margin-left: 5px">Remove
                     </button>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</script>
+
+<script id="tasks-template" type="text/x-handlebars-template">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Project/Task Details" id="project_task_name"
+               onkeypress="add_new_task(event)">
+        <button class="btn btn-danger" type="button" id="button-addon2" onclick="add_task()">New Task</button>
+        <button class="btn btn-dark" type="button" id="bttnNewProject" onclick="create_new_project()">New Project
+        </button>
+    </div>
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-xl-2 g-4">
+        {{#each this}}
+        <div class="col">
+            <div class="card h-100 projects" id="{{id}}" onclick="select_card('{{id}}')">
+                <div class="row g-0">
+                    <div style="width: 20px">
+                        <div style="height:100%;width:10px;background-color: {{color}};border-radius: 3px 0 0 3px"></div>
+                    </div>
+                    <div class="col-sm-11">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-11">
+                                    <h5 class="card-title" style="color: #dc3545">{{name}}</h5>
+                                </div>
+                                <div class="col-sm-1">
+                                    <i class="fa fa-trash" aria-hidden="true" onclick="remove_project('{{id}}')"
+                                       style="margin-left: 15px;color: #dc3545;text-align: right;vertical-align: middle;font-size: 20px"></i>
+                                </div>
+                            </div>
+                            <div class="list-wrapper">
+                                <ul class="d-flex flex-column todo-list">
+                                    {{#each tasks}}
+                                    <li {{#if completed}}
+                                        class="completed" {{/if}}>
+                                    <div class="form-check"><label class="form-check-label">
+                                        <input class="checkbox" type="checkbox" onclick="complete_task('{{id}}')"
+                                               id='{{id}}'
+                                               {{#if completed}}
+                                               checked="checked"
+                                               {{/if}}>
+                                        {{name}}
+                                        <i class="input-helper"></i></label>
+                                    </div>
+                                    <i class="remove mdi mdi-close-circle-outline"
+                                       onclick="delete_task('{{id}}','{{../id}}')"></i>
+                                    </li>
+                                    {{/each}}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

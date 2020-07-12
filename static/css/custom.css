@@ -1,0 +1,288 @@
+.list-wrapper {
+    height: 100%;
+    max-height: 100%
+}
+
+.list-wrapper ul {
+    padding: 0;
+    text-align: left;
+    list-style: none;
+    margin-bottom: 0
+}
+
+.list-wrapper ul li {
+    font-size: .9375rem;
+    padding: .4rem 0;
+    border-bottom: 1px solid #f3f3f3
+}
+
+.list-wrapper ul li:last-child {
+    border-bottom: none
+}
+
+.list-wrapper ul li .form-check {
+    max-width: 90%;
+    margin-top: .25rem;
+    margin-bottom: .25rem
+}
+
+.list-wrapper ul li .form-check label:hover {
+    cursor: pointer
+}
+
+.list-wrapper input[type="checkbox"] {
+    margin-right: 15px
+}
+
+.list-wrapper .remove {
+    cursor: pointer;
+    font-size: 1.438rem;
+    font-weight: 600;
+    width: 1.25rem;
+    height: 1.25rem;
+    line-height: 20px;
+    text-align: center
+}
+
+.list-wrapper .completed {
+    text-decoration: line-through;
+    text-decoration-color: #3da5f4
+}
+
+.list-wrapper ul li .form-check {
+    max-width: 90%;
+    margin-top: .25rem;
+    margin-bottom: .25rem
+}
+
+.list-wrapper ul li .form-check,
+.list-wrapper ul li .form-check .form-check-label,
+.email-wrapper .mail-sidebar .menu-bar .profile-list-item a .user .u-name,
+.email-wrapper .mail-sidebar .menu-bar .profile-list-item a .user .u-designation,
+.email-wrapper .mail-list-container .mail-list .content .sender-name,
+.email-wrapper .message-body .attachments-sections ul li .details p.file-name,
+.settings-panel .chat-list .list .info p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 100%;
+    white-space: nowrap
+}
+
+.form-check {
+    position: relative;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 0
+}
+
+.list-wrapper ul li .form-check,
+.list-wrapper ul li .form-check .form-check-label,
+.email-wrapper .mail-sidebar .menu-bar .profile-list-item a .user .u-name,
+.email-wrapper .mail-sidebar .menu-bar .profile-list-item a .user .u-designation,
+.email-wrapper .mail-list-container .mail-list .content .sender-name,
+.email-wrapper .message-body .attachments-sections ul li .details p.file-name,
+.settings-panel .chat-list .list .info p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 100%;
+    white-space: nowrap
+}
+
+.form-check .form-check-label {
+    min-height: 18px;
+    display: block;
+    margin-left: 1.75rem;
+    font-size: 0.875rem;
+    line-height: 1.5
+}
+
+.form-check-label {
+    margin-bottom: 0
+}
+
+.list-wrapper input[type="checkbox"] {
+    margin-right: 15px
+}
+
+.form-check .form-check-label input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 0;
+    margin-top: 0;
+    z-index: 1;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0)
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+.list-wrapper ul li .form-check,
+.list-wrapper ul li .form-check .form-check-label,
+.email-wrapper .mail-sidebar .menu-bar .profile-list-item a .user .u-name,
+.email-wrapper .mail-sidebar .menu-bar .profile-list-item a .user .u-designation,
+.email-wrapper .mail-list-container .mail-list .content .sender-name,
+.email-wrapper .message-body .attachments-sections ul li .details p.file-name,
+.settings-panel .chat-list .list .info p {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 100%;
+    white-space: nowrap
+}
+
+.form-check .form-check-label input[type="checkbox"] + .input-helper:before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    border-radius: 2px;
+    border: solid #405189;
+    border-width: 2px;
+    -webkit-transition: all;
+    -moz-transition: all;
+    -ms-transition: all;
+    -o-transition: all;
+    transition: all;
+    transition-duration: 0s;
+    -webkit-transition-duration: 250ms;
+    transition-duration: 250ms
+}
+
+.form-check .form-check-label input[type="checkbox"] + .input-helper:before,
+.form-check .form-check-label input[type="checkbox"] + .input-helper:after {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.form-check .form-check-label input[type="checkbox"] + .input-helper:after {
+    -webkit-transition: all;
+    -moz-transition: all;
+    -ms-transition: all;
+    -o-transition: all;
+    transition: all;
+    transition-duration: 0s;
+    -webkit-transition-duration: 250ms;
+    transition-duration: 250ms;
+    font-family: Material Design Icons;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
+    transform: scale(0);
+    content: '\F12C';
+    font-size: .9375rem;
+    font-weight: bold;
+    color: #ffffff
+}
+
+.form-check .form-check-label input[type="checkbox"] + .input-helper:before,
+.form-check .form-check-label input[type="checkbox"] + .input-helper:after {
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.form-check .form-check-label input[type="checkbox"]:checked + .input-helper:before {
+    background: #405189;
+    border-width: 0
+}
+
+.form-check .form-check-label input[type="checkbox"] + .input-helper:before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    border-radius: 2px;
+    border: solid #405189;
+    border-width: 2px;
+    -webkit-transition: all;
+    -moz-transition: all;
+    -ms-transition: all;
+    -o-transition: all;
+    transition: all;
+    transition-duration: 0s;
+    -webkit-transition-duration: 250ms;
+    transition-duration: 250ms
+}
+
+.form-check .form-check-label input[type="checkbox"] + .input-helper:after {
+    font-family: FontAwesome;
+    content: "\f095";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    color: #fff
+}
+
+.text-primary,
+.list-wrapper .completed .remove {
+    color: #405189 !important
+}
+
+.list-wrapper .remove {
+    cursor: pointer;
+    font-size: 1.438rem;
+    font-weight: 600;
+    width: 1.25rem;
+    height: 1.25rem;
+    line-height: 20px;
+    text-align: center
+}
+
+.ml-auto,
+.list-wrapper .remove,
+.mx-auto {
+    margin-left: auto !important
+}
+
+.mdi-close-circle-outline:before {
+    content: "\F15A"
+}
+
+.list-wrapper ul li {
+    font-size: .9375rem;
+    padding: .4rem 0;
+    border-bottom: 1px solid #f3f3f3
+}
+
+.mdi:before {
+    font-family: FontAwesome;
+    content: "\f00d";
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-size: .756em;
+    color: #405189
+}
+
+.list-wrapper ul {
+    padding: 0;
+    text-align: left;
+    list-style: none;
+    margin-bottom: 0
+}
+
+
+.d-flex,
+.loader-demo-box,
+.distribution-chart-legend .distribution-chart,
+.distribution-chart-legend .distribution-chart .item,
+.list-wrapper ul li,
+.email-wrapper .mail-sidebar .menu-bar .profile-list-item a,
+.email-wrapper .mail-sidebar .menu-bar .profile-list-item a .user,
+.email-wrapper .mail-list-container .mail-list .details,
+.email-wrapper .message-body .attachments-sections ul li .thumb,
+.email-wrapper .message-body .attachments-sections ul li .details .buttons,
+.lightGallery .image-tile .demo-gallery-poster,
+.swal2-modal,
+.navbar .navbar-menu-wrapper .navbar-nav,
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item.nav-profile,
+.navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .navbar-dropdown .dropdown-item {
+    display: flex !important
+}

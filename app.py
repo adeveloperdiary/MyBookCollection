@@ -27,7 +27,7 @@ def root():
             cat_count.append((cat, count))
         else:
             cat_count.append((cat, 0))
-    return render_template('index.html', cats=cat_count)
+    return render_template('index.html', cats=cat_count, project_count=get_project_count())
 
 
 @app.route('/get_books')
@@ -419,9 +419,10 @@ def fetch_barnesandnoble_book_details():
     f.close()
 
     toc = soup.find('div', {'class': 'table-of-contents'}).find_all('p')
-    if toc is None:
+
+    if toc is None or len(toc) == 0:
         toc = soup.find('div', {'class': 'table-of-contents'}).findAll(text=True, recursive=False)[1]
-        topics = toc.split('-')
+        topics = toc.split(';')
     elif len(toc) < 2:
         toc = soup.find('div', {'class': 'table-of-contents'}).find('p')
         toc = toc.text
@@ -433,12 +434,13 @@ def fetch_barnesandnoble_book_details():
 
     chapters = list()
     for toc in topics:
-        if toc is not "":
-            d = {
-                'name': toc,
-                'completed': False
-            }
-            chapters.append(d)
+        for t in toc.split(':'):
+            if t is not "":
+                d = {
+                    'name': toc,
+                    'completed': False
+                }
+                chapters.append(d)
 
     book = {
         "id": image_name,
@@ -465,6 +467,140 @@ def fetch_barnesandnoble_book_details():
         json.dump(books, file, indent=4)
 
     return '{"result":"success"}'
+
+
+@app.route('/projects_and_tasks')
+def projects_and_tasks():
+    with open("data/projects.json") as file:
+        projects = json.loads(file.read())
+
+    output = list()
+
+    for project_key in projects.keys():
+
+        tasks = list()
+        project = projects[project_key]
+        for task_key in projects[project_key]['tasks'].keys():
+            task = projects[project_key]['tasks'][task_key]
+            task['id'] = task_key
+            tasks.append(task)
+
+        project['tasks'] = tasks
+        project['id'] = project_key
+        output.append(project)
+    return jsonify(output)
+
+
+@app.route('/new_project')
+def create_new_project():
+    with open("data/projects.json") as file:
+        projects = json.loads(file.read())
+
+    name = request.args.get('name')
+    color = request.args.get('color')
+
+    project = {
+        "name": name,
+        "color": f'#{color}',
+        "tasks": {}
+    }
+
+    projects[str(uuid.uuid4())] = project
+
+    with open("data/projects.json", 'w+') as file:
+        json.dump(projects, file, indent=4)
+
+    return '{"result":"success"}'
+
+
+@app.route('/remove_project')
+def remove_project():
+    with open("data/projects.json") as file:
+        projects = json.loads(file.read())
+
+    id = request.args.get('id')
+
+    del projects[id]
+
+    with open("data/projects.json", 'w+') as file:
+        json.dump(projects, file, indent=4)
+
+    return '{"result":"success"}'
+
+
+@app.route('/add_task')
+def add_task():
+    with open("data/projects.json") as file:
+        projects = json.loads(file.read())
+
+    task_name = request.args.get('name')
+    project_id = request.args.get('id')
+
+    for project_key in projects.keys():
+        if project_key == project_id:
+            projects[project_key]['tasks'][str(uuid.uuid4())] = {
+                "name": task_name,
+                "completed": False
+            }
+
+    with open("data/projects.json", 'w+') as file:
+        json.dump(projects, file, indent=4)
+
+    return '{"result":"success"}'
+
+
+@app.route('/complete_task')
+def complete_task():
+    with open("data/projects.json") as file:
+        projects = json.loads(file.read())
+
+    task_id = request.args.get('task_id')
+    project_id = request.args.get('project_id')
+    status = request.args.get('status')
+
+    if status == "false":
+        status = False
+    else:
+        status = True
+
+    for project_key in projects.keys():
+        if project_key == project_id:
+            for task_key in projects[project_key]['tasks'].keys():
+                if task_key == task_id:
+                    projects[project_key]['tasks'][task_key]['completed'] = status
+
+    with open("data/projects.json", 'w+') as file:
+        json.dump(projects, file, indent=4)
+
+    return '{"result":"success"}'
+
+
+@app.route('/delete_task')
+def delete_task():
+    with open("data/projects.json") as file:
+        projects = json.loads(file.read())
+
+    task_id = request.args.get('task_id')
+    project_id = request.args.get('project_id')
+
+    for project_key in projects.keys():
+        if project_key == project_id:
+            for task_key in projects[project_key]['tasks'].keys():
+                if task_key == task_id:
+                    del projects[project_key]['tasks'][task_key]
+                    break
+
+    with open("data/projects.json", 'w+') as file:
+        json.dump(projects, file, indent=4)
+
+    return '{"result":"success"}'
+
+
+def get_project_count():
+    with open("data/projects.json") as file:
+        projects = json.loads(file.read())
+
+    return len(projects)
 
 
 if __name__ == '__main__':

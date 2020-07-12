@@ -1,6 +1,8 @@
 var selected_cat = undefined
 var books = {}
 var selected_id = undefined
+var all_projects = undefined
+var selected_project = undefined
 $(document).ready(function () {
     $(".categories").on("click", function () {
         this.blur();
@@ -18,6 +20,12 @@ $(document).ready(function () {
             }
         }
     });
+
+    $('.tasks').on('click', function () {
+        render_projects()
+    })
+
+    render_projects()
 })
 
 
@@ -241,4 +249,110 @@ function showAlert(msg, type) {
         $('.alert').removeClass("show");
         $('.alert').removeClass(type);
     }, 2000);
+}
+
+
+function getRandomColor() {
+    var letters = '0123456789ABCDEF';
+    var color = '';
+    for (var i = 0; i < 6; i++) {
+        color += letters[Math.floor(Math.random() * 16)];
+    }
+    return color;
+}
+
+function render_projects() {
+    $.getJSON('/projects_and_tasks', function (data) {
+        var source = document.getElementById("tasks-template").innerHTML;
+        var template = Handlebars.compile(source);
+        $('#container').html(template(data));
+        all_projects = data
+    })
+}
+
+function create_new_project() {
+
+    color = getRandomColor()
+    $.getJSON('/new_project?name=' + $('#project_task_name').val() + '&color=' + color, function (output) {
+        if (output.result == "success") {
+            showAlert('Project created successfully')
+            render_projects()
+        } else {
+            showAlert('Error creating project', 'error')
+        }
+    })
+
+
+}
+
+function select_card(id) {
+
+    $('.projects').css('border', '')
+
+    $.each(all_projects, function (k, v) {
+        if (v.id == id) {
+            $('#' + id).css('border', '1px solid' + v.color)
+        }
+    })
+
+    selected_project = id
+}
+
+function add_new_task(event) {
+    if (event.which == 13) {
+        add_task()
+    }
+}
+
+function add_task() {
+    $.getJSON('/add_task?id=' + selected_project + '&name=' + $('#project_task_name').val(), function (output) {
+        if (output.result == "success") {
+            showAlert('Task added successfully')
+            render_projects()
+        } else {
+            showAlert('Error deleting task', 'error')
+        }
+    })
+}
+
+function complete_task(task_id) {
+    $.getJSON('/complete_task?project_id=' + selected_project + '&task_id=' + task_id + '&status=' + $('#' + task_id).prop('checked'), function (output) {
+        if (output.result == "success") {
+            showAlert('Task status changed successfully')
+            render_projects()
+        } else {
+            showAlert('Error changing task status', 'error')
+        }
+    })
+}
+
+function remove_project(id) {
+    $.getJSON('/remove_project?id=' + id, function (output) {
+        if (output.result == "success") {
+            showAlert('Project deleted successfully')
+            render_projects()
+        } else {
+            showAlert('Error deleting project', 'error')
+        }
+    })
+}
+
+
+function delete_task(task_id, parent_id) {
+    selected_project = parent_id
+    $.getJSON('/delete_task?project_id=' + selected_project + '&task_id=' + task_id, function (output) {
+        if (output.result == "success") {
+            showAlert('Task deleted successfully')
+            render_projects()
+        } else {
+            showAlert('Error deleting task', 'error')
+        }
+    })
+}
+
+
+function uuidv4() {
+    return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, c =>
+        (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16)
+    );
 }
