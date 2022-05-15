@@ -3,201 +3,147 @@
         {
             "type": "standard.Rectangle",
             "position": {
-                "x": 90,
-                "y": 40
+                "x": 100,
+                "y": 55
             },
             "size": {
-                "width": 95.998046875,
+                "width": 89.341796875,
                 "height": 30
             },
             "angle": 0,
-            "id": "d24b7be0-b3a3-4159-aa57-9fb0a668cd30",
-            "z": 1,
-            "attrs": {
-                "body": {
-                    "strokeWidth": 1,
-                    "stroke": "hsl(274.4422973658485,80%,40%)",
-                    "fill": "hsl(274.4422973658485,94%,94%)",
-                    "rx": 5,
-                    "ry": 5
-                },
-                "label": {
-                    "fill": "black",
-                    "text": "Graph ML"
-                }
-            }
-        },
-        {
-            "type": "standard.Rectangle",
-            "position": {
-                "x": 590,
-                "y": 0
-            },
-            "size": {
-                "width": 103.333984375,
-                "height": 30
-            },
-            "angle": 0,
-            "id": "250af060-0d62-4c4c-94db-ba6e950757d6",
-            "z": 2,
-            "attrs": {
-                "body": {
-                    "strokeWidth": 1,
-                    "stroke": "hsl(141.99152709047124,80%,40%)",
-                    "fill": "hsl(141.99152709047124,94%,94%)",
-                    "rx": 5,
-                    "ry": 5
-                },
-                "label": {
-                    "fill": "black",
-                    "text": "Algorithms"
-                }
-            }
-        },
-        {
-            "type": "standard.Rectangle",
-            "position": {
-                "x": -110,
-                "y": 120
-            },
-            "size": {
-                "width": 82.673828125,
-                "height": 30
-            },
-            "angle": 0,
-            "id": "acb79ec2-4626-428c-839b-20a213a6685e",
+            "id": "f2b778dc-b338-4119-a64d-62677e5c0998",
             "z": 3,
             "attrs": {
                 "body": {
                     "strokeWidth": 1,
-                    "stroke": "hsl(1.3056387676460135,80%,40%)",
-                    "fill": "hsl(1.3056387676460135,94%,94%)",
+                    "stroke": "hsl(111.88461575701638,80%,40%)",
+                    "fill": "hsl(111.88461575701638,94%,94%)",
                     "rx": 5,
                     "ry": 5
                 },
                 "label": {
                     "fill": "black",
-                    "text": "Core AI"
+                    "text": "New Job"
                 }
             }
         },
         {
             "type": "standard.Rectangle",
             "position": {
-                "x": -70,
-                "y": 210
+                "x": -190,
+                "y": 55
             },
             "size": {
-                "width": 96.677734375,
+                "width": 151.3515625,
                 "height": 30
             },
             "angle": 0,
-            "id": "8b0643a6-0088-4b86-ac7f-21e769243e89",
+            "id": "2de5a939-af4e-434b-820b-0d794fea5f09",
             "z": 4,
             "attrs": {
                 "body": {
                     "strokeWidth": 1,
-                    "stroke": "hsl(285.73840608259377,80%,40%)",
-                    "fill": "hsl(285.73840608259377,94%,94%)",
+                    "stroke": "hsl(298.7878506151195,80%,40%)",
+                    "fill": "hsl(298.7878506151195,94%,94%)",
                     "rx": 5,
                     "ry": 5
                 },
                 "label": {
                     "fill": "black",
-                    "text": "Deep NLP"
+                    "text": "Recap GNN & Code"
                 }
             }
         },
         {
             "type": "standard.Rectangle",
             "position": {
-                "x": 525,
-                "y": 145
+                "x": 630,
+                "y": 55
             },
             "size": {
-                "width": 238.029296875,
+                "width": 94.673828125,
                 "height": 30
             },
             "angle": 0,
-            "id": "1ec6e8a8-bdb1-4274-a100-b9aca46fff34",
+            "id": "499bb231-750a-4ca4-85c9-9f91b5e485dd",
             "z": 5,
             "attrs": {
                 "body": {
                     "strokeWidth": 1,
-                    "stroke": "hsl(188.88109154959596,80%,40%)",
-                    "fill": "hsl(188.88109154959596,94%,94%)",
+                    "stroke": "hsl(294.32206641511283,80%,40%)",
+                    "fill": "hsl(294.32206641511283,94%,94%)",
                     "rx": 5,
                     "ry": 5
                 },
                 "label": {
                     "fill": "black",
-                    "text": "Deep Multi-task and Meta Learning"
+                    "text": "AWS Cert"
                 }
             }
         },
         {
             "type": "standard.Rectangle",
             "position": {
-                "x": 555,
-                "y": 50
+                "x": 70,
+                "y": -35
             },
             "size": {
-                "width": 178.0234375,
+                "width": 148.673828125,
                 "height": 30
             },
             "angle": 0,
-            "id": "f5b9b11d-2337-4a66-b882-8aefd1383a78",
+            "id": "3d318c2a-612f-4c18-9fdf-474fe2ec5c0c",
             "z": 6,
             "attrs": {
                 "body": {
                     "strokeWidth": 1,
-                    "stroke": "hsl(24.76218280078929,80%,40%)",
-                    "fill": "hsl(24.76218280078929,94%,94%)",
+                    "stroke": "hsl(133.2961815997514,80%,40%)",
+                    "fill": "hsl(133.2961815997514,94%,94%)",
                     "rx": 5,
                     "ry": 5
                 },
                 "label": {
                     "fill": "black",
-                    "text": "Reinforcement Learning"
+                    "text": "Algo read the book"
                 }
             }
         },
         {
             "type": "standard.Rectangle",
             "position": {
-                "x": 250,
-                "y": 120
+                "x": 295,
+                "y": 55
             },
             "size": {
-                "width": 179.3828125,
+                "width": 188.869140625,
                 "height": 30
             },
             "angle": 0,
-            "id": "a6364069-8aa1-4389-9ccb-df75baf50c4d",
+            "id": "893306b4-cece-4abf-91dd-aaffa4ecab29",
             "z": 7,
             "attrs": {
                 "body": {
                     "strokeWidth": 1,
-                    "stroke": "hsl(212.69152784794545,80%,40%)",
-                    "fill": "hsl(212.69152784794545,94%,94%)",
+                    "stroke": "hsl(231.14346590092106,80%,40%)",
+                    "fill": "hsl(231.14346590092106,94%,94%)",
                     "rx": 5,
                     "ry": 5
                 },
                 "label": {
                     "fill": "black",
-                    "text": "Deep Generative Models"
+                    "text": "Compmete Bishop's Book"
                 }
             }
         },
         {
             "type": "standard.Link",
             "source": {
-                "id": "f5b9b11d-2337-4a66-b882-8aefd1383a78"
+                "id": "2de5a939-af4e-434b-820b-0d794fea5f09"
             },
             "target": {
-                "id": "1ec6e8a8-bdb1-4274-a100-b9aca46fff34"
+                "id": "f2b778dc-b338-4119-a64d-62677e5c0998"
             },
-            "id": "de05e01a-f221-4bd7-b2ca-7d34b91752d2",
+            "id": "fe8d39d8-9547-4cee-8efe-04a770a4a322",
             "z": 8,
             "attrs": {
                 "line": {
@@ -209,69 +155,15 @@
             }
         },
         {
-            "type": "standard.Rectangle",
-            "position": {
-                "x": 45,
-                "y": 240
-            },
-            "size": {
-                "width": 186.712890625,
-                "height": 30
-            },
-            "angle": 0,
-            "id": "26335e45-aacc-47aa-b1f0-b80d860f1757",
-            "z": 9,
-            "attrs": {
-                "body": {
-                    "strokeWidth": 1,
-                    "stroke": "hsl(20.095419873422596,80%,40%)",
-                    "fill": "hsl(20.095419873422596,94%,94%)",
-                    "rx": 5,
-                    "ry": 5
-                },
-                "label": {
-                    "fill": "black",
-                    "text": "Mining Massive Data Sets"
-                }
-            }
-        },
-        {
-            "type": "standard.Rectangle",
-            "position": {
-                "x": 95,
-                "y": 120
-            },
-            "size": {
-                "width": 87.35546875,
-                "height": 30
-            },
-            "angle": 0,
-            "id": "08643df7-c951-4b97-82cf-05f9509e784f",
-            "z": 10,
-            "attrs": {
-                "body": {
-                    "strokeWidth": 1,
-                    "stroke": "hsl(82.79642767477576,80%,40%)",
-                    "fill": "hsl(82.79642767477576,94%,94%)",
-                    "rx": 5,
-                    "ry": 5
-                },
-                "label": {
-                    "fill": "black",
-                    "text": "Projects"
-                }
-            }
-        },
-        {
             "type": "standard.Link",
             "source": {
-                "id": "d24b7be0-b3a3-4159-aa57-9fb0a668cd30"
+                "id": "3d318c2a-612f-4c18-9fdf-474fe2ec5c0c"
             },
             "target": {
-                "id": "08643df7-c951-4b97-82cf-05f9509e784f"
+                "id": "f2b778dc-b338-4119-a64d-62677e5c0998"
             },
-            "id": "66572c94-9d89-48e0-a22b-8ebb085faa7c",
-            "z": 11,
+            "id": "f1935307-5a97-4f5f-ba87-bebb0944764b",
+            "z": 9,
             "attrs": {
                 "line": {
                     "strokeWidth": 1
@@ -284,12 +176,58 @@
         {
             "type": "standard.Link",
             "source": {
-                "id": "acb79ec2-4626-428c-839b-20a213a6685e"
+                "id": "893306b4-cece-4abf-91dd-aaffa4ecab29"
             },
             "target": {
-                "id": "08643df7-c951-4b97-82cf-05f9509e784f"
+                "id": "f2b778dc-b338-4119-a64d-62677e5c0998"
             },
-            "id": "a071d6eb-fe2f-4346-a66c-398b059238e5",
+            "id": "0246979f-c3ec-42f9-b85d-492c4bb0b42a",
+            "z": 10,
+            "attrs": {
+                "line": {
+                    "strokeWidth": 1
+                },
+                "type": {
+                    "text": "data"
+                }
+            }
+        },
+        {
+            "type": "standard.Rectangle",
+            "position": {
+                "x": 55,
+                "y": 170
+            },
+            "size": {
+                "width": 178.041015625,
+                "height": 30
+            },
+            "angle": 0,
+            "id": "84cbad85-9097-41e0-a9a0-fef74a8284da",
+            "z": 11,
+            "attrs": {
+                "body": {
+                    "strokeWidth": 1,
+                    "stroke": "hsl(273.1129115207259,80%,40%)",
+                    "fill": "hsl(273.1129115207259,94%,94%)",
+                    "rx": 5,
+                    "ry": 5
+                },
+                "label": {
+                    "fill": "black",
+                    "text": "Read Bayesian Methods"
+                }
+            }
+        },
+        {
+            "type": "standard.Link",
+            "source": {
+                "id": "84cbad85-9097-41e0-a9a0-fef74a8284da"
+            },
+            "target": {
+                "id": "f2b778dc-b338-4119-a64d-62677e5c0998"
+            },
+            "id": "364af3c1-d0a4-4514-be37-bd19d79fb629",
             "z": 12,
             "attrs": {
                 "line": {
@@ -297,90 +235,6 @@
                 },
                 "type": {
                     "text": "data"
-                }
-            }
-        },
-        {
-            "type": "standard.Link",
-            "source": {
-                "id": "8b0643a6-0088-4b86-ac7f-21e769243e89"
-            },
-            "target": {
-                "id": "08643df7-c951-4b97-82cf-05f9509e784f"
-            },
-            "id": "2be9442d-1a6f-410b-a6e4-f3af0ecc8df5",
-            "z": 13,
-            "attrs": {
-                "line": {
-                    "strokeWidth": 1
-                },
-                "type": {
-                    "text": "data"
-                }
-            }
-        },
-        {
-            "type": "standard.Link",
-            "source": {
-                "id": "a6364069-8aa1-4389-9ccb-df75baf50c4d"
-            },
-            "target": {
-                "id": "08643df7-c951-4b97-82cf-05f9509e784f"
-            },
-            "id": "9324c6ea-1dd6-4fe8-aac9-930fd2382a5e",
-            "z": 14,
-            "attrs": {
-                "line": {
-                    "strokeWidth": 1
-                },
-                "type": {
-                    "text": "data"
-                }
-            }
-        },
-        {
-            "type": "standard.Link",
-            "source": {
-                "id": "26335e45-aacc-47aa-b1f0-b80d860f1757"
-            },
-            "target": {
-                "id": "08643df7-c951-4b97-82cf-05f9509e784f"
-            },
-            "id": "71669347-11ee-4a2b-8bdf-2592b14841f3",
-            "z": 15,
-            "attrs": {
-                "line": {
-                    "strokeWidth": 1
-                },
-                "type": {
-                    "text": "data"
-                }
-            }
-        },
-        {
-            "type": "standard.Rectangle",
-            "position": {
-                "x": 420,
-                "y": 0
-            },
-            "size": {
-                "width": 146.669921875,
-                "height": 30
-            },
-            "angle": 0,
-            "id": "019eaee0-6e9d-46fc-a336-737638172312",
-            "z": 16,
-            "attrs": {
-                "body": {
-                    "strokeWidth": 1,
-                    "stroke": "hsl(174.35976898217956,80%,40%)",
-                    "fill": "hsl(174.35976898217956,94%,94%)",
-                    "rx": 5,
-                    "ry": 5
-                },
-                "label": {
-                    "fill": "black",
-                    "text": "Cuda/OpenMP/MPI"
                 }
             }
         }

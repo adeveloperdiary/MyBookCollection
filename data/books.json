@@ -976,230 +976,6 @@
     ],
     "Machine Learning": [
         {
-            "id": "1b924e27-cf02-480a-b8fa-8ad45e4b3e1c",
-            "title": "Machine Learning with TensorFlow, Second Edition",
-            "category": "Machine Learning",
-            "image_name": "1b924e27-cf02-480a-b8fa-8ad45e4b3e1c.jpg",
-            "url": "https://www.manning.com/books/machine-learning-with-tensorflow-second-edition",
-            "rating": false,
-            "tags": [
-                "Tensorflow"
-            ],
-            "notes": "This is a unique book which does not cover Keras and contains example of using core tensorflow library.",
-            "chapters": [
-                {
-                    "name": "1 A machine-learning odyssey",
-                    "completed": false
-                },
-                {
-                    "name": "2 TensorFlow essentials",
-                    "completed": false
-                },
-                {
-                    "name": "3 Linear regression and beyond",
-                    "completed": false
-                },
-                {
-                    "name": "4 Using regression for call center volume prediction",
-                    "completed": false
-                },
-                {
-                    "name": "5 A gentle introduction to classification",
-                    "completed": false
-                },
-                {
-                    "name": "6 Sentiment classification: large movie review dataset",
-                    "completed": false
-                },
-                {
-                    "name": "7 Automatically clustering data",
-                    "completed": false
-                },
-                {
-                    "name": "8 Inferring user activity from Android accelerometer data",
-                    "completed": false
-                },
-                {
-                    "name": "9 Hidden Markov models",
-                    "completed": false
-                },
-                {
-                    "name": "10 Part of speech tagging and word sense disambiguation",
-                    "completed": false
-                },
-                {
-                    "name": "11 A peek into autoencoders",
-                    "completed": false
-                },
-                {
-                    "name": "12 Applying autoencoders: the CIFAR-10 image dataset",
-                    "completed": false
-                },
-                {
-                    "name": "13 Reinforcement learning",
-                    "completed": false
-                },
-                {
-                    "name": "14 Convolutional neural networks",
-                    "completed": false
-                },
-                {
-                    "name": "15 Building a real-world CNN: VGG-Face and VGG-Face Lite",
-                    "completed": false
-                },
-                {
-                    "name": "16 Recurrent neural networks",
-                    "completed": false
-                },
-                {
-                    "name": "17 LSTMs and automatic speech recognition",
-                    "completed": false
-                },
-                {
-                    "name": "18 Sequence-to-sequence models for chatbots",
-                    "completed": false
-                },
-                {
-                    "name": "19 Utility landscape",
-                    "completed": false
-                },
-                {
-                    "name": "Appendix A: A Installing Python",
-                    "completed": false
-                }
-            ]
-        },
-        {
-            "id": "4b8a2e3b-7c85-4e39-8af4-48cce97b3008",
-            "title": "Machine Learning Bookcamp",
-            "category": "Machine Learning",
-            "image_name": "4b8a2e3b-7c85-4e39-8af4-48cce97b3008.jpg",
-            "url": "https://www.manning.com/books/machine-learning-bookcamp",
-            "rating": false,
-            "tags": [
-                "sklearn"
-            ],
-            "notes": "",
-            "chapters": [
-                {
-                    "name": "1 Introduction to machine learning",
-                    "completed": false
-                },
-                {
-                    "name": "2 Machine learning for regression",
-                    "completed": false
-                },
-                {
-                    "name": "3 Machine learning for classification",
-                    "completed": false
-                },
-                {
-                    "name": "4 Evaluation metrics for classification",
-                    "completed": false
-                },
-                {
-                    "name": "5 Deploying machine learning models",
-                    "completed": false
-                },
-                {
-                    "name": "6 Decision trees and ensemble learning",
-                    "completed": false
-                },
-                {
-                    "name": "7 Neural networks and deep learning",
-                    "completed": false
-                },
-                {
-                    "name": "8 Serving deep learning models",
-                    "completed": false
-                },
-                {
-                    "name": "9 Working with Texts",
-                    "completed": false
-                },
-                {
-                    "name": "10 Getting Training Data",
-                    "completed": false
-                },
-                {
-                    "name": "Appendix A: Installing the libraries",
-                    "completed": false
-                },
-                {
-                    "name": "Appendix B: Python basics",
-                    "completed": false
-                },
-                {
-                    "name": "Appendix C: NumPy and Linear Algebra",
-                    "completed": false
-                },
-                {
-                    "name": "Appendix D: Introduction to Pandas",
-                    "completed": false
-                }
-            ]
-        },
-        {
-            "id": "e045495b-1adb-4c13-9e2e-004191c41bb8",
-            "title": "Graph-Powered Machine Learning",
-            "category": "Machine Learning",
-            "image_name": "e045495b-1adb-4c13-9e2e-004191c41bb8.jpg",
-            "url": "https://www.manning.com/books/graph-powered-machine-learning",
-            "rating": false,
-            "tags": [],
-            "notes": "",
-            "chapters": [
-                {
-                    "name": "1 Machine Learning and Graph: An introduction",
-                    "completed": false
-                },
-                {
-                    "name": "2 Graph Data Engineering",
-                    "completed": false
-                },
-                {
-                    "name": "3 Graphs in Machine Learning Application",
-                    "completed": false
-                },
-                {
-                    "name": "4 Content-Based Recommendation",
-                    "completed": false
-                },
-                {
-                    "name": "5 Collaborative Filtering",
-                    "completed": false
-                },
-                {
-                    "name": "6 Session-Based Recommendation",
-                    "completed": false
-                },
-                {
-                    "name": "7 Context-Aware and Hybrid Recommendation",
-                    "completed": false
-                },
-                {
-                    "name": "8 Fighting frauds: Introduction and basic tool",
-                    "completed": false
-                },
-                {
-                    "name": "9 Fighting frauds: Proximity-Based algorithms",
-                    "completed": false
-                },
-                {
-                    "name": "10 Fighting frauds: Social Network Analysis",
-                    "completed": false
-                },
-                {
-                    "name": "11 Taming Text with Graphs",
-                    "completed": false
-                },
-                {
-                    "name": "12 Knowledge Graphs",
-                    "completed": false
-                }
-            ]
-        },
-        {
             "id": "acfe54be-550f-4342-82b5-70e1497d4e73",
             "title": "Mining of Massive Datasets / Edition 3",
             "category": "Machine Learning",
@@ -1484,7 +1260,7 @@
             "url": "https://www.barnesandnoble.com/w/pattern-recognition-and-machine-learning-christopher-m-bishop/1100527382?ean=9780387310732",
             "rating": false,
             "tags": [],
-            "notes": "",
+            "notes": "not relevant. no need to read.",
             "chapters": [
                 {
                     "name": "Probability Distributions.",
@@ -2224,6 +2000,137 @@
                     "completed": false
                 }
             ]
+        },
+        {
+            "id": "050ad77a-8484-429d-a73e-f9e18df0d34a",
+            "title": "A Course in Machine Learning",
+            "category": "Machine Learning",
+            "image_name": "050ad77a-8484-429d-a73e-f9e18df0d34a.jpg",
+            "url": "http://ciml.info/",
+            "rating": true,
+            "tags": [],
+            "notes": "Good reference book.",
+            "chapters": [
+                {
+                    "name": "1  Decision Trees",
+                    "completed": false
+                },
+                {
+                    "name": "2  Limits of Learning",
+                    "completed": false
+                },
+                {
+                    "name": "3  Geometry and Nearest Neighbors",
+                    "completed": false
+                },
+                {
+                    "name": "4  Beyond Binary Classification",
+                    "completed": false
+                },
+                {
+                    "name": "5  Linear Models",
+                    "completed": false
+                },
+                {
+                    "name": "6  Bias and Fairness",
+                    "completed": false
+                },
+                {
+                    "name": "7  Probabilistic Modeling",
+                    "completed": false
+                },
+                {
+                    "name": "8  Neural Networks",
+                    "completed": false
+                },
+                {
+                    "name": "9  Kernel Methods",
+                    "completed": false
+                },
+                {
+                    "name": "10  Ensemble Methods",
+                    "completed": false
+                },
+                {
+                    "name": "11  Efficient Learning",
+                    "completed": false
+                },
+                {
+                    "name": "12  Unsupervised Learning",
+                    "completed": false
+                },
+                {
+                    "name": "13  Expectation Maximization",
+                    "completed": false
+                },
+                {
+                    "name": "14  Structured Prediction",
+                    "completed": false
+                },
+                {
+                    "name": "15  Imitation Learning",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "be887dc2-4bc4-4a1f-850e-c89b4c18434a",
+            "title": "Ensemble Methods for Machine Learning",
+            "category": "Machine Learning",
+            "image_name": "be887dc2-4bc4-4a1f-850e-c89b4c18434a.jpg",
+            "url": "https://www.manning.com/books/ensemble-methods-for-machine-learning?query=Ensemble%20Methods%20for%20Machine%20Learning",
+            "rating": true,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "1 ENSEMBLE LEARNING: HYPE OR HALLELUJAH?",
+                    "completed": false
+                },
+                {
+                    "name": "2 HOMOGENEOUS PARALLEL ENSEMBLES: BAGGING AND RANDOM FORESTS",
+                    "completed": false
+                },
+                {
+                    "name": "3 HETEROGENEOUS PARALLEL ENSEMBLES: COMBINING STRONG LEARNERS",
+                    "completed": false
+                },
+                {
+                    "name": "4 SEQUENTIAL ENSEMBLES: BOOSTING",
+                    "completed": false
+                },
+                {
+                    "name": "5 SEQUENTIAL ENSEMBLES: GRADIENT BOOSTING",
+                    "completed": false
+                },
+                {
+                    "name": "6 SEQUENTIAL ENSEMBLES: NEWTON BOOSTING",
+                    "completed": false
+                },
+                {
+                    "name": "7 LEARNING WITH CONTINUOUS AND COUNT LABELS",
+                    "completed": false
+                },
+                {
+                    "name": "8 LEARNING WITH CATEGORICAL FEATURES",
+                    "completed": false
+                },
+                {
+                    "name": "9 LEARNING WITH CATEGORICAL LABELS",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "84fb3722-bd5a-4d9b-85cc-755d7cb66c36",
+            "title": "Probabilistic Machine Learning: An Introduction (Adaptive Computation and Machine Learning series)",
+            "category": "Machine Learning",
+            "image_name": "84fb3722-bd5a-4d9b-85cc-755d7cb66c36.jpg",
+            "url": "https://www.amazon.com/Probabilistic-Machine-Learning-Introduction-Computation/dp/0262046822/ref=sr_1_1?keywords=probablistic+machine+learning&qid=1652634861&sprefix=probablistic+ma%2Caps%2C108&sr=8-1",
+            "rating": true,
+            "tags": [],
+            "notes": "Need to read cover to cover.",
+            "chapters": []
         }
     ],
     "CV - Deep Learning": [
@@ -2366,6 +2273,293 @@
             ],
             "notes": "",
             "chapters": []
+        },
+        {
+            "id": "94a165bf-bd45-4b31-b23b-8b4a7d756d2f",
+            "title": "Advanced Methods and Deep Learning in Computer Vision (Computer Vision and Pattern Recognition)",
+            "category": "CV - Deep Learning",
+            "image_name": "94a165bf-bd45-4b31-b23b-8b4a7d756d2f.jpg",
+            "url": "https://www.amazon.com/Advanced-Methods-Learning-Computer-Recognition/dp/0128221097/ref=sr_1_1?crid=1DMWYVGLTIB1Q&keywords=Advanced+Methods+and+Deep+Learning&qid=1652597812&s=books&sprefix=advanced+methods+and+deep+learning%2Cstripbooks%2C71&sr=1-1",
+            "rating": true,
+            "tags": [],
+            "notes": "Must read.",
+            "chapters": [
+                {
+                    "name": "1. The dramatically changing face of computer vision",
+                    "completed": false
+                },
+                {
+                    "name": "2. Advanced methods for robust object detection",
+                    "completed": false
+                },
+                {
+                    "name": "3. Learning with limited supervision",
+                    "completed": false
+                },
+                {
+                    "name": "4. Efficient methods for deep learning",
+                    "completed": false
+                },
+                {
+                    "name": "5. Deep conditional image generation",
+                    "completed": false
+                },
+                {
+                    "name": "6. Deep face recognition using full and partial face images",
+                    "completed": false
+                },
+                {
+                    "name": "7. Unsupervised domain adaptation using shallow and deep representations",
+                    "completed": false
+                },
+                {
+                    "name": "8. Domain adaptation and continual learning in semantic segmentation",
+                    "completed": false
+                },
+                {
+                    "name": "9. Visual tracking",
+                    "completed": false
+                },
+                {
+                    "name": "10. Long-term deep object tracking",
+                    "completed": false
+                },
+                {
+                    "name": "11. Learning for action-based scene understanding",
+                    "completed": false
+                },
+                {
+                    "name": "12. Self-supervised temporal event segmentation inspired by cognitive theories",
+                    "completed": false
+                },
+                {
+                    "name": "13. Probabilistic anomaly detection methods using learned models from time-series data for multimedia self-aware systems",
+                    "completed": false
+                },
+                {
+                    "name": "14. Deep plug-and-play and deep unfolding methods for image restoration",
+                    "completed": false
+                },
+                {
+                    "name": "15. Visual adversarial attacks and defenses",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "763096b2-1608-4c78-a6a4-46428b8f38fe",
+            "title": "Foundations of Computer Vision (Intelligent Systems Reference Library, 124)",
+            "category": "CV - Deep Learning",
+            "image_name": "763096b2-1608-4c78-a6a4-46428b8f38fe.jpg",
+            "url": "https://www.amazon.com/Foundations-Computer-Vision-Computational-Intelligent/dp/331952481X/ref=sr_1_1?crid=348XS9KSFEDXR&keywords=Foundations+of+Computer+Vision+Computational&qid=1652598244&s=books&sprefix=foundations+of+computer+vision+computational+%2Cstripbooks%2C96&sr=1-1",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": []
+        },
+        {
+            "id": "6f92717d-173b-41bd-b7cd-53e16b2b66f1",
+            "title": "Modern Computer Vision with PyTorch",
+            "category": "CV - Deep Learning",
+            "image_name": "6f92717d-173b-41bd-b7cd-53e16b2b66f1.jpg",
+            "url": "https://learning.oreilly.com/library/view/modern-computer-vision/9781839213472/",
+            "rating": true,
+            "tags": [],
+            "notes": "Must read.",
+            "chapters": [
+                {
+                    "name": "Title Page",
+                    "completed": false
+                },
+                {
+                    "name": "Copyright and Credits",
+                    "completed": false
+                },
+                {
+                    "name": "Dedication",
+                    "completed": false
+                },
+                {
+                    "name": "About Packt",
+                    "completed": false
+                },
+                {
+                    "name": "Contributors",
+                    "completed": false
+                },
+                {
+                    "name": "Preface",
+                    "completed": false
+                },
+                {
+                    "name": "Section 1 - Fundamentals of Deep Learning for Computer Vision",
+                    "completed": false
+                },
+                {
+                    "name": "Artificial Neural Network Fundamentals",
+                    "completed": false
+                },
+                {
+                    "name": "PyTorch Fundamentals",
+                    "completed": false
+                },
+                {
+                    "name": "Building a Deep Neural Network with PyTorch",
+                    "completed": false
+                },
+                {
+                    "name": "Section 2 - Object Classification and Detection",
+                    "completed": false
+                },
+                {
+                    "name": "Introducing Convolutional Neural Networks",
+                    "completed": false
+                },
+                {
+                    "name": "Transfer Learning for Image Classification",
+                    "completed": false
+                },
+                {
+                    "name": "Practical Aspects of Image Classification",
+                    "completed": false
+                },
+                {
+                    "name": "Basics of Object Detection",
+                    "completed": false
+                },
+                {
+                    "name": "Advanced Object Detection",
+                    "completed": false
+                },
+                {
+                    "name": "Image Segmentation",
+                    "completed": false
+                },
+                {
+                    "name": "Applications of Object Detection and Segmentation",
+                    "completed": false
+                },
+                {
+                    "name": "Section 3 - Image Manipulation",
+                    "completed": false
+                },
+                {
+                    "name": "Autoencoders and Image Manipulation",
+                    "completed": false
+                },
+                {
+                    "name": "Image Generation Using GANs",
+                    "completed": false
+                },
+                {
+                    "name": "Advanced GANs to Manipulate Images",
+                    "completed": false
+                },
+                {
+                    "name": "Section 4 - Combining Computer Vision with Other Techniques",
+                    "completed": false
+                },
+                {
+                    "name": "Training with Minimal Data Points",
+                    "completed": false
+                },
+                {
+                    "name": "Combining Computer Vision and NLP Techniques",
+                    "completed": false
+                },
+                {
+                    "name": "Combining Computer Vision and Reinforcement Learning",
+                    "completed": false
+                },
+                {
+                    "name": "Moving a Model to Production",
+                    "completed": false
+                },
+                {
+                    "name": "Using OpenCV Utilities for Image Analysis",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix",
+                    "completed": false
+                },
+                {
+                    "name": "Other Books You May Enjoy",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "0788d3b7-81a7-42df-a50a-5eb7293de1df",
+            "title": "Practical Machine Learning for Computer Vision",
+            "category": "CV - Deep Learning",
+            "image_name": "0788d3b7-81a7-42df-a50a-5eb7293de1df.jpg",
+            "url": "https://learning.oreilly.com/library/view/practical-machine-learning/9781098102357/",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "Preface",
+                    "completed": false
+                },
+                {
+                    "name": "1. Machine Learning for Computer Vision",
+                    "completed": false
+                },
+                {
+                    "name": "2. ML Models for Vision",
+                    "completed": false
+                },
+                {
+                    "name": "3. Image Vision",
+                    "completed": false
+                },
+                {
+                    "name": "4. Object Detection and Image Segmentation",
+                    "completed": false
+                },
+                {
+                    "name": "5. Creating Vision Datasets",
+                    "completed": false
+                },
+                {
+                    "name": "6. Preprocessing",
+                    "completed": false
+                },
+                {
+                    "name": "7. Training Pipeline",
+                    "completed": false
+                },
+                {
+                    "name": "8. Model Quality and Continuous Evaluation",
+                    "completed": false
+                },
+                {
+                    "name": "9. Model Predictions",
+                    "completed": false
+                },
+                {
+                    "name": "10. Trends in Production ML",
+                    "completed": false
+                },
+                {
+                    "name": "11. Advanced Vision Problems",
+                    "completed": false
+                },
+                {
+                    "name": "12. Image and Text Generation",
+                    "completed": false
+                },
+                {
+                    "name": "Afterword",
+                    "completed": false
+                },
+                {
+                    "name": "Index",
+                    "completed": false
+                }
+            ]
         }
     ],
     "Deep RL": [
@@ -2770,57 +2964,6 @@
     ],
     "Deep Learning": [
         {
-            "id": "8c9d3549-420e-4f8c-af01-ebfd0978d522",
-            "title": "Probabilistic Deep Learning",
-            "category": "Deep Learning",
-            "image_name": "8c9d3549-420e-4f8c-af01-ebfd0978d522.jpg",
-            "url": "https://www.manning.com/books/probabilistic-deep-learning",
-            "rating": false,
-            "tags": [
-                "tensorflow",
-                " theory"
-            ],
-            "notes": "Very different book. Before reading, look at amazon reviews.",
-            "chapters": [
-                {
-                    "name": "1 Introduction to deep learning",
-                    "completed": false
-                },
-                {
-                    "name": "2  Network Architectures",
-                    "completed": false
-                },
-                {
-                    "name": "3  Principles of curve fitting",
-                    "completed": false
-                },
-                {
-                    "name": "4  Building loss functions with the likelihood approach",
-                    "completed": false
-                },
-                {
-                    "name": "5  Probabilistic deep learning models with TensorFlow Probability",
-                    "completed": false
-                },
-                {
-                    "name": "6  Probabilistic deep learning models in the wild",
-                    "completed": false
-                },
-                {
-                    "name": "7  Bayesian learning",
-                    "completed": false
-                },
-                {
-                    "name": "8 Bayesian neural networks",
-                    "completed": false
-                },
-                {
-                    "name": "Appendix A: Glossary of terms and abbreviations",
-                    "completed": false
-                }
-            ]
-        },
-        {
             "id": "e4d8c608-a9f9-40eb-ba35-a4e887b3fa47",
             "title": "Deep Learning with Python, Second Edition",
             "category": "Deep Learning",
@@ -2890,78 +3033,6 @@
                 },
                 {
                     "name": "15 Conclusions",
-                    "completed": false
-                }
-            ]
-        },
-        {
-            "id": "780b2584-ae37-4f63-b02d-91f485578073",
-            "title": "Math and Architectures of Deep Learning",
-            "category": "Deep Learning",
-            "image_name": "780b2584-ae37-4f63-b02d-91f485578073.jpg",
-            "url": "https://www.manning.com/books/math-and-architectures-of-deep-learning",
-            "rating": false,
-            "tags": [],
-            "notes": "",
-            "chapters": [
-                {
-                    "name": "Introduction: Importance of mathematical principles underlying deep learning",
-                    "completed": false
-                },
-                {
-                    "name": "1 An overview of machine learning and deep learning",
-                    "completed": false
-                },
-                {
-                    "name": "2 Introduction to Vectors, Matrices and Tensors from Machine Learning and Data Science point of view",
-                    "completed": false
-                },
-                {
-                    "name": "3 Introduction to Vector Calculus from Machine Learning point of view",
-                    "completed": false
-                },
-                {
-                    "name": "4 Linear Algbraic Tools in Machine Learning and Data Science",
-                    "completed": false
-                },
-                {
-                    "name": "5 Statistics and Multivariate Statistics from Machine Learning point of View",
-                    "completed": false
-                },
-                {
-                    "name": "6 Neural Networks Basics",
-                    "completed": false
-                },
-                {
-                    "name": "7 Neural Network Optimizers",
-                    "completed": false
-                },
-                {
-                    "name": "8 Non Fully Connected Layers in Neural Networks",
-                    "completed": false
-                },
-                {
-                    "name": "9 Deep Learning based Object Recognition and Detection",
-                    "completed": false
-                },
-                {
-                    "name": "10 Deep Learning based Image Digests and Image Similarity Estimation",
-                    "completed": false
-                },
-                {
-                    "name": "11 Towards self training",
-                    "completed": false
-                },
-                {
-                    "name": "12 Spatio Temporal Deep Neural Networks",
-                    "completed": false
-                },
-                {
-                    "name": "Appendix A: Appendix: Automatic Differentiation - forward and reverse mode",
-                    "completed": false
-                },
-                {
-                    "name": "Conclusion: Future Directions",
                     "completed": false
                 }
             ]
@@ -4266,7 +4337,7 @@
             "category": "Deep Learning",
             "image_name": "f37feb45-c973-4032-9edf-7a242c89596c.jpg",
             "url": "https://www.barnesandnoble.com/w/advances-in-deep-learning-m-arif-wani/1133106769?ean=9789811367939",
-            "rating": false,
+            "rating": true,
             "tags": [],
             "notes": "Easy to understand.",
             "chapters": [
@@ -4311,59 +4382,385 @@
                     "completed": false
                 }
             ]
-        }
-    ],
-    "NLP - Deep Learning": [
+        },
         {
-            "id": "965b9898-8e2d-484c-b0fb-f4aac7e1c90c",
-            "title": "Transfer Learning for Natural Language Processing",
-            "category": "NLP - Deep Learning",
-            "image_name": "965b9898-8e2d-484c-b0fb-f4aac7e1c90c.jpg",
-            "url": "https://www.manning.com/books/transfer-learning-for-natural-language-processing",
-            "rating": false,
-            "tags": [
-                "keras"
-            ],
-            "notes": "Keep an eye, very important topic.",
+            "id": "3ccf246d-3b30-4a1c-b12a-8cc9124350a1",
+            "title": "Probabilistic Deep Learning",
+            "category": "Deep Learning",
+            "image_name": "3ccf246d-3b30-4a1c-b12a-8cc9124350a1.jpg",
+            "url": "https://www.manning.com/books/probabilistic-deep-learning",
+            "rating": true,
+            "tags": [],
+            "notes": "A must-read.",
             "chapters": [
                 {
-                    "name": "1 What is Transfer Learning",
+                    "name": "1 INTRODUCTION TO PROBABILISTIC DEEP LEARNING",
                     "completed": false
                 },
                 {
-                    "name": "2 Getting Started with Baselines",
+                    "name": "2 NEURAL NETWORK ARCHITECTURES",
                     "completed": false
                 },
                 {
-                    "name": "3 Shallow Transfer Learning for NLP",
+                    "name": "3 PRINCIPLES OF CURVE FITTING",
                     "completed": false
                 },
                 {
-                    "name": "4 Deep Transfer Learning for NLP with Recurrent Neural Networks",
+                    "name": "4 BUILDING LOSS FUNCTIONS WITH THE LIKELIHOOD APPROACH",
                     "completed": false
                 },
                 {
-                    "name": "5 Deep Transfer Learning in NLP with Transformers",
+                    "name": "5 PROBABILISTIC DEEP LEARNING MODELS WITH TENSORFLOW PROBABILITY",
                     "completed": false
                 },
                 {
-                    "name": "6 Deep Transfer Learning Adaptation Strategies",
+                    "name": "6 PROBABILISTIC DEEP LEARNING MODELS IN THE WILD",
                     "completed": false
                 },
                 {
-                    "name": "7 Conclusions",
+                    "name": "7 BAYESIAN LEARNING",
                     "completed": false
                 },
                 {
-                    "name": "Free GPUs in the Cloud with Kaggle Kernels and Colab Notebooks",
-                    "completed": false
-                },
-                {
-                    "name": "Using Microservices to Handle Dependencies",
+                    "name": "8 BAYESIAN NEURAL NETWORKS",
                     "completed": false
                 }
             ]
         },
+        {
+            "id": "be4d4061-3283-42f0-8312-487100a42950",
+            "title": "Grokking Deep Learning",
+            "category": "Deep Learning",
+            "image_name": "be4d4061-3283-42f0-8312-487100a42950.jpg",
+            "url": "https://www.manning.com/books/grokking-deep-learning",
+            "rating": true,
+            "tags": [],
+            "notes": "A very good book on fundamentals.",
+            "chapters": [
+                {
+                    "name": "1 INTRODUCING DEEP LEARNING: WHY YOU SHOULD LEARN IT",
+                    "completed": false
+                },
+                {
+                    "name": "2 FUNDAMENTAL CONCEPTS: HOW DO MACHINES LEARN?",
+                    "completed": false
+                },
+                {
+                    "name": "3 INTRODUCTION TO NEURAL PREDICTION: FORWARD PROPAGATION",
+                    "completed": false
+                },
+                {
+                    "name": "4 INTRODUCTION TO NEURAL LEARNING: GRADIENT DESCENT",
+                    "completed": false
+                },
+                {
+                    "name": "5 LEARNING MULTIPLE WEIGHTS AT A TIME: GENERALIZING GRADIENT DESCENT",
+                    "completed": false
+                },
+                {
+                    "name": "6 BUILDING YOUR FIRST DEEP NEURAL NETWORK: INTRODUCTION TO BACKPROPAGATION",
+                    "completed": false
+                },
+                {
+                    "name": "7 HOW TO PICTURE NEURAL NETWORKS: IN YOUR HEAD AND ON PAPER",
+                    "completed": false
+                },
+                {
+                    "name": "8 LEARNING SIGNAL AND IGNORING NOISE: INTRODUCTION TO REGULARIZATION AND BATCHING",
+                    "completed": false
+                },
+                {
+                    "name": "9 MODELING PROBABILITIES AND NONLINEARITIES: ACTIVATION FUNCTIONS",
+                    "completed": false
+                },
+                {
+                    "name": "10 NEURAL LEARNING ABOUT EDGES AND CORNERS: INTRO TO CONVOLUTIONAL NEURAL NETWORKS",
+                    "completed": false
+                },
+                {
+                    "name": "11 NEURAL NETWORKS THAT UNDERSTAND LANGUAGE: KING\u2009\u2014\u2009MAN + WOMAN == ?",
+                    "completed": false
+                },
+                {
+                    "name": "12 NEURAL NETWORKS THAT WRITE LIKE SHAKESPEARE: RECURRENT LAYERS FOR VARIABLE-LENGTH DATA",
+                    "completed": false
+                },
+                {
+                    "name": "13 INTRODUCING AUTOMATIC OPTIMIZATION: LET\u2019S BUILD A DEEP LEARNING FRAMEWORK",
+                    "completed": false
+                },
+                {
+                    "name": "14 LEARNING TO WRITE LIKE SHAKESPEARE: LONG SHORT-TERM MEMORY",
+                    "completed": false
+                },
+                {
+                    "name": "15 DEEP LEARNING ON UNSEEN DATA: INTRODUCING FEDERATED LEARNING",
+                    "completed": false
+                },
+                {
+                    "name": "16 WHERE TO GO FROM HERE: A BRIEF GUIDE",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "092af992-57ba-427e-834f-c9dc57675e07",
+            "title": "Math and Architectures of Deep Learning",
+            "category": "Deep Learning",
+            "image_name": "092af992-57ba-427e-834f-c9dc57675e07.jpg",
+            "url": "https://www.manning.com/books/math-and-architectures-of-deep-learning?query=Math%20and%20Architectures%20of%20Deep%20Learning",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "1 AN OVERVIEW OF MACHINE LEARNING AND DEEP LEARNING",
+                    "completed": false
+                },
+                {
+                    "name": "2 INTRODUCTION TO VECTORS, MATRICES AND TENSORS FROM MACHINE LEARNING AND DATA SCIENCE POINT OF VIEW",
+                    "completed": false
+                },
+                {
+                    "name": "3 INTRODUCTION TO VECTOR CALCULUS FROM MACHINE LEARNING POINT OF VIEW",
+                    "completed": false
+                },
+                {
+                    "name": "4 LINEAR ALGEBRAIC TOOLS IN MACHINE LEARNING AND DATA SCIENCE",
+                    "completed": false
+                },
+                {
+                    "name": "5 PROBABILITY DISTRIBUTIONS FOR MACHINE LEARNING AND DATA SCIENCE",
+                    "completed": false
+                },
+                {
+                    "name": "6 BAYESIAN TOOLS FOR MACHINE LEARNING AND DATA SCIENCE",
+                    "completed": false
+                },
+                {
+                    "name": "7 FUNCTION APPROXIMATION: HOW NEURAL NETWORKS MODEL THE WORLD",
+                    "completed": false
+                },
+                {
+                    "name": "8 TRAINING NEURAL NETWORKS: FORWARD AND BACKPROPAGATION",
+                    "completed": false
+                },
+                {
+                    "name": "9 LOSS, OPTIMIZATION AND REGULARIZATION",
+                    "completed": false
+                },
+                {
+                    "name": "10 ONE, TWO AND THREE DIMENSIONAL CONVOLUTION AND TRANSPOSED CONVOLUTION IN NEURAL NETWORKS",
+                    "completed": false
+                },
+                {
+                    "name": "11 DEEP CONVOLUTIONAL NEURAL NETWORK ARCHITECTURES FOR IMAGE CLASSIFICATION AND OBJECT DETECTION",
+                    "completed": false
+                },
+                {
+                    "name": "12 MANIFOLDS, HOMEOMORPHISM AND NEURAL NETWORKS",
+                    "completed": false
+                },
+                {
+                    "name": "13 BAYESIAN INFERENCING",
+                    "completed": false
+                },
+                {
+                    "name": "14 LATENT SPACE AND GENERATIVE MODELING, AUTOENCODERS AND VARIATIONAL AUTOENCODERS",
+                    "completed": false
+                },
+                {
+                    "name": "APPENDIX A: APPENDIX",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "c3a949ae-3e7f-4a62-abb5-c4a1f55a1ffe",
+            "title": "Learning Deep Learning: Theory and Practice of Neural Networks, Computer Vision, NLP, and Transformers using TensorFlow",
+            "category": "Deep Learning",
+            "image_name": "c3a949ae-3e7f-4a62-abb5-c4a1f55a1ffe.jpg",
+            "url": "https://learning.oreilly.com/library/view/learning-deep-learning/9780137470198/",
+            "rating": true,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "Cover Page",
+                    "completed": false
+                },
+                {
+                    "name": "About This eBook",
+                    "completed": false
+                },
+                {
+                    "name": "Halftitle Page",
+                    "completed": false
+                },
+                {
+                    "name": "Title Page",
+                    "completed": false
+                },
+                {
+                    "name": "Copyright Page",
+                    "completed": false
+                },
+                {
+                    "name": "Dedication Page",
+                    "completed": false
+                },
+                {
+                    "name": "Contents",
+                    "completed": false
+                },
+                {
+                    "name": "Foreword",
+                    "completed": false
+                },
+                {
+                    "name": "Foreword",
+                    "completed": false
+                },
+                {
+                    "name": "Preface",
+                    "completed": false
+                },
+                {
+                    "name": "Acknowledgments",
+                    "completed": false
+                },
+                {
+                    "name": "About the Author",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 1. The Rosenblatt Perceptron",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 2. Gradient-Based Learning",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 3. Sigmoid Neurons and Backpropagation",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 4. Fully Connected Networks Applied to Multiclass Classification",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 5. Toward DL: Frameworks and Network Tweaks",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 6. Fully Connected Networks Applied to Regression",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 7. Convolutional Neural Networks Applied to Image Classification",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 8. Deeper CNNs and Pretrained Models",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 9. Predicting Time Sequences with Recurrent Neural Networks",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 10. Long Short-Term Memory",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 11. Text Autocompletion with LSTM and Beam Search",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 12. Neural Language Models and Word Embeddings",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 13. Word Embeddings from word2vec and GloVe",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 14. Sequence-to-Sequence Networks and Natural Language Translation",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 15. Attention and the Transformer",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 16. One-to-Many Network for Image Captioning",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 17. Medley of Additional Topics",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 18. Summary and Next Steps",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix A. Linear Regression and Linear Classifiers",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix B. Object Detection and Segmentation",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix C. Word Embeddings Beyond word2vec and GloVe",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix D. GPT, BERT, and RoBERTa",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix E. Newton-Raphson versus Gradient Descent",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix F. Matrix Implementation of Digit Classification Network",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix G. Relating Convolutional Layers to Mathematical Convolution",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix H. Gated Recurrent Units",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix I. Setting Up a Development Environment",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix J. Cheat Sheets",
+                    "completed": false
+                },
+                {
+                    "name": "Works Cited",
+                    "completed": false
+                },
+                {
+                    "name": "Index",
+                    "completed": false
+                },
+                {
+                    "name": "Code Snippets",
+                    "completed": false
+                }
+            ]
+        }
+    ],
+    "NLP - Deep Learning": [
         {
             "id": "098505d9-be50-4089-8ad0-7a62dde525a3",
             "title": "Real-World Natural Language Processing",
@@ -4484,7 +4881,7 @@
             "category": "NLP - Deep Learning",
             "image_name": "f0080f2e-450c-4fbb-8cdc-ade8ebfa6c52.jpg",
             "url": "https://www.amazon.com/Deep-Learning-NLP-Speech-Recognition/dp/3030145956/ref=sr_1_3?crid=1WDMYB9XRWHHV&dchild=1&keywords=deep+learning+NLP&qid=1594011468&s=books&sprefix=Deep+Lea%2Cstripbooks%2C142&sr=1-3",
-            "rating": false,
+            "rating": true,
             "tags": [
                 "Theory"
             ],
@@ -4753,6 +5150,706 @@
                 },
                 {
                     "name": "Index",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "ca81e0df-859e-43be-9c6a-5bb78d557e07",
+            "title": "Exploring GPT-3",
+            "category": "NLP - Deep Learning",
+            "image_name": "ca81e0df-859e-43be-9c6a-5bb78d557e07.jpg",
+            "url": "https://learning.oreilly.com/library/view/exploring-gpt-3/9781800563193/",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "Exploring GPT-3",
+                    "completed": false
+                },
+                {
+                    "name": "Foreword",
+                    "completed": false
+                },
+                {
+                    "name": "Contributors",
+                    "completed": false
+                },
+                {
+                    "name": "About the author",
+                    "completed": false
+                },
+                {
+                    "name": "Acknowledgments ",
+                    "completed": false
+                },
+                {
+                    "name": "About the reviewers",
+                    "completed": false
+                },
+                {
+                    "name": "Preface",
+                    "completed": false
+                },
+                {
+                    "name": "Section 1: Understanding GPT-3 and the OpenAI API",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 1: Introducing GPT-3 and the OpenAI API",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 2: GPT-3 Applications and Use Cases",
+                    "completed": false
+                },
+                {
+                    "name": "Section 2: Getting Started with GPT-3",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 3: Working with the OpenAI Playground",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 4: Working with the OpenAI API",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 5: Calling the OpenAI API in Code",
+                    "completed": false
+                },
+                {
+                    "name": "Section 3: Using the OpenAI API",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 6: Content Filtering",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 7: Generating and Transforming Text",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 8: Classifying and Categorizing Text",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 9: Building a GPT-3-Powered Question-Answering App ",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 10: Going Live with OpenAI-Powered Apps",
+                    "completed": false
+                },
+                {
+                    "name": "Other Books You May Enjoy",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "96dcb3ca-ee1e-4636-b14a-1026e65227ad",
+            "title": "GPT-3",
+            "category": "NLP - Deep Learning",
+            "image_name": "96dcb3ca-ee1e-4636-b14a-1026e65227ad.jpg",
+            "url": "https://learning.oreilly.com/library/view/gpt-3/9781098113612/",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "1. The Era of Large Language Models",
+                    "completed": false
+                },
+                {
+                    "name": "2. Using the OpenAI API",
+                    "completed": false
+                },
+                {
+                    "name": "3. Programming with GPT-3",
+                    "completed": false
+                },
+                {
+                    "name": "4. GPT-3 as a Launchpad for Next-Generation Startups",
+                    "completed": false
+                },
+                {
+                    "name": "5. GPT-3 for Corporations",
+                    "completed": false
+                },
+                {
+                    "name": "6. Challenges, Controversies, and Shortcomings",
+                    "completed": false
+                },
+                {
+                    "name": "7. Conclusion: How the GPT-3 Economy Can Democratize Access to AI",
+                    "completed": false
+                },
+                {
+                    "name": "About the Authors",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "1b4824ff-f9e1-4829-ba69-144203669912",
+            "title": "Transformers for Natural Language Processing - Second Edition",
+            "category": "NLP - Deep Learning",
+            "image_name": "1b4824ff-f9e1-4829-ba69-144203669912.jpg",
+            "url": "https://learning.oreilly.com/library/view/transformers-for-natural/9781803247335/",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "Preface",
+                    "completed": false
+                },
+                {
+                    "name": "What are Transformers?",
+                    "completed": false
+                },
+                {
+                    "name": "Getting Started with the Architecture of the Transformer Model",
+                    "completed": false
+                },
+                {
+                    "name": "Fine-Tuning BERT Models",
+                    "completed": false
+                },
+                {
+                    "name": "Pretraining a RoBERTa Model from Scratch",
+                    "completed": false
+                },
+                {
+                    "name": "Downstream NLP Tasks with Transformers",
+                    "completed": false
+                },
+                {
+                    "name": "Machine Translation with the Transformer",
+                    "completed": false
+                },
+                {
+                    "name": "The Rise of Suprahuman Transformers with GPT-3 Engines",
+                    "completed": false
+                },
+                {
+                    "name": "Applying Transformers to Legal and Financial Documents for AI Text Summarization",
+                    "completed": false
+                },
+                {
+                    "name": "Matching Tokenizers and Datasets",
+                    "completed": false
+                },
+                {
+                    "name": "Semantic Role Labeling with BERT-Based Transformers",
+                    "completed": false
+                },
+                {
+                    "name": "Let Your Data Do the Talking: Story, Questions, and Answers",
+                    "completed": false
+                },
+                {
+                    "name": "Detecting Customer Emotions to Make Predictions",
+                    "completed": false
+                },
+                {
+                    "name": "Analyzing Fake News with Transformers",
+                    "completed": false
+                },
+                {
+                    "name": "Interpreting Black Box Transformer Models",
+                    "completed": false
+                },
+                {
+                    "name": "From NLP to Task-Agnostic Transformer Models",
+                    "completed": false
+                },
+                {
+                    "name": "The Emergence of Transformer-Driven Copilots",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix I \u2014 Terminology of Transformer Models",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix II \u2014 Hardware Constraints for Transformer Models",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix III \u2014 Generic Text Completion with GPT-2",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix IV \u2014 Custom Text Completion with GPT-2",
+                    "completed": false
+                },
+                {
+                    "name": "Appendix V \u2014 Answers to the Questions",
+                    "completed": false
+                },
+                {
+                    "name": "Other Books You May Enjoy",
+                    "completed": false
+                },
+                {
+                    "name": "Index",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "5d0571f1-15be-4d4a-8ec8-f218b911a30f",
+            "title": "Mastering Transformers",
+            "category": "NLP - Deep Learning",
+            "image_name": "5d0571f1-15be-4d4a-8ec8-f218b911a30f.jpg",
+            "url": "https://learning.oreilly.com/library/view/mastering-transformers/9781801077651/",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "Mastering Transformers",
+                    "completed": false
+                },
+                {
+                    "name": "Contributors",
+                    "completed": false
+                },
+                {
+                    "name": "About the authors",
+                    "completed": false
+                },
+                {
+                    "name": "About the reviewer",
+                    "completed": false
+                },
+                {
+                    "name": "Preface",
+                    "completed": false
+                },
+                {
+                    "name": "Section 1: Introduction \u2013 Recent Developments in the Field, Installations, and Hello World Applications",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 1: From Bag-of-Words to the Transformer",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 2: A Hands-On Introduction to the Subject",
+                    "completed": false
+                },
+                {
+                    "name": "Section 2: Transformer Models \u2013 From Autoencoding to Autoregressive Models",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 3: Autoencoding Language Models",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 4:Autoregressive and Other Language Models ",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 5: Fine-Tuning Language Models for Text Classification",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 6: Fine-Tuning Language Models for Token Classification",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 7: Text Representation",
+                    "completed": false
+                },
+                {
+                    "name": "Section 3: Advanced Topics",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 8: Working with Efficient Transformers",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 9:Cross-Lingual and Multilingual Language Modeling",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 10: Serving Transformer Models",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 11: Attention Visualization and Experiment Tracking",
+                    "completed": false
+                },
+                {
+                    "name": "Other Books You May Enjoy",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "9ed13ebb-82e4-4dd9-aa6c-3f606c1a0259",
+            "title": "Natural Language Processing with Transformers",
+            "category": "NLP - Deep Learning",
+            "image_name": "9ed13ebb-82e4-4dd9-aa6c-3f606c1a0259.jpg",
+            "url": "https://learning.oreilly.com/library/view/natural-language-processing/9781098103231/",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "Foreword",
+                    "completed": false
+                },
+                {
+                    "name": "Preface",
+                    "completed": false
+                },
+                {
+                    "name": "1. Hello Transformers",
+                    "completed": false
+                },
+                {
+                    "name": "2. Text Classification",
+                    "completed": false
+                },
+                {
+                    "name": "3. Transformer Anatomy",
+                    "completed": false
+                },
+                {
+                    "name": "4. Multilingual Named Entity Recognition",
+                    "completed": false
+                },
+                {
+                    "name": "5. Text Generation",
+                    "completed": false
+                },
+                {
+                    "name": "6. Summarization",
+                    "completed": false
+                },
+                {
+                    "name": "7. Question Answering",
+                    "completed": false
+                },
+                {
+                    "name": "8. Making Transformers Efficient in Production",
+                    "completed": false
+                },
+                {
+                    "name": "9. Dealing with Few to No Labels",
+                    "completed": false
+                },
+                {
+                    "name": "10. Training Transformers from Scratch",
+                    "completed": false
+                },
+                {
+                    "name": "11. Future Directions",
+                    "completed": false
+                },
+                {
+                    "name": "Index",
+                    "completed": false
+                },
+                {
+                    "name": "About the Authors",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "99775525-2253-4e85-96a2-ae23bc4727f9",
+            "title": "Getting Started with Google BERT",
+            "category": "NLP - Deep Learning",
+            "image_name": "99775525-2253-4e85-96a2-ae23bc4727f9.jpg",
+            "url": "https://learning.oreilly.com/library/view/getting-started-with/9781838821593/",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "Title Page",
+                    "completed": false
+                },
+                {
+                    "name": "Copyright and Credits",
+                    "completed": false
+                },
+                {
+                    "name": "Dedication",
+                    "completed": false
+                },
+                {
+                    "name": "About Packt",
+                    "completed": false
+                },
+                {
+                    "name": "Contributors",
+                    "completed": false
+                },
+                {
+                    "name": "Preface",
+                    "completed": false
+                },
+                {
+                    "name": "Section 1 - Starting Off with BERT",
+                    "completed": false
+                },
+                {
+                    "name": "A Primer on Transformers",
+                    "completed": false
+                },
+                {
+                    "name": "Understanding the BERT Model",
+                    "completed": false
+                },
+                {
+                    "name": "Getting Hands-On with BERT",
+                    "completed": false
+                },
+                {
+                    "name": "Section 2 - Exploring BERT Variants",
+                    "completed": false
+                },
+                {
+                    "name": "BERT Variants I - ALBERT, RoBERTa, ELECTRA, and SpanBERT",
+                    "completed": false
+                },
+                {
+                    "name": "BERT Variants II - Based on Knowledge Distillation",
+                    "completed": false
+                },
+                {
+                    "name": "Section 3 - Applications of BERT",
+                    "completed": false
+                },
+                {
+                    "name": "Exploring BERTSUM for Text Summarization",
+                    "completed": false
+                },
+                {
+                    "name": "Applying BERT to Other Languages",
+                    "completed": false
+                },
+                {
+                    "name": "Exploring Sentence and Domain-Specific BERT",
+                    "completed": false
+                },
+                {
+                    "name": "Working with VideoBERT, BART, and More",
+                    "completed": false
+                },
+                {
+                    "name": "Assessments",
+                    "completed": false
+                },
+                {
+                    "name": "Other Books You May Enjoy",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "bd10dbe0-08b4-4569-ab44-3671b3e9869f",
+            "title": "Python Natural Language Processing Cookbook",
+            "category": "NLP - Deep Learning",
+            "image_name": "bd10dbe0-08b4-4569-ab44-3671b3e9869f.jpg",
+            "url": "https://learning.oreilly.com/library/view/python-natural-language/9781838987312/",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "Python Natural Language Processing Cookbook",
+                    "completed": false
+                },
+                {
+                    "name": "Contributors",
+                    "completed": false
+                },
+                {
+                    "name": "About the author",
+                    "completed": false
+                },
+                {
+                    "name": "About the reviewers",
+                    "completed": false
+                },
+                {
+                    "name": "Preface",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 1: Learning NLP Basics",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 2: Playing with Grammar",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 3: Representing Text \u2013 Capturing Semantics",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 4: Classifying Texts",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 5: Getting Started with Information Extraction",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 6: Topic Modeling",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 7: Building Chatbots",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 8: Visualizing Text Data",
+                    "completed": false
+                },
+                {
+                    "name": "Other Books You May Enjoy",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "f10f0cdc-bc67-4bcb-8c85-21744e114ba0",
+            "title": "Advanced Natural Language Processing with TensorFlow 2",
+            "category": "NLP - Deep Learning",
+            "image_name": "f10f0cdc-bc67-4bcb-8c85-21744e114ba0.jpg",
+            "url": "https://learning.oreilly.com/library/view/advanced-natural-language/9781800200937/",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "Preface",
+                    "completed": false
+                },
+                {
+                    "name": "Essentials of NLP",
+                    "completed": false
+                },
+                {
+                    "name": "Understanding Sentiment in Natural Language with\u00a0BiLSTMs",
+                    "completed": false
+                },
+                {
+                    "name": "Named Entity Recognition (NER) with BiLSTMs, CRFs, and Viterbi Decoding ",
+                    "completed": false
+                },
+                {
+                    "name": "Transfer Learning with BERT",
+                    "completed": false
+                },
+                {
+                    "name": "Generating Text with RNNs\u00a0and GPT-2",
+                    "completed": false
+                },
+                {
+                    "name": "Text Summarization with Seq2seq Attention and Transformer Networks",
+                    "completed": false
+                },
+                {
+                    "name": "Multi-Modal Networks and\u00a0Image Captioning with\u00a0ResNets and Transformer Networks",
+                    "completed": false
+                },
+                {
+                    "name": "Weakly Supervised Learning for Classification with Snorkel",
+                    "completed": false
+                },
+                {
+                    "name": "Building Conversational AI Applications with Deep Learning",
+                    "completed": false
+                },
+                {
+                    "name": "Installation and Setup Instructions for Code",
+                    "completed": false
+                },
+                {
+                    "name": "Other Books You May Enjoy",
+                    "completed": false
+                },
+                {
+                    "name": "Index",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "fa0e2b3e-db4e-4cbf-8d2c-59ddc8a73a0d",
+            "title": "Transfer Learning for Natural Language Processing",
+            "category": "NLP - Deep Learning",
+            "image_name": "fa0e2b3e-db4e-4cbf-8d2c-59ddc8a73a0d.jpg",
+            "url": "https://www.manning.com/books/transfer-learning-for-natural-language-processing?query=transfer%20learning",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "1 WHAT IS TRANSFER LEARNING?",
+                    "completed": false
+                },
+                {
+                    "name": "2 GETTING STARTED WITH BASELINES - DATA PREPROCESSING",
+                    "completed": false
+                },
+                {
+                    "name": "2 GETTING STARTED WITH BASELINES - DATA PREPROCESSING",
+                    "completed": false
+                },
+                {
+                    "name": "4 SHALLOW TRANSFER LEARNING FOR NLP",
+                    "completed": false
+                },
+                {
+                    "name": "5 PREPROCESSING DATA FOR RECURRENT NEURAL NETWORK DEEP TRANSFER LEARNING EXPERIMENTS",
+                    "completed": false
+                },
+                {
+                    "name": "6 DEEP TRANSFER LEARNING FOR NLP WITH RECURRENT NEURAL NETWORKS",
+                    "completed": false
+                },
+                {
+                    "name": "7 DEEP TRANSFER LEARNING FOR NLP WITH THE TRANSFORMER AND GPT",
+                    "completed": false
+                },
+                {
+                    "name": "8 DEEP TRANSFER LEARNING FOR NLP WITH BERT AND MULTILINGUAL BERT",
+                    "completed": false
+                },
+                {
+                    "name": "9 ULMFIT AND KNOWLEDGE DISTILLATION ADAPTATION STRATEGIES",
+                    "completed": false
+                },
+                {
+                    "name": "10 ALBERT, ADAPTERS AND MULTI-TASK ADAPTATION STRATEGIES",
+                    "completed": false
+                },
+                {
+                    "name": "11 CONCLUSIONS",
+                    "completed": false
+                },
+                {
+                    "name": "APPENDIX A. KAGGLE PRIMER",
+                    "completed": false
+                },
+                {
+                    "name": "APPENDIX B. INTRO TO FUNDAMENTAL TOOLS AND CONCEPTS",
                     "completed": false
                 }
             ]
@@ -5543,7 +6640,8 @@
     ],
     "Queue": [
         "9b023361-9e1c-494e-9ec7-67a8c6273af5",
-        "d936a429-1d71-4563-895b-7c9547d13ae2"
+        "d936a429-1d71-4563-895b-7c9547d13ae2",
+        "84fb3722-bd5a-4d9b-85cc-755d7cb66c36"
     ],
     "GAN": [
         {
@@ -5675,9 +6773,72 @@
                     "completed": true
                 }
             ]
+        },
+        {
+            "id": "d123e5da-45a1-4fa1-b3f7-5fda799dffd5",
+            "title": "Deep Generative Modeling",
+            "category": "GAN",
+            "image_name": "d123e5da-45a1-4fa1-b3f7-5fda799dffd5.jpg",
+            "url": "https://www.amazon.com/Deep-Generative-Modeling-Jakub-Tomczak-dp-3030931579/dp/3030931579/ref=mt_other?_encoding=UTF8&me=&qid=1652598752",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": []
         }
     ],
     "Linear Algebra": [
+        {
+            "id": "2fc9b2f4-c35c-446f-8666-f518740f67a1",
+            "title": "Essential Math for Data Science",
+            "category": "Linear Algebra",
+            "image_name": "2fc9b2f4-c35c-446f-8666-f518740f67a1.jpg",
+            "url": "https://www.essentialmathfordatascience.com/",
+            "rating": true,
+            "tags": [],
+            "notes": "Must Read",
+            "chapters": [
+                {
+                    "name": "1 Calculus: Derivatives and Integrals",
+                    "completed": false
+                },
+                {
+                    "name": "2 Statistics and Probability Theory",
+                    "completed": false
+                },
+                {
+                    "name": "3 Common Probability Distributions",
+                    "completed": false
+                },
+                {
+                    "name": "4 Bayesian Statistics and Information Theory",
+                    "completed": false
+                },
+                {
+                    "name": "5 Scalars and Vectors",
+                    "completed": false
+                },
+                {
+                    "name": "6 Matrices and Tensors",
+                    "completed": false
+                },
+                {
+                    "name": "7 Span, Linear Dependency, and Space Transformation",
+                    "completed": false
+                },
+                {
+                    "name": "8 Systems of Linear Equations",
+                    "completed": false
+                },
+                {
+                    "name": "9 Eigenvectors, Eigenvalues, and Eigendecomposition",
+                    "completed": false
+                },
+                {
+                    "name": "10  Singular Value Decomposition",
+                    "completed": false
+                }
+            ]
+        },
         {
             "id": "ee195b31-e67b-41ca-86a0-5f99ad93565b",
             "title": "Math for Programmers",
@@ -5993,7 +7154,7 @@
             "category": "Linear Algebra",
             "image_name": "b053396c-5233-4d80-b873-b462cb219c70.jpg",
             "url": "https://www.oreilly.com/library/view/introduction-to-probability/9781466575578/",
-            "rating": true,
+            "rating": false,
             "tags": [],
             "notes": "Need to read this book. Follow the edx course. https://courses.edx.org/courses/course-v1:HarvardX STAT110x 1T2020/course/",
             "chapters": [
@@ -6074,6 +7235,121 @@
                     "completed": false
                 }
             ]
+        },
+        {
+            "id": "cfafa8aa-95b1-458f-ac5c-a363ff8eb871",
+            "title": "Introduction to Probability, Second Edition (Chapman & Hall/CRC Texts in Statistical Science)",
+            "category": "Linear Algebra",
+            "image_name": "cfafa8aa-95b1-458f-ac5c-a363ff8eb871.jpg",
+            "url": "https://www.amazon.com/Introduction-Probability-Chapman-Statistical-Science/dp/1138369918/ref=sr_1_4?crid=173WH4SE0YJ08&keywords=Introduction+to+Probability&qid=1652632496&sprefix=introduction+to+probability%2Caps%2C48&sr=8-4",
+            "rating": true,
+            "tags": [],
+            "notes": "",
+            "chapters": []
+        },
+        {
+            "id": "c81dcb89-1154-4c57-b12f-9176f64a10e5",
+            "title": "Practical Discrete Mathematics",
+            "category": "Linear Algebra",
+            "image_name": "c81dcb89-1154-4c57-b12f-9176f64a10e5.jpg",
+            "url": "https://learning.oreilly.com/library/view/practical-discrete-mathematics/9781838983147/",
+            "rating": true,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "Practical Discrete Mathematics",
+                    "completed": false
+                },
+                {
+                    "name": "Why subscribe?",
+                    "completed": false
+                },
+                {
+                    "name": "Contributors",
+                    "completed": false
+                },
+                {
+                    "name": "About the authors",
+                    "completed": false
+                },
+                {
+                    "name": "About the reviewer",
+                    "completed": false
+                },
+                {
+                    "name": "Packt is searching for authors like you",
+                    "completed": false
+                },
+                {
+                    "name": "Preface",
+                    "completed": false
+                },
+                {
+                    "name": "Part I \u2013 Basic Concepts of Discrete Math",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 1: Key Concepts, Notation, Set Theory, Relations, and Functions",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 2: Formal Logic and Constructing Mathematical Proofs",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 3: Computing with Base-n Numbers",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 4: Combinatorics Using SciPy",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 5: Elements of Discrete Probability",
+                    "completed": false
+                },
+                {
+                    "name": "Part II \u2013 Implementing Discrete Mathematics in Data and Computer Science",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 6: Computational Algorithms in Linear Algebra",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 7: Computational Requirements for Algorithms",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 8: Storage and Feature Extraction of Graphs, Trees, and Networks",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 9: Searching Data Structures and Finding Shortest Paths",
+                    "completed": false
+                },
+                {
+                    "name": "Part III \u2013 Real-World Applications of Discrete Mathematics",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 10: Regression Analysis with NumPy and Scikit-Learn",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 11: Web Searches with PageRank",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 12: Principal Component Analysis with Scikit-Learn",
+                    "completed": false
+                },
+                {
+                    "name": "Other Books You May Enjoy",
+                    "completed": false
+                }
+            ]
         }
     ],
     "Interview": [
@@ -6098,84 +7374,311 @@
             "tags": [],
             "notes": "Have good review on amazon.",
             "chapters": []
-        }
-    ],
-    "CV - Core": [
+        },
         {
-            "id": "8cb95e17-28a0-4289-8f39-b9ba438b7e29",
-            "title": "Computer Vision: Algorithms and Applications / Edition 1",
-            "category": "CV - Core",
-            "image_name": "8cb95e17-28a0-4289-8f39-b9ba438b7e29.jpg",
-            "url": "https://www.barnesandnoble.com/w/computer-vision-richard-szeliski/1101672927?ean=9781848829343",
-            "rating": true,
+            "id": "a4c71308-85b2-4ea4-884f-c6cc50f52eac",
+            "title": "Deep Learning Interviews: Hundreds of fully solved job interview questions from a wide range of key topics in AI.",
+            "category": "Interview",
+            "image_name": "a4c71308-85b2-4ea4-884f-c6cc50f52eac.jpg",
+            "url": "https://www.amazon.com/Deep-Learning-Interviews-interview-questions/dp/1916243568/ref=sr_1_1?crid=1SYXZ9A90R5G4&keywords=Deep+Learning+Interviews&qid=1652632211&sprefix=deep+learning+interviews%2Caps%2C120&sr=8-1",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": []
+        },
+        {
+            "id": "299b6550-71fb-4b6f-bcc6-55fbef2cab8e",
+            "title": "Build a Career in Data Science",
+            "category": "Interview",
+            "image_name": "299b6550-71fb-4b6f-bcc6-55fbef2cab8e.jpg",
+            "url": "https://www.manning.com/books/build-a-career-in-data-science",
+            "rating": false,
             "tags": [],
             "notes": "",
             "chapters": [
                 {
-                    "name": "Introduction.",
+                    "name": "1 WHAT IS DATA SCIENCE?",
                     "completed": false
                 },
                 {
-                    "name": " Image Formation.",
+                    "name": "2 DATA SCIENCE COMPANIES",
                     "completed": false
                 },
                 {
-                    "name": " Image Processing.",
+                    "name": "3 GETTING THE SKILLS",
                     "completed": false
                 },
                 {
-                    "name": " Feature Detection and Matching.",
+                    "name": "4 BUILDING A PORTFOLIO",
                     "completed": false
                 },
                 {
-                    "name": " Segmentation.",
+                    "name": "5 THE SEARCH: IDENTIFYING THE RIGHT JOB FOR YOU",
                     "completed": false
                 },
                 {
-                    "name": " Feature",
+                    "name": "6 THE APPLICATION: R\u00c9SUM\u00c9S AND COVER LETTERS",
                     "completed": false
                 },
                 {
-                    "name": "based Alignment.",
+                    "name": "7 THE INTERVIEW: WHAT TO EXPECT AND HOW TO HANDLE IT",
                     "completed": false
                 },
                 {
-                    "name": " Structure from Motion.",
+                    "name": "8 THE OFFER: KNOWING WHAT TO ACCEPT",
                     "completed": false
                 },
                 {
-                    "name": " Dense Motion Estimation.",
+                    "name": "9 THE FIRST MONTHS ON THE JOB",
                     "completed": false
                 },
                 {
-                    "name": " Image Stitching.",
+                    "name": "10 MAKING AN EFFECTIVE ANALYSIS",
                     "completed": false
                 },
                 {
-                    "name": " Computational Photography.",
+                    "name": "11 DEPLOYING A MODEL INTO PRODUCTION",
                     "completed": false
                 },
                 {
-                    "name": " Stereo Correspondence.",
+                    "name": "12 WORKING WITH STAKEHOLDERS",
                     "completed": false
                 },
                 {
-                    "name": " 3D Reconstruction.",
+                    "name": "13 WHEN YOUR DATA SCIENCE PROJECT FAILS",
                     "completed": false
                 },
                 {
-                    "name": " Image",
+                    "name": "14 JOINING THE DATA SCIENCE COMMUNITY",
                     "completed": false
                 },
                 {
-                    "name": "based Rendering.",
+                    "name": "15 LEAVING YOUR JOB GRACEFULLY",
                     "completed": false
                 },
                 {
-                    "name": " Recognition.",
+                    "name": "16 MOVING UP THE LADDER",
+                    "completed": false
+                },
+                {
+                    "name": "EPILOGUE",
+                    "completed": false
+                },
+                {
+                    "name": "APPENDIX A: INTERVIEW QUESTIONS",
                     "completed": false
                 }
             ]
+        }
+    ],
+    "CV - Core": [
+        {
+            "id": "ca1bbe86-15c0-4a85-88fc-9d5af4171233",
+            "title": "Computer Vision: Algorithms and Applications",
+            "category": "CV - Core",
+            "image_name": "ca1bbe86-15c0-4a85-88fc-9d5af4171233.jpg",
+            "url": "https://www.amazon.com/Computer-Vision-Algorithms-Applications-Science-ebook/dp/B09PMWX8ZG/ref=sr_1_1?crid=TNYFBJ2OUI8U&keywords=Szeliski&qid=1652597340&s=digital-text&sprefix=szeliski%2Cdigital-text%2C39&sr=1-1#customerReviews",
+            "rating": true,
+            "tags": [],
+            "notes": "Must read",
+            "chapters": [
+                {
+                    "name": "1 Introduction",
+                    "completed": false
+                },
+                {
+                    "name": "2 Image formation",
+                    "completed": false
+                },
+                {
+                    "name": "3 Image processing",
+                    "completed": false
+                },
+                {
+                    "name": "4 Model fitting and optimization",
+                    "completed": false
+                },
+                {
+                    "name": "5 Deep learning",
+                    "completed": false
+                },
+                {
+                    "name": "6 Recognition",
+                    "completed": false
+                },
+                {
+                    "name": "7 Feature detection and matching",
+                    "completed": false
+                },
+                {
+                    "name": "8 Image alignment and stitching",
+                    "completed": false
+                },
+                {
+                    "name": "9 Motion estimation",
+                    "completed": false
+                },
+                {
+                    "name": "10 Computational photography",
+                    "completed": false
+                },
+                {
+                    "name": "11 Structure from motion and SLAM",
+                    "completed": false
+                },
+                {
+                    "name": "12 Depth estimation",
+                    "completed": false
+                },
+                {
+                    "name": "13 3D reconstruction",
+                    "completed": false
+                },
+                {
+                    "name": "14 Image-based rendering",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "d26f3711-b123-43e3-9f6e-ea613163af41",
+            "title": "Computer Vision: Models, Learning, and Inference",
+            "category": "CV - Core",
+            "image_name": "d26f3711-b123-43e3-9f6e-ea613163af41.jpg",
+            "url": "https://www.amazon.com/Computer-Vision-Models-Learning-Inference/dp/1107011795/ref=sr_1_1?keywords=computer+vision+models%2C+learning%2C+and+inference&qid=1652596414&s=books&sprefix=computer+vision+models%2Cstripbooks%2C71&sr=1-1",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": []
+        },
+        {
+            "id": "7a606290-9b59-4537-811c-d284bf77e405",
+            "title": "Computer Vision: A Modern Approach",
+            "category": "CV - Core",
+            "image_name": "7a606290-9b59-4537-811c-d284bf77e405.jpg",
+            "url": "https://www.amazon.com/Computer-Vision-Modern-Approach-2nd/dp/013608592X/ref=tmm_hrd_swatch_0?_encoding=UTF8&qid=1652596475&sr=1-1",
+            "rating": false,
+            "tags": [],
+            "notes": "A difficult book to read.",
+            "chapters": []
+        },
+        {
+            "id": "64af6cab-9b92-4494-ae4b-08c5baba5aca",
+            "title": "Computer Vision and Image Processing: Fundamentals and Applications",
+            "category": "CV - Core",
+            "image_name": "64af6cab-9b92-4494-ae4b-08c5baba5aca.jpg",
+            "url": "https://www.amazon.com/Computer-Vision-Image-Processing-Fundamentals-ebook-dp-B0813WV6TW/dp/B0813WV6TW/ref=mt_other?_encoding=UTF8&me=&qid=1652596553",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": []
+        },
+        {
+            "id": "5e6f7b7c-d8e2-41d8-ad8c-9b6601c7e60b",
+            "title": "Computer Vision: Principles, Algorithms, Applications, Learning",
+            "category": "CV - Core",
+            "image_name": "5e6f7b7c-d8e2-41d8-ad8c-9b6601c7e60b.jpg",
+            "url": "https://www.amazon.com/Computer-Vision-Principles-Algorithms-Applications/dp/012809284X/ref=sr_1_1?crid=2BO8YJXMD1EFK&keywords=Computer+Vision+Principles%2C+Algorithms%2C+Applications&qid=1652596741&s=books&sprefix=computer+vision+principles%2C+algorithms%2C+applications%2Cstripbooks%2C47&sr=1-1",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": []
+        },
+        {
+            "id": "ef28343a-d0b9-43d0-b119-3e65ac290054",
+            "title": "Concise Computer Vision: An Introduction into Theory and Algorithms (Undergraduate Topics in Computer Science)",
+            "category": "CV - Core",
+            "image_name": "ef28343a-d0b9-43d0-b119-3e65ac290054.jpg",
+            "url": "https://www.amazon.com/Concise-Computer-Vision-Introduction-Undergraduate-ebook/dp/B00HOYNXAO/ref=sr_1_1?crid=5CU4JGDHBUWN&keywords=Concise+Computer+Vision&qid=1652596862&s=digital-text&sprefix=concise+computer+vision+%2Cdigital-text%2C37&sr=1-1",
+            "rating": true,
+            "tags": [],
+            "notes": "A very good book to read before Szeliski.",
+            "chapters": [
+                {
+                    "name": "1 Image Data",
+                    "completed": false
+                },
+                {
+                    "name": "2 Image Processing",
+                    "completed": false
+                },
+                {
+                    "name": "3 Image Analysis",
+                    "completed": false
+                },
+                {
+                    "name": "4 Dense Motion Analysis",
+                    "completed": false
+                },
+                {
+                    "name": "5 Image Segmentation",
+                    "completed": false
+                },
+                {
+                    "name": "6 Cameras,Coordinates and Calibration",
+                    "completed": false
+                },
+                {
+                    "name": "7 3D Shape Reconstruction",
+                    "completed": false
+                },
+                {
+                    "name": "8 Stereo Matching",
+                    "completed": false
+                },
+                {
+                    "name": "9 Feature Detection and Tracking",
+                    "completed": false
+                },
+                {
+                    "name": "10 Object Detection",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "9b216c98-3b9b-49cc-87ea-ddf9c998f04a",
+            "title": "Handbook of Image Processing and Computer Vision: Volume 1: From Energy to Image",
+            "category": "CV - Core",
+            "image_name": "9b216c98-3b9b-49cc-87ea-ddf9c998f04a.jpg",
+            "url": "https://www.amazon.com/Handbook-Image-Processing-Computer-Vision/dp/3030381501/ref=sr_1_1?crid=1GQ2IB8SO72KX&keywords=Handbook+of+Image+Processing+and+Computer+Vision+Volume+1&qid=1652597214&s=books&sprefix=handbook+of+image+processing+and+computer+vision+volume+1+%2Cstripbooks%2C94&sr=1-1",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": []
+        },
+        {
+            "id": "69de39c1-8eec-4e3d-b50b-abbbcac96891",
+            "title": "Handbook of Image Processing and Computer Vision: Volume 2: From Image to Pattern",
+            "category": "CV - Core",
+            "image_name": "69de39c1-8eec-4e3d-b50b-abbbcac96891.jpg",
+            "url": "https://www.amazon.com/Handbook-Image-Processing-Computer-Vision/dp/3030423735/ref=pd_sbs_sccl_1_1/132-9042979-5979220?pd_rd_w=Y1jAz&pf_rd_p=4b6b5072-e9bd-4f30-a3af-a1f5d52978ec&pf_rd_r=BZ819WBTPTGQRFC8D5RG&pd_rd_r=d0be4fbe-9fe5-499b-a745-7cf03d943123&pd_rd_wg=PGj7b&pd_rd_i=3030423735&psc=1",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": []
+        },
+        {
+            "id": "10b1e88f-bd32-404a-b3a2-737b5227dfa7",
+            "title": "Handbook of Image Processing and Computer Vision: Volume 3: From Pattern to Object",
+            "category": "CV - Core",
+            "image_name": "10b1e88f-bd32-404a-b3a2-737b5227dfa7.jpg",
+            "url": "https://www.amazon.com/Handbook-Image-Processing-Computer-Vision/dp/3030423778/ref=pd_sbs_sccl_1_1/132-9042979-5979220?pd_rd_w=rJIob&pf_rd_p=4b6b5072-e9bd-4f30-a3af-a1f5d52978ec&pf_rd_r=SDW67W2XS40Q2450JABX&pd_rd_r=57994178-e191-4d99-ae30-9c7e6a781939&pd_rd_wg=bW3cV&pd_rd_i=3030423778&psc=1",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": []
+        },
+        {
+            "id": "79e751cd-be62-4ed8-9f40-c4cb8a990539",
+            "title": "Recent Advances in Computer Vision: Theories and Applications (Studies in Computational Intelligence, 804)",
+            "category": "CV - Core",
+            "image_name": "79e751cd-be62-4ed8-9f40-c4cb8a990539.jpg",
+            "url": "https://www.amazon.com/Recent-Advances-Computer-Vision-Computational/dp/3030029999/ref=sr_1_1?crid=QFYQDF6VRJSJ&keywords=Recent+advances+in+computer+vision+theories&qid=1652597296&s=books&sprefix=recent+advances+in+computer+vision+theories%2Cstripbooks%2C42&sr=1-1",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": []
         }
     ],
     "Bayesian": [
@@ -6388,6 +7891,265 @@
                     "completed": false
                 }
             ]
+        }
+    ],
+    "Graph Neural Network": [
+        {
+            "id": "175e477d-2702-4e80-828a-aeea18c0b774",
+            "title": "Graph Neural Networks in Action",
+            "category": "Graph Neural Network",
+            "image_name": "175e477d-2702-4e80-828a-aeea18c0b774.jpg",
+            "url": "https://www.manning.com/books/graph-neural-networks-in-action?query=graph",
+            "rating": true,
+            "tags": [],
+            "notes": "Great book.",
+            "chapters": [
+                {
+                    "name": "1 DISCOVERING GRAPH NEURAL NETWORKS",
+                    "completed": false
+                },
+                {
+                    "name": "2 SYSTEM DESIGN AND DATA PIPELINING",
+                    "completed": false
+                },
+                {
+                    "name": "3 GRAPH EMBEDDINGS",
+                    "completed": false
+                },
+                {
+                    "name": "4 GRAPH CONVOLUTIONAL NETWORKS AND GRAPHSAGE",
+                    "completed": false
+                },
+                {
+                    "name": "5 GRAPH ATTENTION NETWORKS",
+                    "completed": false
+                },
+                {
+                    "name": "6 GRAPH AUTOENCODERS",
+                    "completed": false
+                },
+                {
+                    "name": "7 DYNAMIC GRAPHS: SPATIAL-TEMPORAL GNNS",
+                    "completed": false
+                },
+                {
+                    "name": "8 LEARNING AND INFERENCE AT SCALE",
+                    "completed": false
+                },
+                {
+                    "name": "APPENDIX A: DISCOVERING GRAPHS",
+                    "completed": false
+                },
+                {
+                    "name": "APPENDIX B: INSTALLING AND CONFIGURING THE FRAMEWORKS IN THIS BOOK",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "089d8e76-43be-4812-b88b-b40ecf04c4e3",
+            "title": "Deep Learning on Graphs",
+            "category": "Graph Neural Network",
+            "image_name": "089d8e76-43be-4812-b88b-b40ecf04c4e3.jpg",
+            "url": "https://www.amazon.com/Deep-Learning-Graphs-Yao-Ma/dp/1108831745/ref=sr_1_1?crid=3ESTZ0ZA75FWX&keywords=Deep+Learning+on+Graphs&qid=1652599237&sprefix=deep+learning+on+graphs+%2Caps%2C87&sr=8-1",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": []
+        },
+        {
+            "id": "8b5f393f-719f-49b7-94fc-2a2e4cef4b51",
+            "title": "Graph Machine Learning",
+            "category": "Graph Neural Network",
+            "image_name": "8b5f393f-719f-49b7-94fc-2a2e4cef4b51.jpg",
+            "url": "https://learning.oreilly.com/library/view/graph-machine-learning/9781800204492/",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "Graph Machine Learning",
+                    "completed": false
+                },
+                {
+                    "name": "Contributors",
+                    "completed": false
+                },
+                {
+                    "name": "About the authors",
+                    "completed": false
+                },
+                {
+                    "name": "About the reviewers",
+                    "completed": false
+                },
+                {
+                    "name": "Preface",
+                    "completed": false
+                },
+                {
+                    "name": "Section 1 \u2013 Introduction to Graph Machine Learning",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 1: Getting Started with Graphs",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 2: Graph Machine Learning",
+                    "completed": false
+                },
+                {
+                    "name": "Section 2 \u2013 Machine Learning on Graphs",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 3: Unsupervised Graph Learning",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 4: Supervised Graph Learning",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 5: Problems with Machine Learning on Graphs",
+                    "completed": false
+                },
+                {
+                    "name": "Section 3 \u2013 Advanced Applications of Graph Machine Learning",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 6: Social Network Graphs",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 7: Text Analytics and Natural Language Processing Using Graphs",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 8:Graph Analysis for Credit Card Transactions",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 9: Building a Data-Driven Graph-Powered Application",
+                    "completed": false
+                },
+                {
+                    "name": "Chapter 10: Novel Trends on Graphs",
+                    "completed": false
+                },
+                {
+                    "name": "Other Books You May Enjoy",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "34dccc94-1969-4a8c-910e-ba5d202945e3",
+            "title": "Graph Neural Networks: Foundations, Frontiers, and Applications",
+            "category": "Graph Neural Network",
+            "image_name": "34dccc94-1969-4a8c-910e-ba5d202945e3.jpg",
+            "url": "https://www.amazon.com/Graph-Neural-Networks-Foundations-Applications/dp/9811660530/ref=sr_1_1?keywords=graph+neural+networks&qid=1652599521&sprefix=Graph+neural+%2Caps%2C46&sr=8-1#customerReviews",
+            "rating": true,
+            "tags": [],
+            "notes": "A comprehensive book, loaded with theory.",
+            "chapters": []
+        },
+        {
+            "id": "6fce56dc-2fc8-46bd-9433-64d16f2a83ee",
+            "title": "Introduction to Graph Neural Networks (Synthesis Lectures on Artificial Intelligence and Machine Le)",
+            "category": "Graph Neural Network",
+            "image_name": "6fce56dc-2fc8-46bd-9433-64d16f2a83ee.jpg",
+            "url": "https://www.amazon.com/Introduction-Networks-Synthesis-Artificial-Intelligence/dp/1681737655/ref=sr_1_2_sspa?keywords=graph+neural+networks&qid=1652599521&sprefix=Graph+neural+%2Caps%2C46&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExUDhCUDA0TFJYSUNCJmVuY3J5cHRlZElkPUEwMTc2OTA4M0NPN0c1V0ZLV0pCVSZlbmNyeXB0ZWRBZElkPUEwMjU5NDI4MkxXOElPWDVLS045VCZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": []
+        }
+    ],
+    "Data Science": [
+        {
+            "id": "d7dbc3f5-006a-4a22-a48f-42718b1c8423",
+            "title": "Data Science and Machine Learning: Mathematical and Statistical Methods (Chapman & Hall/CRC Machine Learning & Pattern Recognition)",
+            "category": "Data Science",
+            "image_name": "d7dbc3f5-006a-4a22-a48f-42718b1c8423.jpg",
+            "url": "https://www.amazon.com/Data-Science-Machine-Learning-Mathematical/dp/1138492531/ref=sr_1_1?keywords=data+science+and+machine+learning&qid=1652632367&sprefix=data+science+and+mac%2Caps%2C63&sr=8-1",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": []
+        },
+        {
+            "id": "264cc0e1-5eae-4643-9bdc-68414e47db49",
+            "title": "Essential Math for Data Science",
+            "category": "Data Science",
+            "image_name": "264cc0e1-5eae-4643-9bdc-68414e47db49.jpg",
+            "url": "https://learning.oreilly.com/library/view/essential-math-for/9781098102920/",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "Preface",
+                    "completed": false
+                },
+                {
+                    "name": "1. Basic Math and Calculus Review",
+                    "completed": false
+                },
+                {
+                    "name": "2. Probability",
+                    "completed": false
+                },
+                {
+                    "name": "3. Descriptive and Inferential Statistics",
+                    "completed": false
+                },
+                {
+                    "name": "4. Linear Algebra",
+                    "completed": false
+                },
+                {
+                    "name": "5. Linear Regression",
+                    "completed": false
+                },
+                {
+                    "name": "6. Logistic Regression and Classification",
+                    "completed": false
+                },
+                {
+                    "name": "7. Neural Networks",
+                    "completed": false
+                },
+                {
+                    "name": "8. Career Advice and the Path Forward",
+                    "completed": false
+                },
+                {
+                    "name": "A. Appendix",
+                    "completed": false
+                },
+                {
+                    "name": "B. Exercise Answers",
+                    "completed": false
+                },
+                {
+                    "name": "About the Author",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "88f42572-a0b8-44cd-9a9c-86c3a7faeacf",
+            "title": "Foundations of Data Science",
+            "category": "Data Science",
+            "image_name": "88f42572-a0b8-44cd-9a9c-86c3a7faeacf.jpg",
+            "url": "https://www.amazon.com/Foundations-Data-Science-Avrim-Blum/dp/1108485065/ref=sr_1_1?crid=1JA66FDU35S3V&keywords=Foundations+of+Data+Science&qid=1652634782&sprefix=foundations+of+data+science+%2Caps%2C94&sr=8-1",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": []
         }
     ]
 }

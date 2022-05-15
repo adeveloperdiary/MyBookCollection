@@ -216,9 +216,9 @@ def get_manning_data(url):
 
     body = driver.find_element_by_css_selector('body')
     body.send_keys(Keys.PAGE_DOWN)
-    time.sleep(.5)
+    time.sleep(1)
     body.send_keys(Keys.PAGE_DOWN)
-    time.sleep(.5)
+    time.sleep(1)
 
     tocs = driver.find_element(by=By.CLASS_NAME, value='toc').find_elements(By.TAG_NAME, 'h2')
     arr = []
@@ -304,7 +304,7 @@ def get_amazon_data(url):
     driver = webdriver.Chrome(ChromeDriverManager().install())
     driver.get(url)
 
-    image_src = driver.find_element(by=By.ID, value='mainImageContainer').find_element(By.TAG_NAME, 'img').get_property(
+    image_src = driver.find_element(by=By.ID, value='imgBlkFront').get_property(
         'src')
     title = driver.find_element(by=By.ID, value='productTitle').text
     driver.quit()

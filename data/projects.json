@@ -605,25 +605,6 @@
             }
         }
     },
-    "cb8ca0dc-dcb8-4e9a-88fc-4585bdb6d2c7": {
-        "name": "Monday July 13, 2020",
-        "color": "#4BA9A6",
-        "goal": "",
-        "tasks": {
-            "20eb1bef-fa6a-4a31-9730-b1a0ffdf240e": {
-                "name": "Complete Sentiment Analysis",
-                "completed": true
-            },
-            "572bcec0-9d3e-4637-8f80-e7adbc1d4868": {
-                "name": "Read Machine Learning Refined",
-                "completed": true
-            },
-            "bb3d7791-a6bc-45df-8dd0-8e67aecc1f14": {
-                "name": "edx Probablity course",
-                "completed": true
-            }
-        }
-    },
     "63f190b1-4295-4762-ab4d-c41b7bf34863": {
         "name": "Tuesday July 14, 2020",
         "color": "#9C49F7",
