@@ -4760,115 +4760,48 @@
     ],
     "Algorithms": [
         {
-            "id": "865bd87b-4577-4c45-acd4-af3c6070d5d6",
-            "title": "Algorithms and Data Structures in Action",
-            "category": "Algorithms",
-            "image_name": "865bd87b-4577-4c45-acd4-af3c6070d5d6.jpg",
-            "url": "https://www.manning.com/books/algorithms-and-data-structures-in-action",
-            "rating": false,
-            "tags": [],
-            "notes": "Might be complicated.",
-            "chapters": [
-                {
-                    "name": "1 Introducing Data Structures",
-                    "completed": false
-                },
-                {
-                    "name": "2 Improve priority queues: d-way heaps",
-                    "completed": false
-                },
-                {
-                    "name": "3 Treaps Using Randomization to Balance Binary Search Trees",
-                    "completed": false
-                },
-                {
-                    "name": "4 Bloom Filters: Reduce the memory needed to keep track of content",
-                    "completed": false
-                },
-                {
-                    "name": "5 Disjoint Set: Sub-linear-time processing of disjoint sets",
-                    "completed": false
-                },
-                {
-                    "name": "6 Trie, Radix Trie: Efficient Strings Search",
-                    "completed": false
-                },
-                {
-                    "name": "7 Use case: LRU Cache",
-                    "completed": false
-                },
-                {
-                    "name": "8 Nearest Neighbors search",
-                    "completed": false
-                },
-                {
-                    "name": "9 K-d Trees: Multi-dimensional Data Indexing",
-                    "completed": false
-                },
-                {
-                    "name": "10 Similarity Search Trees: Approximate Nearest Neighbors Search for Image Retrieval",
-                    "completed": false
-                },
-                {
-                    "name": "11 Applications of Nearest Neighbors Search",
-                    "completed": false
-                },
-                {
-                    "name": "12 Clustering",
-                    "completed": false
-                },
-                {
-                    "name": "13 Parallel Clustering: Map-Reduce and Canopy Clustering",
-                    "completed": false
-                },
-                {
-                    "name": "14 An Introduction to Graphs: Finding Paths of Minimum Distance",
-                    "completed": false
-                },
-                {
-                    "name": "15 Graph Embeddings and Planarity: Drawing Graphs with Minimal Edges Intersections",
-                    "completed": false
-                },
-                {
-                    "name": "16 Gradient Descent: Optimization Problems (not just) on Graphs",
-                    "completed": false
-                },
-                {
-                    "name": "Appendix A: Quick Guide to Pseudo-Code",
-                    "completed": false
-                },
-                {
-                    "name": "Appendix B: Big-O Notation",
-                    "completed": false
-                },
-                {
-                    "name": "Appendix C: Core Data Structures",
-                    "completed": false
-                },
-                {
-                    "name": "Appendix D: Containers as priority queues",
-                    "completed": false
-                },
-                {
-                    "name": "Appendix E: Recursion",
-                    "completed": false
-                },
-                {
-                    "name": "Appendix F: Classification problems Randomized algorithms Metrics",
-                    "completed": false
-                }
-            ]
-        },
-        {
             "id": "d936a429-1d71-4563-895b-7c9547d13ae2",
-            "title": "\nLearning Algorithms Through Programming and Puzzle Solving\n",
+            "title": "Learning Algorithms Through Programming and Puzzle Solving",
             "category": "Algorithms",
             "image_name": "d936a429-1d71-4563-895b-7c9547d13ae2.jpg",
             "url": "https://www.amazon.com/Learning-Algorithms-Through-Programming-Solving/dp/0985731214/ref=tmm_other_meta_binding_swatch_0?_encoding=UTF8&qid=&sr=",
-            "rating": false,
+            "rating": true,
             "tags": [],
-            "notes": "Only 150 pages, but nice color and code.",
-            "chapters": []
+            "notes": "Only 299 pages, but nice color and code. Very good book. Need to read this.",
+            "chapters": [
+                {
+                    "name": "1 Algorithms and Complexity",
+                    "completed": false
+                },
+                {
+                    "name": "2 Algorithm Design Techniques",
+                    "completed": false
+                },
+                {
+                    "name": "3 Programming Challenges",
+                    "completed": false
+                },
+                {
+                    "name": "4 Algorithmic Warm Up",
+                    "completed": false
+                },
+                {
+                    "name": "5 Greedy Algorithms",
+                    "completed": false
+                },
+                {
+                    "name": "6 Divide-and-Conquer",
+                    "completed": false
+                },
+                {
+                    "name": "7 Dynamic Programming",
+                    "completed": false
+                },
+                {
+                    "name": "8 Best Programming Practices (Optional)",
+                    "completed": false
+                }
+            ]
         },
         {
             "id": "c869a7f4-50ea-45c0-8d08-90628d1c13a0",
@@ -4876,9 +4809,9 @@
             "category": "Algorithms",
             "image_name": "c869a7f4-50ea-45c0-8d08-90628d1c13a0.jpg",
             "url": "https://www.manning.com/books/classic-computer-science-problems-in-python?query=classic",
-            "rating": true,
+            "rating": false,
             "tags": [],
-            "notes": "A must read",
+            "notes": "A must-read but don't have time in 2022",
             "chapters": [
                 {
                     "name": "Introduction",
@@ -5268,7 +5201,7 @@
             "url": "https://www.amazon.com/Introduction-Algorithms-3rd-MIT-Press/dp/0262033844/ref=sr_1_2?dchild=1&keywords=Introduction+to+Algorithms%2C+third+edition&qid=1594021341&s=books&sr=1-2",
             "rating": false,
             "tags": [],
-            "notes": "",
+            "notes": "Unnecessary long book. Can be deleted.",
             "chapters": []
         },
         {
@@ -5323,6 +5256,114 @@
                 },
                 {
                     "name": "11 External-memory sorting and batched problems in external memory",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "83a5f477-b69d-419a-ac69-b5b9fe170099",
+            "title": "Advanced Algorithms and Data Structures",
+            "category": "Algorithms",
+            "image_name": "83a5f477-b69d-419a-ac69-b5b9fe170099.jpg",
+            "url": "https://www.manning.com/books/advanced-algorithms-and-data-structures",
+            "rating": false,
+            "tags": [],
+            "notes": "Definitely a good book and related to ML. Can be read after getting a stable job or before the interview. Long book and will take time to read.",
+            "chapters": [
+                {
+                    "name": "1 INTRODUCING DATA STRUCTURES",
+                    "completed": false
+                },
+                {
+                    "name": "2 IMPROVING PRIORITY QUEUES: D-WAY HEAPS",
+                    "completed": false
+                },
+                {
+                    "name": "3 TREAPS: USING RANDOMIZATION TO BALANCE BINARY SEARCH TREES",
+                    "completed": false
+                },
+                {
+                    "name": "4 BLOOM FILTERS: REDUCING THE MEMORY FOR TRACKING CONTENT",
+                    "completed": false
+                },
+                {
+                    "name": "5 DISJOINT SETS: SUB-LINEAR TIME PROCESSING",
+                    "completed": false
+                },
+                {
+                    "name": "6 TRIE, RADIX TRIE: EFFICIENT STRING SEARCH",
+                    "completed": false
+                },
+                {
+                    "name": "7 USE CASE: LRU CACHE",
+                    "completed": false
+                },
+                {
+                    "name": "8 NEAREST NEIGHBORS SEARCH",
+                    "completed": false
+                },
+                {
+                    "name": "9 K-D TREES: MULTIDIMENSIONAL DATA INDEXING",
+                    "completed": false
+                },
+                {
+                    "name": "10 SIMILARITY SEARCH TREES: APPROXIMATE NEAREST NEIGHBORS SEARCH FOR IMAGE RETRIEVAL",
+                    "completed": false
+                },
+                {
+                    "name": "11 APPLICATIONS OF NEAREST NEIGHBOR SEARCH",
+                    "completed": false
+                },
+                {
+                    "name": "12 CLUSTERING",
+                    "completed": false
+                },
+                {
+                    "name": "13 PARALLEL CLUSTERING: MAPREDUCE AND CANOPY CLUSTERING",
+                    "completed": false
+                },
+                {
+                    "name": "14 AN INTRODUCTION TO GRAPHS: FINDING PATHS OF MINIMUM DISTANCE",
+                    "completed": false
+                },
+                {
+                    "name": "15 AN INTRODUCTION TO GRAPHS: FINDING PATHS OF MINIMUM DISTANCE",
+                    "completed": false
+                },
+                {
+                    "name": "16 GRADIENT DESCENT: OPTIMIZATION PROBLEMS (NOT JUST) ON GRAPHS",
+                    "completed": false
+                },
+                {
+                    "name": "17 SIMULATED ANNEALING: OPTIMIZATION BEYOND LOCAL MINIMA",
+                    "completed": false
+                },
+                {
+                    "name": "18 GENETIC ALGORITHMS: BIOLOGICALLY INSPIRED, FAST-CONVERGING OPTIMIZATION",
+                    "completed": false
+                },
+                {
+                    "name": "APPENDIX A: A QUICK GUIDE TO PSEUDO-CODE",
+                    "completed": false
+                },
+                {
+                    "name": "APPENDIX B: BIG-O NOTATION",
+                    "completed": false
+                },
+                {
+                    "name": "APPENDIX C: CORE DATA STRUCTURES",
+                    "completed": false
+                },
+                {
+                    "name": "APPENDIX D: CONTAINERS AS PRIORITY QUEUES",
+                    "completed": false
+                },
+                {
+                    "name": "APPENDIX E: RECURSION",
+                    "completed": false
+                },
+                {
+                    "name": "APPENDIX F: CLASSIFICATION PROBLEMS AND RANDOMNIZED ALGORITHM METRICS",
                     "completed": false
                 }
             ]
@@ -5501,10 +5542,8 @@
         }
     ],
     "Queue": [
-        "0c247b0f-5f1d-4450-82d7-c5600266011d",
-        "780b2584-ae37-4f63-b02d-91f485578058",
-        "b053396c-5233-4d80-b873-b462cb219c70",
-        "7fdbefac-f88b-46ba-ae66-720fe39d43e3"
+        "9b023361-9e1c-494e-9ec7-67a8c6273af5",
+        "d936a429-1d71-4563-895b-7c9547d13ae2"
     ],
     "GAN": [
         {
@@ -6134,6 +6173,218 @@
                 },
                 {
                     "name": " Recognition.",
+                    "completed": false
+                }
+            ]
+        }
+    ],
+    "Bayesian": [
+        {
+            "id": "94c6861e-2053-4b6d-8aa8-2cee2e96a38c",
+            "title": "A Student\u2019s Guide to Bayesian Statistics",
+            "category": "Bayesian",
+            "image_name": "94c6861e-2053-4b6d-8aa8-2cee2e96a38c.jpg",
+            "url": "https://www.amazon.com/Students-Guide-Bayesian-Statistics/dp/1473916364",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": []
+        },
+        {
+            "id": "9b023361-9e1c-494e-9ec7-67a8c6273af5",
+            "title": "Bayesian Methods for Hackers: Probabilistic Programming and Bayesian Inference",
+            "category": "Bayesian",
+            "image_name": "9b023361-9e1c-494e-9ec7-67a8c6273af5.jpg",
+            "url": "https://www.oreilly.com/library/view/bayesian-methods-for/9780133902914/",
+            "rating": true,
+            "tags": [],
+            "notes": "A must-read book in 2022",
+            "chapters": [
+                {
+                    "name": "About This eBook",
+                    "completed": false
+                },
+                {
+                    "name": "Title Page",
+                    "completed": false
+                },
+                {
+                    "name": "Copyright Page",
+                    "completed": false
+                },
+                {
+                    "name": "Dedication Page",
+                    "completed": false
+                },
+                {
+                    "name": "Contents",
+                    "completed": false
+                },
+                {
+                    "name": "Foreword",
+                    "completed": false
+                },
+                {
+                    "name": "Preface",
+                    "completed": false
+                },
+                {
+                    "name": "Acknowledgments",
+                    "completed": false
+                },
+                {
+                    "name": "About the Author",
+                    "completed": false
+                },
+                {
+                    "name": "1. The Philosophy of Bayesian Inference",
+                    "completed": false
+                },
+                {
+                    "name": "2. A Little More on PyMC",
+                    "completed": false
+                },
+                {
+                    "name": "3. Opening the Black Box of MCMC",
+                    "completed": false
+                },
+                {
+                    "name": "4. The Greatest Theorem Never Told",
+                    "completed": false
+                },
+                {
+                    "name": "5. Would You Rather Lose an Arm or a Leg?",
+                    "completed": false
+                },
+                {
+                    "name": "6. Getting Our Priorities Straight",
+                    "completed": false
+                },
+                {
+                    "name": "7. Bayesian A/B Testing",
+                    "completed": false
+                },
+                {
+                    "name": "Glossary",
+                    "completed": false
+                },
+                {
+                    "name": "Index",
+                    "completed": false
+                },
+                {
+                    "name": "Code Snippets",
+                    "completed": false
+                }
+            ]
+        },
+        {
+            "id": "ba85c396-d28e-45ae-947d-c0a3bb98ac8f",
+            "title": "Bayesian Statistics for Beginners: a step-by-step approach",
+            "category": "Bayesian",
+            "image_name": "ba85c396-d28e-45ae-947d-c0a3bb98ac8f.jpg",
+            "url": "https://www.amazon.com/Bayesian-Statistics-Beginners-step-step/dp/0198841302",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": []
+        },
+        {
+            "id": "2fc9b2f4-c35c-446f-8666-f518740f67ae",
+            "title": "Think Bayes, 2nd Edition",
+            "category": "Bayesian",
+            "image_name": "2fc9b2f4-c35c-446f-8666-f518740f67ae.jpg",
+            "url": "https://learning.oreilly.com/library/view/think-bayes-2nd/9781492089452/",
+            "rating": false,
+            "tags": [],
+            "notes": "",
+            "chapters": [
+                {
+                    "name": "Preface",
+                    "completed": false
+                },
+                {
+                    "name": "1. Probability",
+                    "completed": false
+                },
+                {
+                    "name": "2. Bayes\u2019s Theorem",
+                    "completed": false
+                },
+                {
+                    "name": "3. Distributions",
+                    "completed": false
+                },
+                {
+                    "name": "4. Estimating Proportions",
+                    "completed": false
+                },
+                {
+                    "name": "5. Estimating Counts",
+                    "completed": false
+                },
+                {
+                    "name": "6. Odds and Addends",
+                    "completed": false
+                },
+                {
+                    "name": "7. Minimum, Maximum, and Mixture",
+                    "completed": false
+                },
+                {
+                    "name": "8. Poisson Processes",
+                    "completed": false
+                },
+                {
+                    "name": "9. Decision Analysis",
+                    "completed": false
+                },
+                {
+                    "name": "10. Testing",
+                    "completed": false
+                },
+                {
+                    "name": "11. Comparison",
+                    "completed": false
+                },
+                {
+                    "name": "12. Classification",
+                    "completed": false
+                },
+                {
+                    "name": "13. Inference",
+                    "completed": false
+                },
+                {
+                    "name": "14. Survival Analysis",
+                    "completed": false
+                },
+                {
+                    "name": "15. Mark and Recapture",
+                    "completed": false
+                },
+                {
+                    "name": "16. Logistic Regression",
+                    "completed": false
+                },
+                {
+                    "name": "17. Regression",
+                    "completed": false
+                },
+                {
+                    "name": "18. Conjugate Priors",
+                    "completed": false
+                },
+                {
+                    "name": "19. MCMC",
+                    "completed": false
+                },
+                {
+                    "name": "20. Approximate Bayesian Computation",
+                    "completed": false
+                },
+                {
+                    "name": "Index",
                     "completed": false
                 }
             ]

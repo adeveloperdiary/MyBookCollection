@@ -5,6 +5,11 @@ import pprint
 from bs4 import BeautifulSoup
 import uuid
 import base64
+import time
+from selenium import webdriver
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.common.by import By
+import time
 
 app = Flask(__name__)
 
@@ -199,6 +204,33 @@ def save_notes():
     return '{"result":"success"}'
 
 
+def get_manning_data(url):
+    driver = webdriver.Chrome(ChromeDriverManager().install())
+    driver.get(url)
+
+    image_src = driver.find_element(by=By.CLASS_NAME, value='product-cover').get_property('src')
+
+    title = driver.find_element(by=By.CLASS_NAME, value='product-title').text
+
+    from selenium.webdriver.common.keys import Keys
+
+    body = driver.find_element_by_css_selector('body')
+    body.send_keys(Keys.PAGE_DOWN)
+    time.sleep(.5)
+    body.send_keys(Keys.PAGE_DOWN)
+    time.sleep(.5)
+
+    tocs = driver.find_element(by=By.CLASS_NAME, value='toc').find_elements(By.TAG_NAME, 'h2')
+    arr = []
+
+    for toc in tocs:
+        arr.append(toc.text)
+
+    driver.quit()
+
+    return image_src, title, arr
+
+
 @app.route('/fetch_manning')
 def fetch_manning_book_details():
     global books
@@ -208,29 +240,35 @@ def fetch_manning_book_details():
 
     url = base64.b64decode(url)
 
-    page = requests.get(url)
-    soup = BeautifulSoup(page.content, 'html.parser')
-    result = soup.find('div', class_='product-title')
-    title = result.text.strip()
+    # page = requests.get(url,timeout=30)
+    # time.sleep(5)
+    # soup = BeautifulSoup(page.content, 'html.parser')
+    # result = soup.find('h1', class_='product-title')
+    # title = result.text.strip()
 
-    image = soup.find('div', class_='product-thumbnail')
+    # image = soup.find('img', class_='product-cover')
+
+    url = url.decode("utf-8")
+
+    image_src, title, results = get_manning_data(url)
+
     image_name = str(uuid.uuid4())
-    if image is not None:
-        image = image.attrs['style']
-        image = image.split("'")[-2]
+    if image_src is not None:
+        # mage = image.attrs['src']
+        # image = image.split("'")[-2]
 
         f = open(f'static/book_covers/{image_name}.jpg', 'wb')
-        f.write(requests.get(image).content)
+        f.write(requests.get(image_src).content)
         f.close()
 
-    results = soup.find('div', {'class': 'toc'})
-    results = results.find_all('h2')
+    # results = soup.find('div', {'class': 'toc'})
+    # results = results.find_all('h2')
     chapters = list()
     for result in results:
         # t = result.text.split(" ")[1:]
 
         d = {
-            'name': result.text,
+            'name': result,
             'completed': False
         }
         chapters.append(d)
@@ -240,7 +278,7 @@ def fetch_manning_book_details():
         "title": title,
         "category": cat,
         "image_name": f'{image_name}.jpg',
-        "url": url.decode(),
+        "url": url,
         "rating": False,
         "tags": [
         ],
@@ -262,6 +300,18 @@ def fetch_manning_book_details():
     return '{"result":"success"}'
 
 
+def get_amazon_data(url):
+    driver = webdriver.Chrome(ChromeDriverManager().install())
+    driver.get(url)
+
+    image_src = driver.find_element(by=By.ID, value='mainImageContainer').find_element(By.TAG_NAME, 'img').get_property(
+        'src')
+    title = driver.find_element(by=By.ID, value='productTitle').text
+    driver.quit()
+
+    return image_src, title
+
+
 @app.route('/fetch_amazon')
 def fetch_amazon_book_details():
     global books
@@ -270,29 +320,10 @@ def fetch_amazon_book_details():
     url = request.args.get('url')
 
     url = base64.b64decode(url)
+    url = url.decode()
 
-    headers = {
-        'dnt': '1',
-        'upgrade-insecure-requests': '1',
-        'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36',
-        'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
-        'sec-fetch-site': 'same-origin',
-        'sec-fetch-mode': 'navigate',
-        'sec-fetch-user': '?1',
-        'sec-fetch-dest': 'document',
-        'referer': 'https://www.amazon.com/',
-        'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
-    }
+    image_path, title = get_amazon_data(url)
 
-    r = requests.get(url, headers=headers)
-    # Simple check to check if page was blocked (Usually 503)
-
-    soup = BeautifulSoup(r.content, 'html.parser')
-    title = soup.find('span', {'id': 'productTitle'}).text
-
-    image = soup.select('#imgBlkFront')[0].get('data-a-dynamic-image')
-
-    image_path = image.split('"')[1]
     image_name = str(uuid.uuid4())
     f = open(f'static/book_covers/{image_name}.jpg', 'wb')
     f.write(requests.get(image_path).content)
@@ -303,7 +334,7 @@ def fetch_amazon_book_details():
         "title": title,
         "category": cat,
         "image_name": f'{image_name}.jpg',
-        "url": url.decode(),
+        "url": url,
         "rating": False,
         "tags": [
         ],
