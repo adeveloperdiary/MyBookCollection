@@ -5960,19 +5960,19 @@
             "chapters": [
                 {
                     "name": "Preliminaries",
-                    "completed": true
+                    "completed": false
                 },
                 {
                     "name": "Preface",
-                    "completed": true
+                    "completed": false
                 },
                 {
                     "name": "Chapter 1 Probability and counting",
-                    "completed": true
+                    "completed": false
                 },
                 {
                     "name": "Chapter 2 Conditional probability",
-                    "completed": true
+                    "completed": false
                 },
                 {
                     "name": "Chapter 3 Random variables and their distributions",

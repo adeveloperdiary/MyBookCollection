@@ -1,15 +1,15 @@
 [
+  "Algorithms",
   "Linear Algebra",
   "Machine Learning",
-  "Deep Learning (Generic)",
+  "Deep Learning",
   "CV - Core",
   "CV - Deep Learning",
   "NLP - Core",
   "NLP - Deep Learning",
   "GAN",
-  "Reinforcement Learning",
   "Traditional AI",
-  "Algorithms",
+  "Deep RL",
   "Interview",
   "GPU Programming",
   "Queue"

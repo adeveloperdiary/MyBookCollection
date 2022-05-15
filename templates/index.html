@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="static/css/custom.css">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"
           media="screen"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jointjs/2.1.0/joint.css"/>
     <meta charset="UTF-8">
     <title>Books Collection</title>
 </head>
@@ -36,10 +37,12 @@
                 {% endfor %}
             </ul>
             <ul class="list-group" style="margin-top: 20px">
-                <a class="list-group-item list-group-item-action tasks">Personal Projects
+                <a class="list-group-item list-group-item-action tasks">Daily Planning
                     <span class="badge bg-danger rounded-pill" style="float: right">{{ project_count }}</span>
                 </a>
+                <a class="list-group-item list-group-item-action planning">Planning</a>
             </ul>
+
         </div>
         <div class="col-md-9" id="container">
 
@@ -106,10 +109,20 @@
     <span id="alert-msg"></span>
 </div>
 
+<div style="height:20px;width:100%">
+
+</div>
+
 <script src="static/js/jquery-3.3.1.min.js"></script>
 <script src="static/js/bootstrap.js"></script>
 <script src="static/js/handlebars.min-v4.7.6.js"></script>
+<script src="https://cdn.rawgit.com/ariutta/svg-pan-zoom/master/dist/svg-pan-zoom.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/3.10.1/lodash.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.3.3/backbone.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jointjs/2.1.0/joint.js"></script>
+
 <script src="static/js/custom.js"></script>
+<script src="static/js/planning.js"></script>
 
 {% raw %}
 <script id="book-card-template" type="text/x-handlebars-template">
@@ -276,7 +289,120 @@
         {{/each}}
     </div>
 </script>
+<script id="tasks-goal-template" type="text/x-handlebars-template">
+    <div class="input-group mb-3">
+        <input type="text" class="form-control" placeholder="Project/Task Details" id="project_task_name"
+               onkeypress="add_new_goal_task(event)">
+        <button class="btn btn-danger" type="button" id="button-addon2" onclick="add_goal_task()">New Task</button>
+        </button>
+    </div>
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-xl-2 g-4">
+        {{#each this}}
+        <div class="col">
+            <div class="card h-100 projects" id="{{id}}" onclick="select_card('{{id}}')">
+                <div class="row g-0">
+                    <div style="width: 20px">
+                        <div style="height:100%;width:10px;background-color: {{color}};border-radius: 3px 0 0 3px"></div>
+                    </div>
+                    <div class="col-sm-11">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-sm-11">
+                                    <h5 class="card-title" style="color: #dc3545">{{name}}</h5>
+                                </div>
+                                <div class="col-sm-1">
+                                    <i class="fa fa-trash" aria-hidden="true" onclick="remove_goal_project('{{id}}')"
+                                       style="margin-left: 15px;color: #dc3545;text-align: right;vertical-align: middle;font-size: 20px"></i>
+                                </div>
+                            </div>
+                            <div class="list-wrapper">
+                                <ul class="d-flex flex-column todo-list">
+                                    {{#each tasks}}
+                                    <li {{#if completed}}
+                                        class="completed" {{/if}}>
+                                    <div class="form-check"><label class="form-check-label">
+                                        <input class="checkbox" type="checkbox" onclick="complete_goal_task('{{id}}')"
+                                               id='{{id}}'
+                                               {{#if completed}}
+                                               checked="checked"
+                                               {{/if}}>
+                                        {{name}}
+                                        <i class="input-helper"></i></label>
+                                    </div>
+                                    <i class="remove mdi mdi-close-circle-outline"
+                                       onclick="delete_goal_task('{{id}}','{{../id}}')"></i>
+                                    </li>
+                                    {{/each}}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</script>
+<script id="planning-template" type="text/x-handlebars-template">
+    <div>
+        <div class="card">
+            <h5 class="card-header">Planning</h5>
+            <div class="card-body">
+                <div class="container-fluid" style="padding-bottom: 10px">
+                    <div class="row justify-content-md-center">
+                        <ul class="nav">
+                            <li class="nav-item" style="padding-bottom: 10px">
+                                <button type="button" class="btn btn-sm btn-dark" id="addEntity">
+                                    <i class="fa fa-plus-square text-success"
+                                       style="margin-right: 5px"></i>Add Goal
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button type="button" class="btn btn-sm btn-dark"
+                                        id="deleteElement" onclick="deleteElement()" disabled>
+                                    <i class="fa fa-trash text-danger" style="margin-right: 5px"></i>Remove
+                                    Goal
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button type="button" class="btn btn-sm btn-dark" id="createLink" onclick="createLink()"
+                                        disabled><i
+                                        class="fa fa-arrow-circle-right text-success"
+                                        style="margin-right:5px"></i>Create Link
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button type="button" class="btn btn-sm btn-dark" id="deleteLink" onclick="deleteLink()"
+                                        disabled><i
+                                        class="fa fa-minus-circle text-danger"
+                                        style="margin-right:5px"></i>Delete Link
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button type="button" class="btn btn-sm btn-dark"
+                                        id="save" onclick="savePlan()">
+                                    <i class="fa fa-save text-warning" style="margin-right: 5px"></i>Save Plan
+                                </button>
+                            </li>
+                            <li class="nav-item">
+                                <button type="button" class="btn btn-sm btn-dark"
+                                        id="save" onclick="createProject()">
+                                    <i class="fa fa-file-code-o " style="margin-right: 5px;color:#e0ccff"></i>Add Project
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div style="margin: 0 auto;" id="container">
+                    <div id="designer" style="border: 1px solid #dbdbdb;"></div>
+                </div>
+            </div>
+        </div>
+        <div id="goal_task" style="margin-top: 20px">
 
+        </div>
+    </div>
+</script>
 {% endraw %}
 </body>
 </html>

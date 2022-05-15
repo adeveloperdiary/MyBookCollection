@@ -286,3 +286,11 @@ input[type="checkbox"] {
 .navbar .navbar-menu-wrapper .navbar-nav .nav-item.dropdown .navbar-dropdown .dropdown-item {
     display: flex !important
 }
+
+.nav-item{
+    padding-right: 10px;
+}
+
+.btn{
+    cursor: pointer;
+}

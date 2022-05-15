@@ -22,10 +22,27 @@ $(document).ready(function () {
     });
 
     $('.tasks').on('click', function () {
+        selected_project = undefined
         render_projects()
     })
 
-    render_projects()
+    $('.planning').on('click', function () {
+
+        $.getJSON('/get_plan', function (data) {
+            var source = document.getElementById("planning-template").innerHTML;
+            var template = Handlebars.compile(source);
+            $('#container').html(template({}));
+            render_planning(data);
+        })
+    })
+
+    $.getJSON('/get_plan', function (data) {
+        var source = document.getElementById("planning-template").innerHTML;
+        var template = Handlebars.compile(source);
+        $('#container').html(template({}));
+        render_planning(data);
+    })
+
 })
 
 
@@ -281,8 +298,6 @@ function create_new_project() {
             showAlert('Error creating project', 'error')
         }
     })
-
-
 }
 
 function select_card(id) {

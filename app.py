@@ -422,11 +422,11 @@ def fetch_barnesandnoble_book_details():
 
     if toc is None or len(toc) == 0:
         toc = soup.find('div', {'class': 'table-of-contents'}).findAll(text=True, recursive=False)[1]
-        topics = toc.split(';')
+        topics = toc.split('-')
     elif len(toc) < 2:
         toc = soup.find('div', {'class': 'table-of-contents'}).find('p')
         toc = toc.text
-        topics = toc.split(';')
+        topics = toc.split('-')
     else:
         topics = []
         for t in toc:
@@ -476,6 +476,8 @@ def projects_and_tasks():
 
     output = list()
 
+    goal = request.args.get('goal')
+
     for project_key in projects.keys():
 
         tasks = list()
@@ -487,7 +489,10 @@ def projects_and_tasks():
 
         project['tasks'] = tasks
         project['id'] = project_key
-        output.append(project)
+        if goal is None and ('goal' not in project or 'goal' in project and project['goal'] == ""):
+            output.append(project)
+        elif 'goal' in project and project['goal'] == goal:
+            output.append(project)
     return jsonify(output)
 
 
@@ -497,11 +502,16 @@ def create_new_project():
         projects = json.loads(file.read())
 
     name = request.args.get('name')
+    goal = request.args.get('goal')
     color = request.args.get('color')
+
+    if goal is None:
+        goal = ""
 
     project = {
         "name": name,
         "color": f'#{color}',
+        "goal": goal,
         "tasks": {}
     }
 
@@ -601,6 +611,20 @@ def get_project_count():
         projects = json.loads(file.read())
 
     return len(projects)
+
+
+@app.route('/save_plan', methods=['POST'])
+def save_plan():
+    with open("data/planning.json", 'w+') as file:
+        json.dump(request.json, file, indent=4)
+
+    return '{"result":"success"}'
+
+
+@app.route('/get_plan')
+def get_plan():
+    with open("data/planning.json", 'r') as file:
+        return jsonify(json.loads(file.read()))
 
 
 if __name__ == '__main__':

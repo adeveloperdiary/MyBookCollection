@@ -1,0 +1,135 @@
+Linear Algebra:
+    1.
+
+Probability:
+    1.
+
+Statistics:
+    1. Sample Means and Expectations ( AML )
+    2. Variance ( AML )
+    3. Chebyshev’s Inequality ( AML )
+
+Generic Topics ( ML Applied Math ):
+    1. The Curse of Dimensionality ( Algorithmic Perspective , AML )
+    2. The Bias-Variance Thread Off ( Algorithmic Perspective , AML )
+    3. Cross-Validation ( ML Refined )
+    4. K-Fold Cross Validation ( ML Refined )
+    5. High Dimension Data ( AML )
+        1. The Mean
+        2. Covariance
+        3. Mean and Covariance Under Affine Transformations
+        4. Eigenvectors and Diagonalization
+    6. KL Divergence ( AML )
+
+Information Theory (DM and Analysis):
+    1. ROC Curve ( Algorithmic Perspective )
+    2. Sensitivity & Specificity
+
+Bayes Theorem:
+    1. MAP Hypothesis ( Algorithmic Perspective )
+    2. Bayes Theorem
+    3. Naive Bayes Classifier ( Algorithmic Perspective )
+
+Radial Basis Functions:
+    1. Receptive Fields  ( Algorithmic Perspective )
+    2. RBF Network ( Algorithmic Perspective )
+
+Regression:
+    1. Linear Regression (DM and Analysis)
+        1. The Least Square Cost Function
+        2. Optimum Cost Function
+        3. General Idea ( AML )
+    2. Logistic Regression ( ML Refined , DM and Analysis )
+        1.Cross Entropy Error Function
+    3. Multi Class Classifications ( ML Refined )
+    4. Feature Selection and Regularization ( ML Refined )``
+
+    10. Regression Spines
+        1. Interpolation and Basis Functions ( Algorithmic Perspective )
+        2. Bases and Bases Expansion ( Algorithmic Perspective )
+        3. The Cubic Spine ( Algorithmic Perspective )
+        4. Smoothing Spines ( Algorithmic Perspective )
+
+Dimensionality Reduction:
+    0. Projection (ML Refined)
+    1. LDA ( Done )
+    2. PCA ( Algorithmic Perspective , AML )
+    3. Kernel PCA ( Algorithmic Perspective )
+    4. Factor Analysis ( Algorithmic Perspective )
+    5. Independent Component Analysis ( Algorithmic Perspective )
+    6. Locally Linear Embedding ( Algorithmic Perspective )
+    7. ISOMAP
+        1. MDS ( Algorithmic Perspective, AML )
+    8. SVD ( AML )
+
+EM Algorithm:
+    1. GMM ( Algorithmic Perspective )
+    2. Topic Modeling
+
+SVM:
+    1. Binary Classification ( Ready )
+    2. Multi-class Classification ( Algorithmic Perspective )
+    3. Regression ( Algorithmic Perspective )
+
+Optimization:
+    1. Taylor Expansion ( ready )
+    2. Zero Order Optimality Condition ( ML Refined )
+    3. First Order Optimization Techniques ( ready ?, ML Refined )
+        1. Gradient Descent
+        2. Coordinate Descent
+    4. 2nd Order Optimization Techniques ( ready ?, ML Refined )
+        1. Newtons Method ( ready ?, ML Refined )
+
+Decision Trees: ( ML Refined , AML )
+    1. ID3
+    2. CART
+    3. Entropy
+    4. Gini Impurity
+    5. Information Gain
+    6. Continuous Variable
+    7. Regression Trees
+    8. Boosting (ML Refined, AML )
+        1. AdaBoost
+        2. Gradient Boosting
+        3. Stumping
+    9. Bagging ( ML Refined )
+    10. Random Forest ( ML Refined )
+    11. Stacking
+
+Unsupervised Learning:
+    1. Vector Quantization (AML)
+    2. The Self Organizing Feature Map
+    3. Vector Quantization ( AML )
+
+MCMC:
+    1. Sampling ( Algorithmic Perspective )
+    2. Monte Carlo or BUST ( Algorithmic Perspective )
+    3. The Proposal Distribution ( Algorithmic Perspective )
+    4. MCMC
+        1. Markov Chain ( Algorithmic Perspective )
+        2. The Metropolis-Hasting Algorithm ( Algorithmic Perspective )
+        3. Simulated Annealing ( Algorithmic Perspective )
+        4. Gibs Sampling ( Algorithmic Perspective )
+
+Graphical Models:
+    1. Bayesian Networks ( Algorithmic Perspective )
+    2. Markov Random Fields ( Algorithmic Perspective )
+    3. HMM ( ready )
+
+Deep Belief Network:
+    1. The Hopfield Network ( Algorithmic Perspective )
+    2. The Boltzmann Machine ( Algorithmic Perspective , AML )
+    3. The Restricted Boltzmann Machine ( Algorithmic Perspective )
+    4. Deep Belief Network ( Algorithmic Perspective )
+
+Clustering:
+    1. K-Means Clustering ( ML Refined )
+    2. Kernel K-Means ( DM and Analysis )
+    3. Agglomerative and Divisive Clustering ( AML )
+
+
+Kernel Methods:
+    1. The Kernel Trick ( ML Refined )
+
+
+

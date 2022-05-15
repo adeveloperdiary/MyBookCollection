@@ -1,1 +1,1169 @@
-{}
+{
+    "c208c518-aa56-4338-92f4-35d977a49516": {
+        "name": "Build and train neural network models using TensorFlow 2.x",
+        "color": "#3D689D",
+        "goal": "Tensoflow Developer Certificate",
+        "tasks": {
+            "9941c6ce-0436-48c5-986d-c2f6231273af": {
+                "name": "Use TensorFlow 2.x.",
+                "completed": true
+            },
+            "f5c71c6f-e183-402f-9dd0-e8876a5a24ff": {
+                "name": "Build, compile and train machine learning (ML) models using TensorFlow.",
+                "completed": true
+            },
+            "b30f2318-d783-457c-919e-36f1ed0ab063": {
+                "name": "Preprocess data to get it ready for use in a model.",
+                "completed": false
+            },
+            "86622ee2-c139-4e6e-8759-0953914d0600": {
+                "name": "Use models to predict results",
+                "completed": false
+            },
+            "36986aab-2ce7-4391-a801-f7efc56dd626": {
+                "name": " Build sequential models with multiple layers.",
+                "completed": true
+            },
+            "549f021f-b4f9-418d-87e1-028309096e2d": {
+                "name": "Build and train models for binary classification.",
+                "completed": true
+            },
+            "10687b2a-289b-4c9a-90b1-900e707443de": {
+                "name": "Build and train models for multi-class categorization.",
+                "completed": true
+            },
+            "c0920ffb-5c81-4f4f-b1fe-c0ff1b15f303": {
+                "name": "Plot loss and accuracy of a trained model.",
+                "completed": false
+            },
+            "79091e0e-6ea8-4d02-81fd-cfdb180565ae": {
+                "name": "Identify strategies to prevent overfitting, including augmentation and dropout.",
+                "completed": false
+            },
+            "7eae9429-9876-46da-a8da-b95362fb3db7": {
+                "name": "Use pretrained models (transfer learning).",
+                "completed": false
+            },
+            "e2613950-fe60-46fd-89f2-1d96baf185a5": {
+                "name": "Extract features from pre-trained models.",
+                "completed": false
+            },
+            "dfab5040-c981-4cb9-a0eb-376c19b926d2": {
+                "name": "Ensure that inputs to a model are in the correct shape.",
+                "completed": false
+            },
+            "2a1ccb17-e8c9-4a9e-bd61-49c07250b42a": {
+                "name": "Ensure that you can match test data to the input shape of a neural network.",
+                "completed": false
+            },
+            "9c5f581c-6845-43bb-97d2-057143650ab1": {
+                "name": "Ensure you can match output data of a neural network to specified input shape for test data.",
+                "completed": false
+            },
+            "e3b2eddb-7671-4f2d-bd15-b3637fd43c78": {
+                "name": "Understand batch loading of data.",
+                "completed": true
+            },
+            "dceb6716-9c89-4b85-92af-2988662baca3": {
+                "name": "Use callbacks to trigger the end of training cycles.",
+                "completed": false
+            },
+            "50bf6d3c-67ff-4fe3-ab94-9eed80e66466": {
+                "name": "Use datasets from different sources.",
+                "completed": false
+            },
+            "d868949d-8186-4545-af7c-6455d8b36e82": {
+                "name": "Use datasets in different formats, including json and csv.",
+                "completed": false
+            },
+            "0553342e-3651-4058-b4f1-d9bf6e455be3": {
+                "name": "Use datasets from tf.data.datasets.",
+                "completed": true
+            }
+        }
+    },
+    "7bef44b2-f75a-4b50-9fef-dc4f618ed7bc": {
+        "name": "Image classification and NLP",
+        "color": "#54AD46",
+        "goal": "Tensoflow Developer Certificate",
+        "tasks": {
+            "ce79d423-c8b0-4870-9691-368c04e3f270": {
+                "name": "Define Convolutional neural networks with Conv2D and pooling layers.",
+                "completed": true
+            },
+            "70155c2a-cfd6-44e2-bb7e-10c013c5a81c": {
+                "name": "Build and train models to process real-world image datasets.",
+                "completed": true
+            },
+            "3c827b7f-fc11-451f-8392-47be83ab8972": {
+                "name": "Understand how to use convolutions to improve your neural network.",
+                "completed": true
+            },
+            "e026f7a3-c09a-4160-8158-abcc5bb5a45c": {
+                "name": "Use real-world images in different shapes and sizes..",
+                "completed": true
+            },
+            "40314dc6-529c-481c-ab05-b22e910b2eab": {
+                "name": "Use image augmentation to prevent overfitting.",
+                "completed": true
+            },
+            "763e36c0-68e3-46d7-a03d-c0b70367011c": {
+                "name": "Use ImageDataGenerator.",
+                "completed": false
+            },
+            "3da494b1-12f2-42c9-9102-13d6b4aa8406": {
+                "name": "Understand how ImageDataGenerator labels images based on the directory structure",
+                "completed": false
+            },
+            "db3e9085-3058-4f2f-a7a9-e657686833bd": {
+                "name": "Build natural language processing systems using TensorFlow.",
+                "completed": false
+            },
+            "75f468bf-608c-4fb4-ab29-20f8baf26ea4": {
+                "name": "Prepare text to use in TensorFlow models.",
+                "completed": false
+            },
+            "d64ddd70-587a-47ff-ac09-e79952a1ae60": {
+                "name": "Build models that identify the category of a piece of text using binary categorization",
+                "completed": true
+            },
+            "c46cd283-cb2e-45fb-b1fe-09f90902ec16": {
+                "name": "Build models that identify the category of a piece of text using multi-class categorization",
+                "completed": false
+            },
+            "18c60fe5-b440-4a67-901f-b38ebfb3a378": {
+                "name": "Use word embeddings in your TensorFlow model.",
+                "completed": true
+            },
+            "18b07c26-fb85-406e-824d-7c3adb4e03bf": {
+                "name": "Use LSTMs in your model to classify text for either binary or multi-class categorization.",
+                "completed": true
+            },
+            "81d5b3ea-4fec-4088-bab0-470e7ebed162": {
+                "name": "Add RNN and GRU layers to your model.",
+                "completed": true
+            },
+            "dd3797be-521a-43e0-b0b8-f7891ff5e72f": {
+                "name": "Use RNNS, LSTMs, GRUs and CNNs in models that work with text",
+                "completed": true
+            },
+            "68c7da85-8251-4e8f-b372-3404324c52dd": {
+                "name": "Train LSTMs on existing text to generate text (such as songs and poetry)",
+                "completed": false
+            }
+        }
+    },
+    "af363cf8-1d20-4506-9647-335481a8da24": {
+        "name": "Time series, sequences and predictions",
+        "color": "#C5A91B",
+        "goal": "Tensoflow Developer Certificate",
+        "tasks": {
+            "a13774d1-d1c2-457c-8f32-c34557fbc1cd": {
+                "name": "Train, tune and use time series, sequence and prediction models.",
+                "completed": false
+            },
+            "2735bb12-1fd9-484c-ae7d-d9733c5381e2": {
+                "name": "Prepare data for time series learning.",
+                "completed": false
+            },
+            "a9e11d6d-29e8-4414-bff1-d40aa375eeb7": {
+                "name": "Understand Mean Average Error (MAE) and how it can be used to evaluate accuracy of sequence models.",
+                "completed": false
+            },
+            "eea712cf-abe1-48e7-ba18-e83996ef8b5b": {
+                "name": "Use RNNs and CNNs for time series, sequence and forecasting models.",
+                "completed": false
+            },
+            "92beb590-6efd-4959-be17-16340e8505af": {
+                "name": "Identify when to use trailing versus centered windows.",
+                "completed": false
+            },
+            "f94263af-1c56-4e0a-b1ce-da45845b2d11": {
+                "name": "Use TensorFlow for forecasting.",
+                "completed": false
+            },
+            "86ad9ac6-87c0-486e-993e-c8d7c30af897": {
+                "name": "Prepare features and labels",
+                "completed": false
+            },
+            "aeeeb951-7f68-43f6-94bc-91feedeed491": {
+                "name": "Identify and compensate for sequence bias",
+                "completed": false
+            },
+            "3bb733c6-f411-4bad-bc36-3f17b5a4181e": {
+                "name": "Adjust the learning rate dynamically in time series, sequence and prediction models.",
+                "completed": false
+            }
+        }
+    },
+    "e597089a-7906-4aaf-a4e3-b062f0283f81": {
+        "name": "TensorFlow Developer Certificate",
+        "color": "#742F5C",
+        "goal": "Tensoflow Developer Certificate",
+        "tasks": {
+            "530503d9-a111-4508-9a23-3f5f15f52762": {
+                "name": "Read - Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition",
+                "completed": false
+            },
+            "4eb0b12b-3d81-4f59-aedb-33e8039b3c1a": {
+                "name": "Complete Exercises from the book",
+                "completed": false
+            },
+            "1d01a23a-718b-46b3-bc20-48c68a5fcb0c": {
+                "name": "Chapter 10 - Question 10",
+                "completed": false
+            },
+            "88de4676-4062-490b-91a9-db7c77569eb0": {
+                "name": "Chapter 11 - Question 8.a",
+                "completed": false
+            },
+            "7bd445d7-060d-4e7d-8321-ede8b2548776": {
+                "name": "Chapter 11 - Question 8.b",
+                "completed": false
+            },
+            "ad71d616-70aa-4939-b0a2-08546e28bb18": {
+                "name": "Chapter 11 - Question 8.c",
+                "completed": false
+            },
+            "6831b3e0-5a96-4d2e-b9a5-def4ace0c5b8": {
+                "name": "Chapter 11 - Question 8.d",
+                "completed": false
+            },
+            "4fb943d2-693c-4a4c-a9d0-3f76810a2795": {
+                "name": "Chapter 11 - Question 8.e",
+                "completed": false
+            },
+            "ebc2170f-e0a8-460f-934b-a27cf07abfeb": {
+                "name": "Chapter 11 - Question 8.f",
+                "completed": false
+            },
+            "d79181fc-1e43-4768-9144-54ced2b5be5b": {
+                "name": "Chapter 12 - Question 12.a",
+                "completed": false
+            },
+            "91a61df0-651e-4321-ae47-30ab7c38beb1": {
+                "name": "Chapter 12 - Question 12.b",
+                "completed": false
+            },
+            "585bb963-3e0f-4bf6-8c35-07a180a3f324": {
+                "name": "Chapter 12 - Question 12.c",
+                "completed": false
+            },
+            "7cb86682-a499-475b-8c8a-052dcc665b12": {
+                "name": "Chapter 12 - Question 13.a",
+                "completed": false
+            },
+            "31227e9f-dc62-4b89-9c57-404a842fc463": {
+                "name": "Chapter 12 - Question 13.b",
+                "completed": false
+            },
+            "642d768f-f7a6-4e1e-a2e0-2f4a1150e1e4": {
+                "name": "Chapter 13 - Question 9",
+                "completed": false
+            },
+            "e3dd8eb9-8efc-49e5-a332-079d25104ea0": {
+                "name": "Chapter 13 - Question 10.a",
+                "completed": false
+            },
+            "89454324-399d-4c31-8bee-6dd74b390caf": {
+                "name": "Chapter 13 - Question 10.b",
+                "completed": false
+            },
+            "1ec9f3ab-094a-43eb-8a15-5b320cd476e4": {
+                "name": "Chapter 13 - Question 10.c",
+                "completed": false
+            },
+            "7b4bc860-642b-4ce4-88aa-26340abf6936": {
+                "name": "Chapter 13 - Question 10.d",
+                "completed": false
+            },
+            "0593d916-260c-447e-8b2b-35d84e64a3da": {
+                "name": "Chapter 13 - Question 10.e",
+                "completed": false
+            },
+            "e229d816-1496-4815-b57c-a56ef96c49d1": {
+                "name": "Chapter 13 - Question 10.f",
+                "completed": false
+            },
+            "840dc42e-b0a3-489a-95cb-dad0d9652c09": {
+                "name": "Chapter 13 - Question 10.g",
+                "completed": false
+            },
+            "68d508d6-2f8a-4d71-baa5-bb0c6e1bc677": {
+                "name": "Chapter 14- Question 2",
+                "completed": false
+            },
+            "0539de3e-edcc-4ae8-9c2b-3612ddbe23d7": {
+                "name": "Chapter 14- Question 5",
+                "completed": false
+            },
+            "3620a0d9-c60c-4574-956e-025787926117": {
+                "name": "Chapter 14- Question 10.a",
+                "completed": false
+            },
+            "aac1dda0-c647-4107-ac30-637ff9e3f383": {
+                "name": "Chapter 14- Question 10.b",
+                "completed": false
+            },
+            "8927f0b0-242f-4773-af64-99701d9f8641": {
+                "name": "Chapter 14- Question 10.c",
+                "completed": false
+            },
+            "eb619387-c018-400e-8af3-61805e7e3ec7": {
+                "name": "Chapter 14- Question 10.d",
+                "completed": false
+            },
+            "6ba8c590-de9b-45a1-ba28-b3b8d8267cb3": {
+                "name": "Chapter 14- Question 11",
+                "completed": false
+            },
+            "04b120d7-369c-4ea7-81c5-8df3818bf2b8": {
+                "name": "Chapter 15 - Question 9",
+                "completed": false
+            },
+            "85998e17-1edb-4ff7-ac2b-0419802ec09f": {
+                "name": "Chapter 15 - Question 10",
+                "completed": false
+            },
+            "180b786d-72c1-424e-968d-ccf39fdfe401": {
+                "name": "Coursera 4th Course - Week 2 Assignment",
+                "completed": false
+            },
+            "6234fa4c-4033-45d8-b73e-feed8dc69fcc": {
+                "name": "Coursera 4th Course - Week 3 Assignment",
+                "completed": false
+            },
+            "f326e719-52f9-41d7-859a-2cb0f1dfaa4c": {
+                "name": "Coursera 4th Course - Week 4 Assignment",
+                "completed": false
+            },
+            "1ea77c91-d45c-4616-9649-e58123b0cd8d": {
+                "name": "Coursera 1st Course on Tensorflow",
+                "completed": false
+            },
+            "1ec096bd-f97e-4705-8b64-7b39ae4d9f95": {
+                "name": "Coursera 2nd Course on Tensorflow",
+                "completed": false
+            },
+            "4d0fc37e-9f84-4ad1-9678-785f4b67e3b9": {
+                "name": "Coursera 3rd Course on Tensorflow",
+                "completed": false
+            },
+            "3329db0d-ef23-4861-872b-a1315b414c71": {
+                "name": "Coursera 4th Course on Tensorflow",
+                "completed": false
+            }
+        }
+    },
+    "10e1fc0f-e9c1-4fa7-86a0-be94f157ebf1": {
+        "name": "Daily ML Study - TopTal AI Exam",
+        "color": "#A8104B",
+        "goal": "ML Refined",
+        "tasks": {
+            "63cf7882-e6a1-4599-b3bd-1110ce9b1ccb": {
+                "name": "ML Refined - 1. Introduction to machine learning",
+                "completed": true
+            },
+            "eabd13aa-ceee-409c-93ce-e8c5e111eb8b": {
+                "name": "ML Refined - 2. Zero order optimization techniques",
+                "completed": true
+            },
+            "cfa54aaf-bd62-477c-908d-436c73fb9c08": {
+                "name": "ML Refined - 3. First order methods",
+                "completed": true
+            },
+            "c4efd6e0-ab35-4fc3-b275-f330bae26e5e": {
+                "name": "ML Refined - 4. Second order optimization techniques",
+                "completed": true
+            },
+            "98e4ad18-b986-47ee-96fc-1dfa04a206e6": {
+                "name": "ML Refined - 5. Linear regression",
+                "completed": true
+            },
+            "505af780-8fa1-4ce5-a356-8945ebe9a4bf": {
+                "name": "ML Refined - 6. Linear two-class classification",
+                "completed": true
+            },
+            "c6eacdbf-0205-48cd-ab09-c944f7235db4": {
+                "name": "ML Refined - 7. Linear multi-class classification",
+                "completed": true
+            },
+            "bbc84803-0c79-4281-8d0c-e4931a3ad8cc": {
+                "name": "ML Refined - 8. Linear unsupervised learning",
+                "completed": true
+            },
+            "0286320c-b471-47d7-9654-7d1d78b1a6e4": {
+                "name": "ML Refined - 9. Feature engineering and selection",
+                "completed": true
+            },
+            "1835244b-75e4-4c04-a495-e22c72530a0d": {
+                "name": "ML Refined - 10. Principles of nonlinear feature engineering",
+                "completed": true
+            },
+            "4c1f0d98-bc4d-497d-804b-653a1e062d49": {
+                "name": "ML Refined - 11. Principles of feature learning",
+                "completed": false
+            },
+            "056238e8-6999-434e-89c7-0c37b77eefc4": {
+                "name": "ML Refined - 12. Kernel methods",
+                "completed": true
+            },
+            "8085e471-d9de-4718-b6f9-092ec0858a23": {
+                "name": "ML Refined - 14. Tree-based learners",
+                "completed": false
+            },
+            "b716c0a4-b544-47ff-8c3b-bc79485357bc": {
+                "name": "ML Refined - Appendix A. Advanced first and second order optimization methods",
+                "completed": false
+            },
+            "a2e5049e-1177-4ee2-be7f-e9e52678afba": {
+                "name": "ML Refined - Appendix B. Derivatives and automatic differentiation",
+                "completed": false
+            },
+            "45aeb7b7-d363-418e-9b63-c58963752af8": {
+                "name": "ML Refined - Appendix C. Linear algebra.",
+                "completed": false
+            }
+        }
+    },
+    "bd6f769d-94fe-42a3-9c07-299be027fb0e": {
+        "name": "Weekly Core AI Study ( Stanford Course )",
+        "color": "#796CFB",
+        "goal": "Prepare for Stanford Course",
+        "tasks": {
+            "c88c0def-7830-48c9-b364-92255e462ea4": {
+                "name": "Grokking AI - 1 Intuition of Artificial Intelligence",
+                "completed": false
+            },
+            "b3ba3ea0-82df-4798-bbf3-faf3ed2fe695": {
+                "name": "Grokking AI - 2 Search Fundamentals",
+                "completed": false
+            },
+            "f29c8daf-f027-41cc-a976-4fa6482f5b62": {
+                "name": "Grokking AI - 3 Intelligent Search",
+                "completed": false
+            },
+            "94935739-c0f5-49dd-bb78-80b9909adac9": {
+                "name": "CS50's Introduction to Artificial Intelligence with Python",
+                "completed": false
+            },
+            "335036af-1865-4d8a-ab54-cc9dbca67aaa": {
+                "name": "Artificial Intelligence (AI) - ColumbiaX",
+                "completed": false
+            },
+            "f9556c05-535a-484e-9031-392c163b4ee1": {
+                "name": "Artificial Intelligence: A Modern Approach",
+                "completed": false
+            }
+        }
+    },
+    "50d78ed3-9182-40c0-a76f-7a9c83e5ffd0": {
+        "name": "Current Issues",
+        "goal": "Tensoflow Developer Certificate",
+        "color": "#31B1B6",
+        "tasks": {
+            "8066eea6-b6c9-4842-b530-1c241e41f262": {
+                "name": "Char RNN using tf 2.0 not performing well.",
+                "completed": false
+            }
+        }
+    },
+    "87f1b474-8148-4718-b0d8-c625a3d15e7b": {
+        "name": "One Page Notes for ML",
+        "color": "#F71F5F",
+        "goal": "ML Notes(1P)",
+        "tasks": {
+            "6b491475-c350-412e-b1ce-506c443220f6": {
+                "name": "Linear Algebra",
+                "completed": true
+            },
+            "dac5e0da-7206-4774-94dd-fc6313aeb4cf": {
+                "name": "Probability",
+                "completed": true
+            },
+            "b69bc35a-3dc7-4aab-9738-2762b61d9cb8": {
+                "name": "Statistics",
+                "completed": true
+            },
+            "1980b9c1-9d7c-4e2d-87fd-9b7ac7e6722b": {
+                "name": "Linear Regression",
+                "completed": true
+            },
+            "29c769a1-fbc2-4b7a-8a5d-03a7d0b94abc": {
+                "name": "Logistic Regression",
+                "completed": true
+            },
+            "5dc31528-cfa8-4505-97dd-6be2955e94f2": {
+                "name": "PCA",
+                "completed": true
+            },
+            "80a8fba5-3ad0-43cc-bec5-78ffae1321be": {
+                "name": "SVD",
+                "completed": true
+            },
+            "3f75ef0e-62da-4b5b-980e-961d1ece9836": {
+                "name": "Other Dimensionality Reduction Techniques",
+                "completed": false
+            },
+            "210a7901-b5db-439d-a0c5-f51fb8789683": {
+                "name": "Optimization",
+                "completed": true
+            },
+            "be3da90a-9557-4ee2-8bc2-a383aa0b145d": {
+                "name": "SVM",
+                "completed": true
+            },
+            "90e3f0f9-3837-4413-bb4e-bb33a73b6c9a": {
+                "name": "HMM",
+                "completed": true
+            },
+            "6fd38797-0e1e-4134-9b7b-d407ae29d964": {
+                "name": "Random Forest",
+                "completed": true
+            },
+            "7b3b8eae-b64a-4c8a-8da5-ac8f8c26fda7": {
+                "name": "Bosting",
+                "completed": true
+            },
+            "8b9105df-5051-45b7-8791-15a64077de32": {
+                "name": "Evaluation of ML Models",
+                "completed": false
+            },
+            "06d29903-225b-4738-bdbf-a4101d6821d1": {
+                "name": "Kernel Methods",
+                "completed": false
+            },
+            "2cc5189c-af8b-4f9c-a128-8866c719cdbe": {
+                "name": "Clustering",
+                "completed": true
+            },
+            "fa4e7409-658e-48b8-be36-893936ab3e23": {
+                "name": "Expectation Maximization",
+                "completed": false
+            },
+            "4cc994e0-6cd5-4028-bc06-c7eed35a4c16": {
+                "name": "Optimization",
+                "completed": true
+            }
+        }
+    },
+    "4a352a84-aebc-4f99-a151-ad535800ad31": {
+        "name": "Basic RNN Implementations",
+        "color": "#5FC78C",
+        "goal": "Basic RNN Skill",
+        "tasks": {
+            "45127d2a-419b-414a-bb25-a772b4acb34b": {
+                "name": "Generate Character Sequence",
+                "completed": true
+            },
+            "c8a04724-6e29-4847-a631-58a67717eaf3": {
+                "name": "Sentiment Analysis",
+                "completed": true
+            },
+            "e29ac53b-1e81-466a-bbc7-a35cf39842e6": {
+                "name": "Machine Translation ( Chat Bot )",
+                "completed": false
+            },
+            "43655a3a-0299-4ea5-80a3-b2e0a1aa3935": {
+                "name": "Image captioning",
+                "completed": false
+            }
+        }
+    },
+    "a610107f-b61d-4e17-8482-e66a0cc8a0c0": {
+        "name": "Introduction to Probability",
+        "color": "#9784E2",
+        "goal": "Probability Recap",
+        "tasks": {
+            "d453b6af-91a8-43ac-b661-2082c30aa865": {
+                "name": "Unit 1: Probability, Counting, and Story Proofs",
+                "completed": true
+            },
+            "05d20af4-2891-4f89-a7db-26fb6189c007": {
+                "name": "Unit 2: Conditional Probability and Bayes' Rule",
+                "completed": true
+            },
+            "038d226a-5cb3-47ec-aea4-3475eb73e47f": {
+                "name": "Unit 3: Discrete Random Variables",
+                "completed": true
+            },
+            "e4049674-05d7-43b7-83fd-d6f63f53e81f": {
+                "name": "Unit 4: Continuous Random Variables",
+                "completed": true
+            },
+            "cc772160-ee34-4d8b-ae29-9504d7d1164f": {
+                "name": "Unit 5: Averages, Law of Large Numbers, and Central Limit Theorem",
+                "completed": false
+            },
+            "5a7bdf01-6430-4645-86b2-64c5b06cbe67": {
+                "name": "Unit 6: Joint Distributions and Conditional Expectation",
+                "completed": false
+            },
+            "11140fcd-1b32-44b4-ae54-34318b4d203e": {
+                "name": "Unit 7: Markov Chains",
+                "completed": false
+            }
+        }
+    },
+    "cb8ca0dc-dcb8-4e9a-88fc-4585bdb6d2c7": {
+        "name": "Monday July 13, 2020",
+        "color": "#4BA9A6",
+        "goal": "",
+        "tasks": {
+            "20eb1bef-fa6a-4a31-9730-b1a0ffdf240e": {
+                "name": "Complete Sentiment Analysis",
+                "completed": true
+            },
+            "572bcec0-9d3e-4637-8f80-e7adbc1d4868": {
+                "name": "Read Machine Learning Refined",
+                "completed": true
+            },
+            "bb3d7791-a6bc-45df-8dd0-8e67aecc1f14": {
+                "name": "edx Probablity course",
+                "completed": true
+            }
+        }
+    },
+    "63f190b1-4295-4762-ab4d-c41b7bf34863": {
+        "name": "Tuesday July 14, 2020",
+        "color": "#9C49F7",
+        "goal": "",
+        "tasks": {
+            "366ee4bf-b079-49e0-994f-ada11467de9a": {
+                "name": "Complete task 1 from y'day",
+                "completed": true
+            },
+            "af1a1ab8-4037-4d2e-8ddc-2bd82d6fa940": {
+                "name": "Complete Task 3 from y'day",
+                "completed": true
+            },
+            "e63e1405-dd1a-428f-a2dd-9742af2d3573": {
+                "name": "Complete Machine Learning Refined - 3rd chapter",
+                "completed": true
+            }
+        }
+    },
+    "958d10d7-c6fd-4c9a-9798-13d34d7aba23": {
+        "name": "One Page Notes for DL",
+        "color": "#59478A",
+        "goal": "TopTal AI Exam",
+        "tasks": {
+            "eba3e825-218c-48c0-810c-abc912869d76": {
+                "name": "Advance Optimizations",
+                "completed": false
+            },
+            "c0ea9c0a-f4d3-4f9a-ab88-b408d719795b": {
+                "name": "http://introtodeeplearning.com/",
+                "completed": false
+            },
+            "dd79ddf1-d833-4e77-85c1-3684a139e29a": {
+                "name": "https://berkeley-deep-learning.github.io/cs294-131-s19/",
+                "completed": false
+            }
+        }
+    },
+    "3ae65236-9a51-4e9e-94e6-4d7a8ea9955f": {
+        "name": " Wednesday July 15, 2020",
+        "color": "#4AC022",
+        "goal": "",
+        "tasks": {
+            "a2b64572-db19-4654-ba91-4f520f350d0c": {
+                "name": "Second order optimization techniques (30 mins)",
+                "completed": true
+            },
+            "7d7516c5-6a00-427a-bf47-1a724c341231": {
+                "name": "Probability ( 30 mins )",
+                "completed": true
+            },
+            "23140194-ebb6-44ae-bdd9-0c19907563cb": {
+                "name": "Classical AI ( 30 mins )",
+                "completed": true
+            },
+            "bf1ca02a-719b-4492-9163-0e986aed04af": {
+                "name": "Answer: Chapter 10 - Question 10",
+                "completed": false
+            },
+            "6a94b42d-3bd1-459c-80ae-9a826d7ef5d9": {
+                "name": "One page note ( 30 mins )",
+                "completed": false
+            },
+            "3b051aff-7a88-4c9f-853c-ffbaec0ca6bc": {
+                "name": "Coursera Course Part1",
+                "completed": true
+            }
+        }
+    },
+    "4e10e530-888c-4bd9-8f82-db29bcc7343f": {
+        "name": "cs50.harvard.edu",
+        "color": "#B954E1",
+        "goal": "Prepare for Stanford Course",
+        "tasks": {
+            "83800e20-518f-4c07-a27d-47d053ae2e38": {
+                "name": "0. Search",
+                "completed": false
+            },
+            "a0b8033c-f977-43ff-b539-effecadf2d63": {
+                "name": "1. Knowledge",
+                "completed": false
+            },
+            "815a4640-2466-46e6-bac6-f58595e1fbf3": {
+                "name": "2. Uncertainty",
+                "completed": false
+            },
+            "431005f4-37a9-4cd5-a748-286d22eee13f": {
+                "name": "3. Optimization",
+                "completed": false
+            },
+            "76b80074-2242-4af7-9a9d-710a5fb35ad7": {
+                "name": "4. Learning",
+                "completed": false
+            },
+            "7d7776d8-9b06-4682-b50c-a22d25805356": {
+                "name": "5. Neural Networks",
+                "completed": false
+            },
+            "03cfdff5-e9d3-482b-a015-68a3dee7294a": {
+                "name": "6. Language",
+                "completed": false
+            }
+        }
+    },
+    "477d3e28-7e7c-43e0-9770-ec7e190afe12": {
+        "name": "My ML Course",
+        "color": "#DB9DC7",
+        "goal": "ML Pending",
+        "tasks": {
+            "955e98b2-b7c5-46cf-8565-f20a7b5947b2": {
+                "name": "Decision Trees",
+                "completed": true
+            },
+            "cb1905e1-55f0-4d80-a24f-c253e0c62417": {
+                "name": "Model Selection",
+                "completed": true
+            },
+            "c065a6a0-0672-40eb-a942-8eaf42973a0b": {
+                "name": "Linear Regression",
+                "completed": true
+            },
+            "9d059cda-ed92-45cf-bb4d-9bee1bf8e341": {
+                "name": "Optimization for ML",
+                "completed": true
+            },
+            "31b13824-0dbb-46ac-9bf1-0b46a6823d17": {
+                "name": "Logistic Regression",
+                "completed": true
+            },
+            "1ccdc68d-086a-43bb-afcd-e11433a85544": {
+                "name": "Feature Engineering / Regularization",
+                "completed": true
+            },
+            "9f469fb5-00c0-49b4-9541-0fc976c52115": {
+                "name": "MLE/MAP",
+                "completed": true
+            },
+            "58d25ef0-0242-47f4-927c-7979ef582797": {
+                "name": "Naive Bayes",
+                "completed": true
+            },
+            "07a8704e-1b47-4b95-b47a-9bc09925e5fe": {
+                "name": "Hidden Markov Models",
+                "completed": true
+            },
+            "743cc22b-db69-4542-ab94-6c57973db978": {
+                "name": "Bayesian Networks",
+                "completed": true
+            },
+            "75878147-b553-4d58-892c-76800d6a9d66": {
+                "name": "Dimensionality Reduction: PCA",
+                "completed": true
+            },
+            "95143ed3-4e9d-4417-b410-35b759e19614": {
+                "name": "SVMs",
+                "completed": true
+            },
+            "9fc078e4-e09c-42b0-b9e5-e4dea4ec3aeb": {
+                "name": "Kernel Methods",
+                "completed": true
+            },
+            "2aee6501-3254-4418-b6cf-8712f6a1212c": {
+                "name": "Ensemble Methods",
+                "completed": true
+            },
+            "b733c896-1535-404f-96a4-d5c12c96ed67": {
+                "name": "Learning Theory",
+                "completed": false
+            },
+            "f983858d-5c6d-4fe1-a5d7-0f14538faf93": {
+                "name": "EM and Gaussian Mixture Models",
+                "completed": false
+            },
+            "23901931-6499-49be-9ab1-b292231cd1d1": {
+                "name": "Graphical Models",
+                "completed": false
+            },
+            "eef2e2a6-a580-4e7f-9113-76950de10e47": {
+                "name": "Active Learning",
+                "completed": false
+            },
+            "31c75588-7994-4b5f-9a62-602dc977c326": {
+                "name": "Semi-Supervised Learning",
+                "completed": false
+            },
+            "c86539f7-5946-481f-a965-154cb29d3fe6": {
+                "name": "Topic Models",
+                "completed": false
+            },
+            "8173e660-db2c-4e93-b9a1-045e43512114": {
+                "name": "Hierarchical Clustering",
+                "completed": false
+            },
+            "5af28361-1d67-4fcc-804f-d46c94042b4a": {
+                "name": "Kernel Principal Component Analysis",
+                "completed": false
+            },
+            "e26acfa9-23d0-4dcf-a573-f2ce9fb3f8bc": {
+                "name": "Online Learning",
+                "completed": false
+            },
+            "888bc7a2-6f28-4c0f-b695-b6819e2c7282": {
+                "name": "VC-dimension",
+                "completed": false
+            },
+            "07a5c268-683c-4c20-8b8d-aeca497284e3": {
+                "name": "clustering",
+                "completed": true
+            },
+            "ba104d6a-0548-4c6b-b254-5635afad1270": {
+                "name": "Generative models, mixtures",
+                "completed": false
+            },
+            "790d187b-c128-4b92-9108-3ab311543ece": {
+                "name": "Factor Analysis",
+                "completed": false
+            },
+            "6b8c5313-363b-42e2-8d63-2c806b028ff0": {
+                "name": "Independent Components Analysis (ICA)",
+                "completed": true
+            },
+            "0771d45d-78c4-4ff5-b233-24281835814c": {
+                "name": "Bias Variance",
+                "completed": true
+            }
+        }
+    },
+    "ff02ec2b-62ed-4e60-a923-9bf1642d3100": {
+        "name": "University Links",
+        "color": "#AAFC97",
+        "goal": "ML Pending",
+        "tasks": {
+            "c6549de0-0146-4b94-b176-5cd58f22a08e": {
+                "name": "http://www.cs.cmu.edu/~mgormley/courses/10601/schedule.html",
+                "completed": false
+            },
+            "d3b721d3-0f0e-41d2-b35f-9f08f03e6654": {
+                "name": "https://www.cs.cmu.edu/~lwehbe/10701_S19/",
+                "completed": false
+            },
+            "b7f85cd5-0204-46b5-83b0-85d7ec562f14": {
+                "name": "http://www.cs.cmu.edu/~10715-f18/lectures.shtml",
+                "completed": false
+            },
+            "de9f12f7-b0fe-406c-90f1-10628c9eae29": {
+                "name": "http://www.cs.cmu.edu/~bapoczos/Classes/ML10715_2015Fall/",
+                "completed": false
+            },
+            "94dbf864-a63f-4b0e-bbe0-d77dc9162229": {
+                "name": "http://www.cs.cmu.edu/~ninamf/courses/601sp15/lectures.shtml",
+                "completed": false
+            },
+            "7b232ab6-1e9a-4319-a447-d00d33344883": {
+                "name": "http://www.cs.cmu.edu/~mgormley/courses/606-607-f18/schedule.html",
+                "completed": false
+            },
+            "dee2e8dd-7239-4d08-a56e-48334c8255d7": {
+                "name": "https://people.eecs.berkeley.edu/~jrs/189/",
+                "completed": false
+            },
+            "4d942b69-1526-4b3c-896c-68c986257bef": {
+                "name": "https://courses.cs.washington.edu/courses/cse446/20sp/textbooks/",
+                "completed": false
+            },
+            "eb8801d1-7f38-455b-9613-9d6bad7a3f7a": {
+                "name": "https://courses.cs.washington.edu/courses/cse546/18au/",
+                "completed": false
+            },
+            "b18a6868-c22f-431d-a728-5dcac98ff39d": {
+                "name": "https://www.cs.cornell.edu/courses/cs4780/2019fa/",
+                "completed": false
+            },
+            "cc29b2fe-cc3e-4b7e-9368-09b8d6ccb041": {
+                "name": "https://www.cs.cornell.edu/courses/cs4786/2020sp/lectures.htm",
+                "completed": false
+            }
+        }
+    },
+    "f1fb424e-69e0-49e8-aa58-4c8b0e9b22d6": {
+        "name": "Video Lectures",
+        "color": "#043CC1",
+        "goal": "ML Pending",
+        "tasks": {
+            "e67a33fb-6577-4082-9b86-e08ca4c639a0": {
+                "name": "http://www.cs.cmu.edu/~ninamf/courses/601sp15/lectures.shtml",
+                "completed": false
+            },
+            "c350afa0-f055-4539-996b-55bb7095bf29": {
+                "name": "http://www.cs.cmu.edu/~bapoczos/Classes/ML10715_2015Fall/",
+                "completed": false
+            },
+            "061c30ff-4aec-4ee1-846b-522233038224": {
+                "name": "https://www.youtube.com/watch?v=z90QqTO5wBc",
+                "completed": false
+            },
+            "380c9840-16dd-49e6-a870-105b09b434b8": {
+                "name": "https://berkeley-deep-learning.github.io/cs294-131-s19/",
+                "completed": false
+            },
+            "77b165e8-672b-4443-92cb-69117854a7e4": {
+                "name": "https://omscs.gatech.edu/cs-7641-machine-learning-course-videos",
+                "completed": false
+            },
+            "8e8e8a38-8036-4bea-8a14-2e399407a283": {
+                "name": "http://luthuli.cs.uiuc.edu/~daf/courses/AML-20-Spring/aml-home.html",
+                "completed": false
+            },
+            "7a1992cd-bfb4-49c7-92fb-a55684c7713a": {
+                "name": "https://www.youtube.com/playlist?list=PLQcasX5-oG91TgY6A_gz-IW7YSpwdnD2O",
+                "completed": false
+            },
+            "f3afa332-8e86-4950-8601-e0978f9c5e1b": {
+                "name": "https://github.com/Zhenye-Na/machine-learning-uiuc/tree/master/lecture notes/cs446-sp17",
+                "completed": false
+            }
+        }
+    },
+    "090e1894-2fb4-45e3-a2da-d6258027dc32": {
+        "name": "Youtube Videos",
+        "color": "#A0E087",
+        "goal": "Stanford AI Graduade Course",
+        "tasks": {
+            "aff00cd3-0420-4747-93fe-f0e446893273": {
+                "name": "Stanford CS221: AI (Autumn 2019)",
+                "completed": false
+            },
+            "59601c1d-0017-4900-b288-ad823154a379": {
+                "name": "https://www.youtube.com/watch?v=J8Eh7RqggsU",
+                "completed": false
+            },
+            "92a9934e-7c60-42d0-b23f-4623ad5c664c": {
+                "name": "Stanford CS229: Machine Learning",
+                "completed": false
+            },
+            "1e71569d-5ec3-4498-940e-3cfca04a8f91": {
+                "name": "https://www.youtube.com/watch?v=jGwO_UgTS7I",
+                "completed": false
+            },
+            "8095f05a-ea43-41ff-8215-7903ba65d4bd": {
+                "name": "CS330: Multi-Task and Meta-Learning, 2019",
+                "completed": false
+            },
+            "90c19121-59dc-49e1-bff9-dadda400c52a": {
+                "name": "https://www.youtube.com/watch?v=0rZtSwNOTQo",
+                "completed": false
+            },
+            "20de2307-1814-4492-90c9-0bc5c3579f6f": {
+                "name": "Stanford CS234: Reinforcement Learning | Winter 2019",
+                "completed": false
+            },
+            "a1337648-a8ad-4739-8939-a1d25feaafe9": {
+                "name": "https://www.youtube.com/watch?v=FgzM3zpZ55o",
+                "completed": false
+            },
+            "e7c54242-8711-4a86-8f1e-47c8775f4ee7": {
+                "name": "Stanford CS224N: NLP with Deep Learning | Winter 2019",
+                "completed": false
+            },
+            "882ac441-f76a-42f2-bb18-43992f970020": {
+                "name": "https://www.youtube.com/watch?v=8rXD5-xhemo",
+                "completed": false
+            },
+            "c4e06466-5990-47fc-a9fd-7b50057e2276": {
+                "name": "Stanford CS230: Deep Learning | Autumn 2018",
+                "completed": false
+            },
+            "dca26d65-1e9f-4fcf-a55a-0feecb1ab9ae": {
+                "name": "https://www.youtube.com/watch?v=PySo_6S4ZAg",
+                "completed": false
+            },
+            "58505614-6c2b-4b3b-a1ac-cc8e06cf7e7f": {
+                "name": "CS224W",
+                "completed": false
+            }
+        }
+    },
+    "fa263049-c30f-4e1e-81c8-f602bdaee142": {
+        "name": "CS224W",
+        "color": "#CAE2C8",
+        "goal": "Graph ML",
+        "tasks": {
+            "cf3e753a-d82d-4151-ad6d-889666631d72": {
+                "name": "1. Introduction; Structure of Graphs",
+                "completed": false
+            },
+            "605bc409-d91a-4865-90ef-068f7cd9c20e": {
+                "name": "2. Properties of Networks and Random Graph Models",
+                "completed": false
+            },
+            "cf57a07e-4309-4751-b2c4-8e65d96005d7": {
+                "name": "3. Motifs and Structural Roles in Networks",
+                "completed": false
+            },
+            "4abc541d-328e-42d7-aadd-2a5192ee6dcd": {
+                "name": "4. Community Structure in Networks",
+                "completed": false
+            },
+            "b3c24f87-66b9-4f17-9cc3-434ca380dab9": {
+                "name": "5. Spectral Clustering",
+                "completed": false
+            },
+            "8adfe1ff-4e17-4e10-9d22-96fb0e5c352d": {
+                "name": "6. Message Passing and Node Classification",
+                "completed": false
+            },
+            "afa3bb52-9e33-4f6e-b61c-0c2a3494213f": {
+                "name": "7. Graph Representation Learning",
+                "completed": false
+            },
+            "37061697-74b9-4833-bab3-bb63914bf7e9": {
+                "name": "8. Graph Neural Networks",
+                "completed": false
+            },
+            "1b6c0584-0b0e-46d1-b965-242f0c1190bc": {
+                "name": "9. Deep Generative Models for Graphs",
+                "completed": false
+            },
+            "700447e8-713b-43df-bbc1-2224ab21f916": {
+                "name": "10. Link Analysis: PageRank",
+                "completed": false
+            },
+            "d6da55e2-a076-43d3-9ae8-08ee0cbcf043": {
+                "name": "11. Network Effects and Cascading Behavior",
+                "completed": false
+            },
+            "f1af5873-d580-4d8f-96bf-6aaa732b5425": {
+                "name": "12. Probabilistic Contagion and Models of Influence",
+                "completed": false
+            },
+            "5ae9b260-10ac-4de8-afab-59364d0abc14": {
+                "name": "13. Influence Maximization in Networks",
+                "completed": false
+            },
+            "9e859094-21fc-4c67-88b9-801495562e29": {
+                "name": "14. Outbreak Detection in Networks",
+                "completed": false
+            },
+            "ac837487-c345-4675-92b3-0c324bfd9476": {
+                "name": "15. Network Evolution",
+                "completed": false
+            },
+            "18a196e2-f4d0-4aa1-bc93-18ef89df9a36": {
+                "name": "16. Reasoning over Knowledge Graphs",
+                "completed": false
+            },
+            "467b7aa6-753c-4055-836e-624b061b76c2": {
+                "name": "17. Limitations of Graph Neural Networks",
+                "completed": false
+            },
+            "ddd4c703-e1d0-46fb-9603-e18925f5011b": {
+                "name": "18. Applications of Graph Neural Networks",
+                "completed": false
+            }
+        }
+    },
+    "5ab60c3c-4eba-409d-8dd5-2007dab01e31": {
+        "name": "CS246",
+        "color": "#E870DE",
+        "goal": "Mining Massive Data Sets",
+        "tasks": {
+            "7ee7fa22-71cf-43b2-8c3a-509f92d95c19": {
+                "name": "Introduction; MapReduce and Spark",
+                "completed": false
+            },
+            "24d55bb1-7bca-4f7a-a9fa-f37183b98d5b": {
+                "name": "Frequent Itemsets Mining",
+                "completed": false
+            },
+            "db12bed8-0c1c-49fe-9c9e-3008452b1750": {
+                "name": "Recitation: Spark tutorial",
+                "completed": false
+            },
+            "848aeb6d-ebdf-481b-b4f3-6ab33870eac0": {
+                "name": "Locality-Sensitive Hashing I",
+                "completed": false
+            },
+            "c5476d67-d82d-4599-bb34-0fdfef3bc1ff": {
+                "name": "Locality-Sensitive Hashing II",
+                "completed": false
+            },
+            "24409d1c-51a8-4e85-ba58-f1a0b8832791": {
+                "name": "Recitation: Probability and Proof Techniques",
+                "completed": false
+            },
+            "8aef2171-2319-4398-9d29-35a8ab845aed": {
+                "name": "Clustering",
+                "completed": false
+            },
+            "3bf2fcbd-03d1-45a8-95a1-3c09878840ba": {
+                "name": "Dimensionality Reduction",
+                "completed": false
+            },
+            "c75e81da-3cae-41fd-b3b2-835f0c54a9a2": {
+                "name": "Recommender Systems I",
+                "completed": false
+            },
+            "745d8aeb-966e-444a-944d-8116f09595a7": {
+                "name": "Recommender Systems II",
+                "completed": false
+            },
+            "27b7a60c-c9f9-4c53-b0cb-96ca01b44a9d": {
+                "name": "PageRank",
+                "completed": false
+            },
+            "7ba56a73-5384-4781-895e-8e72de4cad1a": {
+                "name": "Link Spam and Introduction to Social Networks",
+                "completed": false
+            },
+            "2788e164-da1a-43fb-8f2a-37e519009f05": {
+                "name": "Community Detection in Graphs",
+                "completed": false
+            },
+            "3a43ee48-ed26-4625-aacd-7aa84ff87427": {
+                "name": "Graph Representation Learning",
+                "completed": false
+            },
+            "1a391fe6-e568-4737-b9da-97f9fdc7da0e": {
+                "name": "Large-Scale Machine Learning I",
+                "completed": false
+            },
+            "e9648a31-2ade-4cc5-97bb-841219e243f7": {
+                "name": "Large-Scale Machine Learning II",
+                "completed": false
+            },
+            "e25675a5-47a0-4e08-9db5-2ff44073614d": {
+                "name": "Mining Data Streams I",
+                "completed": false
+            },
+            "69ba6b4f-6969-4bca-8d75-c3bf8a2eb73a": {
+                "name": "Mining Data Streams II",
+                "completed": false
+            },
+            "d3561398-f734-40bc-9f31-6b293e6ef02f": {
+                "name": "Computational Advertising",
+                "completed": false
+            },
+            "cfa81ada-2ada-4045-a99d-07801f974393": {
+                "name": "Learning through Experimentation",
+                "completed": false
+            }
+        }
+    }
+}
